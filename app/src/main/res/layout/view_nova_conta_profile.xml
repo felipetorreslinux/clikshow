@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:columnCount="3"
+        android:elevation="1dp"
+        android:background="@color/white"
+        android:rowCount="1">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="0">
+            <ImageView
+                android:id="@+id/back_new_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_back_black"
+                android:padding="12dp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="@string/name_title_new_profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="18dp"/>
+
+        <FrameLayout
+            android:id="@+id/btn_settings_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_row="0">
+        </FrameLayout>
+    </GridLayout>
+
+    <ViewStub
+        android:id="@+id/viewstub_conexao_nova_conta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/fragment_sem_conexao"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seja bem vindo(a), para que possamos prosseguir com sua nova conta precisamos que você informe abaixo o número de seu CPF para validação e veracidade de seus dados."
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPF"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginVertical="10dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/input"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:src="@drawable/ic_card_cpf"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:id="@+id/cpf_nova_conta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:hint="Somente números"
+                    android:maxLength="11"
+                    android:background="@android:color/transparent"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/box_dados_nova_conta"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome Completo"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginVertical="10dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:src="@drawable/ic_person_login"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/name_nova_conta"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:textSize="16dp"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Usuário"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginVertical="10dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:src="@drawable/ic_person_login"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/username_nova_conta"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:textSize="16dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginVertical="10dp"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:src="@drawable/ic_mail_recovery"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/email_nova_conta"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/black"
+                        android:background="@android:color/transparent"
+                        android:capitalize="words"
+                        android:textSize="16dp"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Senha"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginVertical="10dp"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:src="@drawable/ic_lock_login"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/password_nova_conta"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/black"
+                        android:background="@android:color/transparent"
+                        android:textSize="16dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirme sua senha"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginVertical="10dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:src="@drawable/ic_lock_login"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/conf_password_nova_conta"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/black"
+                        android:background="@android:color/transparent"
+                        android:textSize="16dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview_ler_termos_condicoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="Leia nossos termos e condições"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_termos_nova_conta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:checked="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Li e aceito os Termos e Condições de uso da plataforma Clik Show. Me responsabilizando por quaisquer ato feito por me na plataforma."
+                        android:textSize="12dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"/>
+
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button_nova_conta"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16dp"
+                    android:background="@drawable/btn_login"
+                    android:layout_marginVertical="16dp"
+                    android:textColor="@color/white"
+                    android:text="Salvar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

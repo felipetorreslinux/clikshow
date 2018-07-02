@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.riyagayasen.android:easyaccordion-1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/easyaccordion-1.0.3.aar/33f516aa1b2061617e705b6412b2bd3b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/easyaccordion-1.0.3.aar/33f516aa1b2061617e705b6412b2bd3b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.riyagayasen.android/easyaccordion/1.0.3/f8c950ae973c30402caacf55bc9c1a11121948c4/easyaccordion-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

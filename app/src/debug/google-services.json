@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "816886361776",
+    "firebase_url": "https://clikshow-ab5cd.firebaseio.com",
+    "project_id": "clikshow-ab5cd",
+    "storage_bucket": "clikshow-ab5cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816886361776:android:3982dc1d95616441",
+        "android_client_info": {
+          "package_name": "com.clikshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816886361776-bhd8q19j7n39to37isd5itc77neq8oml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{"current_key":"AIzaSyBPIeqNDQLC-Cd4NzUt0tfUG9HuL3Ih4nk"}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

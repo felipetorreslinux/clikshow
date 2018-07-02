@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/gray_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:elevation="1dp">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back_carrinho"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:src="@drawable/ic_back_black" />
+        </FrameLayout>
+
+
+        <ImageView
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="fill_horizontal|center"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_logo_orange" />
+
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_row="0">
+        </FrameLayout>
+    </GridLayout>
+
+    <ViewStub
+        android:layout_marginTop="50dp"
+        android:id="@+id/box_sem_carrinho"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/fragment_carrinho_sem_itens"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_marginTop="50dp"
+        android:id="@+id/box_central_carrinho"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="10dp"
+        android:layout_above="@id/bottom_bar_carrinho">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Esta com algum problema no pagamento?"/>
+
+                <TextView
+                    android:id="@+id/btn_fale_conosco_carrinho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:text="Fale conosco"/>
+
+                <ImageView
+                    android:id="@+id/img_faq_whatsapp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_whatsapp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_white">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_alignParentTop="true"
+                    android:background="@color/white"
+                    android:id="@+id/recycler_carrinho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/input_white">
+
+                <TextView
+                    android:background="@color/white"
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Pagamento" />
+
+                <LinearLayout
+                    android:id="@+id/box_forma_pagamento_carrinho"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:paddingVertical="5dp">
+
+                    <ImageView
+                        android:id="@+id/imagem_bandeira_cartao_carrinho"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/numero_cartao_credito_carrinho"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"/>
+
+                        <TextView
+                            android:id="@+id/titular_cartao_credito_carrinho"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"/>
+
+                        <TextView
+                            android:id="@+id/validade_cartao_credito_carrinho"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btn_forma_pagamento_carrinho"
+                    android:layout_marginVertical="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Escolha a forma de pagamento"
+                    android:gravity="center"
+                    android:paddingVertical="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/btn_login"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/bottom_bar_carrinho"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/btn_voltar_comprar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginVertical="1.5dp"
+            android:text="Continuar comprando"
+            android:textSize="16dp"
+            android:paddingVertical="16dp"/>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:textSize="12dp"
+                    android:text="Total"/>
+
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/total_carrinho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_pagar_carrinho"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_login"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingVertical="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_money"
+                    android:layout_marginHorizontal="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pagar"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

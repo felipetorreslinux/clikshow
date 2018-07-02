@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/gray_background"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:columnCount="3"
+        android:elevation="2dp"
+        android:background="@color/white"
+        android:rowCount="1">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="0">
+            <ImageView
+                android:id="@+id/back_button_novo_cartao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_back_black"
+                android:padding="12dp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:singleLine="true"
+            android:text="Adicionar Cartão de Crédito"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="18dp"/>
+
+        <FrameLayout
+            android:id="@+id/btn_settings_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_row="0">
+        </FrameLayout>
+    </GridLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:text="CPF do Titular do Cartão"/>
+
+                <EditText
+                    android:id="@+id/cpf_titular_novo_cartao"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:maxLength="11"
+                    android:paddingLeft="10dp"
+                    android:inputType="number"
+                    android:background="@drawable/input_white"
+                    android:textSize="16dp"
+                    android:layout_marginVertical="5dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/box_dados_novo_cartao"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:text="Titular do Cartão de Crédito"/>
+
+                    <TextView
+                        android:id="@+id/nome_titular_novo_cartao"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="fill_vertical"
+                        android:background="@drawable/input_white"
+                        android:textSize="16dp"
+                        android:layout_marginVertical="5dp"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:text="Número do Cartão"/>
+
+                    <EditText
+                        android:id="@+id/numero_cartao_novo_cartao"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:paddingLeft="10dp"
+                        android:inputType="number"
+                        android:maxLength="16"
+                        android:hint="Digite somente os números sem espaços"
+                        android:background="@drawable/input_white"
+                        android:textSize="16dp"
+                        android:layout_marginVertical="5dp"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:text="Validade"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="5dp">
+
+                        <Spinner
+                            android:id="@+id/validade_mes_novo_cartao"
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/input_white"/>
+
+                        <Spinner
+                            android:id="@+id/validade_ano_novo_cartao"
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/input_white"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:text="Código de Segurança"
+                        android:singleLine="true"/>
+
+                    <EditText
+                        android:id="@+id/ccv_novo_cartao"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:paddingLeft="10dp"
+                        android:inputType="number"
+                        android:background="@drawable/input_white"
+                        android:textSize="16dp"
+                        android:maxLength="4"
+                        android:layout_marginVertical="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn_add_novo_cartao"
+                android:layout_height="47dp"
+                android:background="@drawable/btn_login"
+                android:layout_marginVertical="15dp"
+                android:text="Salvar Cartão de Crédito"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/close_img_qrcode_profile"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@null"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingVertical="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/box_qrcode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-50dp"
+            android:src="@drawable/ic_logo_orange" />
+
+        <RelativeLayout
+            android:id="@+id/box_qrcode"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/img_profile_qrcode_max"
+                android:layout_width="250dp"
+                android:layout_height="250dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/radius_qrcode_img"
+                android:elevation="2dp"
+                android:padding="2dp"
+                android:src="@drawable/logo_ic" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/box_qrcode"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Suas informações estão totalmente seguras por elevadas criptografias"
+            android:textColor="@color/gray_hint"
+            android:textSize="14dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/btn_share_qrcode_profile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center"
+            android:text="compartilhar"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

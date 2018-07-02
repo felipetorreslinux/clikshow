@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="1dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal|center"
+            android:gravity="center"
+            android:text="Ingressos"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/loading_tab_ingressos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/loading_tabs"/>
+
+    <LinearLayout
+        android:id="@+id/box_qrcode_sem_net"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_logo_orange"
+            android:layout_marginBottom="20dp"/>
+
+        <RelativeLayout
+            android:id="@+id/box_qrcode"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageview_qrdcode_sem_net"
+                android:layout_width="250dp"
+                android:layout_height="250dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/radius_qrcode_img"
+                android:elevation="2dp"
+                android:padding="2dp"
+                android:src="@drawable/logo_ic" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Você está offline\nVerifique sua conexão"
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Você pode entrar também\nusando seu QRCode pessoal.\nBasta apresentá-lo na portaria."
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/box_sem_ingressos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/fragment_not_ingressos"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pull_refresh_ingressos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/recycler_meus_ingressos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/name_pagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:paddingTop="5dp"
+            android:paddingHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/evento_pagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/validade_pagar"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:paddingHorizontal="10dp"
+            android:layout_marginVertical="5dp"/>
+
+        <TextView
+            android:id="@+id/acrescimo_pagar"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingHorizontal="10dp"
+            android:layout_marginVertical="5dp"/>
+
+        <TextView
+            android:id="@+id/preco_pagar"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:paddingHorizontal="10dp"
+            android:layout_marginVertical="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Receba o pagamento pela sua maquineta de cartão de crédito"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="16dp"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_money_revenda"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_pagar_credito"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_login"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="24dp"
+        android:text="Receber"
+        android:textColor="@color/white"
+        android:textSize="16dp"/>
+
+</LinearLayout>

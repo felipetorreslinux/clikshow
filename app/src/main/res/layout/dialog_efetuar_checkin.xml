@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center|fill_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagem_ingresso_efetuar_checkin"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/name_ingresso_efetuar_checkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:text="Ingresso"/>
+
+            <TextView
+                android:id="@+id/validade_ingresso_efetuar_checkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/graybold"
+                android:text="Ingresso"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/ic_linha"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Para quem será este checkin deste ingresso?"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/check_box_user_checkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Para mim mesmo"
+                android:layout_marginVertical="10dp"/>
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/check_box_amigos_checkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amigos ClikSocial"
+                android:textSize="12dp"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:text="CPF"/>
+
+            <EditText
+                android:id="@+id/cpf_validar_checkin_ingresso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:inputType="number"
+                android:maxLength="11"
+                android:hint="Somente números"
+                android:textSize="16dp"
+                android:background="@drawable/input"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:text="Nome Completo"/>
+
+            <TextView
+                android:id="@+id/name_validar_checkin_ingresso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:background="@drawable/input"
+                android:layout_marginBottom="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/graybold"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Após realizar o check-in, não será mais possível cancelar a compra do ingresso"/>
+
+
+
+            <TextView
+                android:id="@+id/btn_efetuar_checkin_ingresso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:elevation="1dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_lista_meus_ingressos_laranja"
+                android:text="Efetuar check-in" />
+
+            <TextView
+                android:id="@+id/btn_voltar_checkin_ingresso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:background="@drawable/btn_voltar_dialog"
+                android:text="Voltar" />
+
+    </LinearLayout>
+
+</LinearLayout>

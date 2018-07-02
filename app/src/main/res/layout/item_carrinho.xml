@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:layout_marginVertical="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/qtd_carrinho"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:maxLength="2"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/itens_ingresso_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/qtd_carrinho"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/nome_ingresso_carrinho"
+                android:layout_width="match_parent"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingTop="4dp"
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="true"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/nome_evento_carrinho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingTop="25dp"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/preco_ingresso_carrinho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingTop="4dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/btn_add_qtd_carrinho"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add"
+                android:onClick="iconPlusOnClick"
+                android:layout_gravity="center|fill_vertical"
+                android:padding="10dp"/>
+            <ImageView
+                android:id="@+id/btn_remove_qtd_carrinho"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_remove"
+                android:onClick="iconMinusOnClick"
+                android:layout_gravity="center|fill_vertical"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

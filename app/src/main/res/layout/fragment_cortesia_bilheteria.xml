@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_white"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_card_cpf"/>
+
+        <EditText
+            android:id="@+id/edittext_cpf_cortesia_bilheteria_coordenador"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColor="@android:color/black"
+            android:hint="Somente números"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_white"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_login"/>
+
+        <EditText
+            android:id="@+id/edittext_name_cortesia_bilheteria_coordenador"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_white"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cellphone"/>
+
+        <EditText
+
+            android:id="@+id/edittext_telefone_cortesia_bilheteria_coordenador"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:maxLength="11"
+            android:hint="(00)00000-0000"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_cortesia_ingresso_coordenador"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="16dp"
+        android:background="@drawable/btn_login"
+        android:textColor="@color/white"
+        android:text="Cortesia"
+        android:textSize="16dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>

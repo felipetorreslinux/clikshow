@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    android:background="@drawable/input_white">
+
+    <TextView
+        android:id="@+id/titulo_ajuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Titulo Ajuda"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:elevation="1dp"
+        android:background="@drawable/btn_login"
+        android:layout_gravity="fill_vertical|center"/>
+
+    <TextView
+        android:id="@+id/texto_ajuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:padding="16dp"
+        android:textColor="@color/graybold"/>
+
+</LinearLayout>

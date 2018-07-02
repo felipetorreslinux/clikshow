@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00aa9d</color>
+    <color name="cortesia">#BA9B45</color>
+    <color name="colorPrimaryDark">#00aa9d</color>
+    <color name="colorAccent">#FC7E00</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="gray_hint">#CCCCCC</color>
+    <color name="graybold">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="fundo">#F7F7F7</color>
+    <color name="fundo_app">#F3F3F3</color>
+    <color name="fundo_portaria">#F7F7F7</color>
+    <color name="btn_acesso">#8bf21b</color>
+    <color name="gray_background">#eaedf2</color>
+    <color name="green_cliksocial">#2AAA95</color>
+    <color name="red_of_problem">#fc2100</color>
+    <color name="blue">#000069</color>
+    <color name="shimmer_color_orange">#ffebd7</color>
+    <color name="transparent">#15000000</color>
+    <color name="blue_light">#4A90E2</color>
+    <color name="yellow">#fcd601</color>
+</resources>

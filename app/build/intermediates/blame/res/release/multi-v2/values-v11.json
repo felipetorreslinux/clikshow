@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/felipetorres/Downloads/android-clikshow-new-felipe-3717d36d32eb3ec23aa5d5169979ef3d967b8188/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/felipetorres/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/fdddb9372d89c6ea43275148b8f63d40/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "150"
+                    }
+                }
+            ]
+        }
+    ]
+}

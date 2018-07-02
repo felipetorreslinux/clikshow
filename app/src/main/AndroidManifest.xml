@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.clikshow">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.View_Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Profile.View_Cadastro_Novo_Usuario"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Profile.View_Editar_Usuario"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Profile.View_Pagamento_Profile"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".IUGU.Models.Views.CadastrarCartaoClass"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SMS.View_Digita_Cellphone"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".SMS.View_SMS_Code"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Views.View_Principal"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Login.View_Recovery_Password"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Carrinho.View_Carrinho"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Views.View_Detalhe_Evento"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".Views.View_Foto_Evento_Zoom" />
+
+        <activity android:name=".Views.View_Ajuda"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Views.View_Sobre"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Profile.View_Servicos_Profile"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Views.View_Ingresso"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Views.View_Lista_Amigos_ClikSocial"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity android:name=".ClikPortaria.Views.View_Valida_Ingresso_Portaria"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Views.View_Search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity android:name=".Views.View_Resultado_Search"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Views.View_Termos_Condicoes"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Views.View_Politica_Privacidade"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
+
+
+        <!--DirectClik-->
+
+        <activity android:name=".Direct.View_Direct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+
+
+
+
+        <!--ClikBilheteria -->
+
+        <activity android:name=".ClikBIlheteria.Impressora.Lista_Impressoras_BlueTooth"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ClikBIlheteria.Views.View_Revendedor"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ClikBIlheteria.Views.View_Coordenador"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity android:name=".ClikBIlheteria.Views.View_Ingresso_Impressora"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait"/>
+
+
+        <!--ClikPortaria-->
+
+        <activity android:name=".ClikPortaria.Views.View_Principal_Portaria"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+
+
+
+
+
+
+
+
+</manifest>

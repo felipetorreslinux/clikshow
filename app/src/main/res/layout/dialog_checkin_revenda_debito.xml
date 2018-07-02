@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/box_checkin_revenda"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/input_white"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="24dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textview_tipo_checkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="CPF"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edittext_cpf_checkin_pagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:hint="Somente números"
+            android:maxLength="11"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edittext_name_checkin_pagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="Telefone"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edittext_telefone_checkin_pagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:hint="(00)00000-0000"
+            android:maxLength="11"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:weightSum="2">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/graybold"
+            android:layout_marginRight="5dp"
+            android:text="Voltar"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_pagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login"
+            android:layout_marginLeft="5dp"
+            android:text="Pagar"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
