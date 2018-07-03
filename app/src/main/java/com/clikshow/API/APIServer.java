@@ -28,8 +28,6 @@ import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Locale;
 
-import static android.support.constraint.Constraints.TAG;
-
 public class APIServer {
 //    public static String URL = "http://34.200.90.213/";
     public static String URL = "http://18.233.50.81/";

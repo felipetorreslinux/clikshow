@@ -13,9 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.clikshow.Direct.Banco.Banco_Direct;
 import com.clikshow.R;
-import com.clikshow.Service.Datas;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
@@ -43,16 +40,10 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
 
     Banco_Direct banco;
 
-    FirebaseDatabase database;
-    DatabaseReference databaseReference;
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_conversa_direct);
-
-        database = FirebaseDatabase.getInstance();
-        databaseReference = database.getReference().getRoot();
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
         banco = new Banco_Direct(this);
@@ -142,7 +133,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
 
         Map<String, Object> map = new HashMap<String, Object>();
         map.put(textview_username_direct.getText().toString(), "");
-        databaseReference.updateChildren(map);
 
     }
 

@@ -16,8 +16,6 @@ import com.clikshow.Login.View_Login;
 import com.clikshow.Profile.View_Editar_Usuario;
 import com.clikshow.Views.View_Principal;
 import com.clikshow.Profile.View_Cadastro_Novo_Usuario;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.concurrent.TimeUnit;
 
@@ -44,9 +42,6 @@ public class Splash extends Activity implements View.OnClickListener {
                 .build();
 
         AndroidNetworking.initialize(getApplicationContext(), okHttpClient);
-
-        FirebaseApp.initializeApp(this);
-        tokenFirebase = FirebaseInstanceId.getInstance().getToken();
 
         button_open_login = (LinearLayout) findViewById(R.id.button_open_login);
         button_open_login.setOnClickListener(this);
