@@ -15,15 +15,9 @@ import com.clikshow.Fragmentos.Profile_Fragment;
 import com.clikshow.Fragmentos.Meus_Ingressos_Fragment;
 import com.clikshow.R;
 import com.clikshow.SQLite.Banco;
-import com.clikshow.Service.Toast.ToastClass;
-import com.sinch.android.rtc.calling.Call;
 import com.squareup.picasso.Picasso;
 
-import java.io.File;
-
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
-
-import static com.clikshow.Splash.sinchClient;
 
 
 public class View_Principal extends Activity implements View.OnClickListener {

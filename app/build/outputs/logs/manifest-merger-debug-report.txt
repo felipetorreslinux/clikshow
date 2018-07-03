@@ -43,7 +43,6 @@ MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gr
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\97a3fee0adca60258f7970b6a3693d97\AndroidManifest.xml:17:1-22:12
 MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.3.0.aar\b4ae285ce995308a05c20327f3818f70\AndroidManifest.xml:2:1-12:12
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:2:1-14:12
-MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:transition:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f2e9f224064e9264891bdec0af9b785f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\d7be383bb380a2cb25f190276b77b30a\AndroidManifest.xml:2:1-11:12
@@ -210,8 +209,6 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Feli
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\468a5dc8572d404ab492e7bf5b9714a9\AndroidManifest.xml:22:5-26:19
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:12:5-20
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:12:5-20
-MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:11:5-17:19
-MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:11:5-17:19
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\d7be383bb380a2cb25f190276b77b30a\AndroidManifest.xml:9:5-20
@@ -560,8 +557,6 @@ MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gr
 MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.3.0.aar\b4ae285ce995308a05c20327f3818f70\AndroidManifest.xml:8:5-10:41
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:8:5-10:41
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:8:5-10:41
-MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:7:5-9:41
-MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:transition:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f2e9f224064e9264891bdec0af9b785f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f2e9f224064e9264891bdec0af9b785f\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:7:5-9:41
@@ -874,7 +869,3 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Felip
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\468a5dc8572d404ab492e7bf5b9714a9\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\468a5dc8572d404ab492e7bf5b9714a9\AndroidManifest.xml:24:13-58
-service#com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService
-ADDED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:12:9-16:19
-	android:name
-		ADDED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:12:18-97

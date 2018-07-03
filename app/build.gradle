@@ -65,7 +65,6 @@ dependencies {
         transitive = true
     }
     implementation files('libs/btsdk.jar')
-    implementation(name:'sinch-android-rtc', version:'+', ext:'aar')
 }
 
 apply plugin: 'com.google.gms.google-services'

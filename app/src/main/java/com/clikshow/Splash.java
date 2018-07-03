@@ -18,10 +18,6 @@ import com.clikshow.Views.View_Principal;
 import com.clikshow.Profile.View_Cadastro_Novo_Usuario;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.sinch.android.rtc.Sinch;
-import com.sinch.android.rtc.SinchClient;
-import com.sinch.android.rtc.calling.Call;
-import com.sinch.android.rtc.internal.natives.jni.CallClient;
 
 import java.util.concurrent.TimeUnit;
 
@@ -32,18 +28,11 @@ public class Splash extends Activity implements View.OnClickListener {
     private LinearLayout button_open_login;
     private LinearLayout button_open_novo_usuario;
     SharedPreferences sharedPreferences;
-    Call call;
-    public static SinchClient sinchClient;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
-        FirebaseApp.initializeApp(this);
-
-        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
 
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder()
                 .connectTimeout(10, TimeUnit.SECONDS)
@@ -51,23 +40,14 @@ public class Splash extends Activity implements View.OnClickListener {
                 .writeTimeout(120, TimeUnit.SECONDS)
                 .build();
 
-        sinchClient = Sinch.getSinchClientBuilder()
-                .context(this)
-                .userId("106954")
-                .applicationKey("cb65bade-5c6a-4f78-aa15-5a01813893dd")
-                .applicationSecret("lzzV38Y9VEqZau0koW4stQ==")
-                .environmentHost("clientapi.sinch.com")
-                .build();
-        sinchClient.setSupportCalling(true);
-        sinchClient.start();
-
         ActivityCompat.requestPermissions(this,
                 new String[]{Manifest.permission.RECORD_AUDIO},
                 1);
 
-
-
         AndroidNetworking.initialize(getApplicationContext(), okHttpClient);
+
+        FirebaseApp.initializeApp(this);
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
 
