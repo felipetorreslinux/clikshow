@@ -32,10 +32,6 @@ public class View_Digita_Cellphone extends Activity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_digita_cellphone);
 
-        ActivityCompat.requestPermissions(View_Digita_Cellphone.this,
-                new String[]{Manifest.permission.RECEIVE_SMS, Manifest.permission.READ_SMS},
-                1);
-
         back_button_digite_phone = (FrameLayout) findViewById(R.id.back_button_digite_phone);
         back_button_digite_phone.setOnClickListener(this);
 
@@ -111,35 +107,5 @@ public class View_Digita_Cellphone extends Activity implements View.OnClickListe
     @Override
     public void onBackPressed(){
         finish();
-    };
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
-        switch (requestCode) {
-            case 1: {
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-
-                } else {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(View_Digita_Cellphone.this);
-                    final View dialogPermissao = getLayoutInflater().inflate(R.layout.dialog_permissoes, null);
-                    builder.setView(dialogPermissao);
-                    builder.setCancelable(false);
-                    final AlertDialog dialog = builder.create();
-                    dialog.show();
-                    final Button btn_permissao = (Button) dialogPermissao.findViewById(R.id.btn_solicita_permissoes);
-                    btn_permissao.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            dialog.hide();
-                            ActivityCompat.requestPermissions(View_Digita_Cellphone.this,
-                                    new String[]{Manifest.permission.READ_SMS},
-                                    1);
-                        }
-                    });
-
-                }
-                return;
-            }
-        };
     };
 };

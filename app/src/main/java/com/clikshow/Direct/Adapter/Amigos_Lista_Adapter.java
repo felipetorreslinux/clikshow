@@ -1,6 +1,7 @@
 package com.clikshow.Direct.Adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.clikshow.Direct.Models.Amigos_Model;
+import com.clikshow.Direct.View_Conversa_Direct;
 import com.clikshow.R;
 import com.clikshow.Service.Toast.ToastClass;
 import com.squareup.picasso.Picasso;
@@ -61,7 +63,12 @@ public class Amigos_Lista_Adapter extends RecyclerView.Adapter<Amigos_Lista_Adap
         holder.item_lista_amigos_direct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastClass.curto(activity, amigos_model.getName());
+                Intent intent = new Intent(activity, View_Conversa_Direct.class);
+                intent.putExtra("id_amigo", amigos_model.getId());
+                intent.putExtra("image_amigo", amigos_model.getThumb());
+                intent.putExtra("name_amigo", amigos_model.getName());
+                intent.putExtra("username_amigo", amigos_model.getUsername());
+                activity.startActivity(intent);
             }
         });
     }

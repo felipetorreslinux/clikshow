@@ -1,4 +1,4 @@
-#Mon Jul 02 15:44:16 BRT 2018
+#Tue Jul 03 02:09:17 BRT 2018
 path.2=classes.dex
 path.1=classes.dex
 path.0=classes.dex
@@ -6,5 +6,5 @@ renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 base.2=C\:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-base.1=C\:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+base.1=C\:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
 base.0=C\:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12

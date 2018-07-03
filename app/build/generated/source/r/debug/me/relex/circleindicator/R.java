@@ -25,22 +25,22 @@ public final class R {
         public static final int white_radius = 0x7f080133;
     }
     public static final class id {
-        public static final int bottom = 0x7f0a0046;
-        public static final int center = 0x7f0a00ad;
-        public static final int center_horizontal = 0x7f0a00b0;
-        public static final int center_vertical = 0x7f0a00b2;
-        public static final int clip_horizontal = 0x7f0a00bb;
-        public static final int clip_vertical = 0x7f0a00bc;
-        public static final int end = 0x7f0a010a;
-        public static final int fill = 0x7f0a0113;
-        public static final int fill_horizontal = 0x7f0a0114;
-        public static final int fill_vertical = 0x7f0a0115;
-        public static final int horizontal = 0x7f0a0125;
-        public static final int left = 0x7f0a0164;
-        public static final int right = 0x7f0a01de;
-        public static final int start = 0x7f0a0208;
-        public static final int top = 0x7f0a0239;
-        public static final int vertical = 0x7f0a025a;
+        public static final int bottom = 0x7f0a0047;
+        public static final int center = 0x7f0a00af;
+        public static final int center_horizontal = 0x7f0a00b2;
+        public static final int center_vertical = 0x7f0a00b4;
+        public static final int clip_horizontal = 0x7f0a00bd;
+        public static final int clip_vertical = 0x7f0a00be;
+        public static final int end = 0x7f0a010d;
+        public static final int fill = 0x7f0a0116;
+        public static final int fill_horizontal = 0x7f0a0117;
+        public static final int fill_vertical = 0x7f0a0118;
+        public static final int horizontal = 0x7f0a0128;
+        public static final int left = 0x7f0a016b;
+        public static final int right = 0x7f0a01e6;
+        public static final int start = 0x7f0a0210;
+        public static final int top = 0x7f0a0243;
+        public static final int vertical = 0x7f0a0264;
     }
     public static final class styleable {
         public static final int[] CircleIndicator = { 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068, 0x7f040069, 0x7f04006a, 0x7f04006b, 0x7f04006c, 0x7f04006d };

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 
@@ -12,7 +13,8 @@ import com.clikshow.API.APIServer;
 import com.clikshow.Login.View_Login;
 import com.clikshow.Views.View_Principal;
 import com.clikshow.Profile.View_Cadastro_Novo_Usuario;
-
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.iid.FirebaseInstanceId;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -28,11 +30,16 @@ public class Splash extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        FirebaseApp.initializeApp(this);
+
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder()
-                .connectTimeout(60, TimeUnit.SECONDS)
-                .readTimeout(60,TimeUnit.SECONDS)
-                .writeTimeout(60, TimeUnit.SECONDS)
+                .connectTimeout(10, TimeUnit.SECONDS)
+                .readTimeout(120,TimeUnit.SECONDS)
+                .writeTimeout(120, TimeUnit.SECONDS)
                 .build();
+
         AndroidNetworking.initialize(getApplicationContext(), okHttpClient);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
@@ -88,4 +95,5 @@ public class Splash extends Activity implements View.OnClickListener {
                 break;
         }
     }
+
 };

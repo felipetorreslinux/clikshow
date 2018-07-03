@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo_app">
+
+    <GridLayout
+        android:id="@+id/actionbar_conversa_direct"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        android:elevation="1dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <FrameLayout
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_column="0"
+            android:layout_row="0">
+
+            <ImageView
+                android:id="@+id/imageview_back_conversa_direct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:tint="@android:color/black"
+                android:src="@drawable/ic_back_black" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_row="0"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageview_amigo_direct"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textview_name_direct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:maxLength="35"
+                    android:layout_gravity="center"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/textview_username_direct"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            android:layout_row="0">
+
+            <ImageView
+                android:id="@+id/imageview_menu_conversa_direct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:src="@drawable/ic_menu_boll_black" />
+        </FrameLayout>
+
+    </GridLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@+id/actionbar_conversa_direct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_message_direct">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_conversa_direct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bottom_message_direct"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="50dp">
+
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/edittexct_message_direct"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal|center"
+                android:padding="10dp"
+                android:hint="Escreva aqui..."
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:id="@+id/imageview_envia_direct"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:src="@drawable/ic_send"/>
+
+        </GridLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>

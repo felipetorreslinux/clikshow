@@ -15,9 +15,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_SMS" />
-    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
@@ -55,6 +52,7 @@
     <uses-permission android:name="com.clikshow.permission.C2D_MESSAGE" />
 
     <application
+        android:name="com.clikshow.Firebase.FireApp"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/icon"
@@ -66,7 +64,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.clikshow.Splash"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -153,7 +152,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyBPIeqNDQLC-Cd4NzUt0tfUG9HuL3Ih4nk" />
 
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
@@ -165,6 +164,10 @@
             android:name="com.clikshow.Direct.View_Direct"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.clikshow.Direct.View_Conversa_Direct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <!-- ClikBilheteria -->
 
@@ -218,6 +221,25 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -243,11 +265,6 @@
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service>
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"

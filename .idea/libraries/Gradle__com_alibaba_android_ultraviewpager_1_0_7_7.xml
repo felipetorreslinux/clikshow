@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.alibaba.android:ultraviewpager-1.0.7.7">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ultraviewpager-1.0.7.7.aar/4a7fef8216d077da2e5e0a08e9a18d79/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ultraviewpager-1.0.7.7.aar/4a7fef8216d077da2e5e0a08e9a18d79/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ultraviewpager-1.0.7.7.aar/6d79ec1948c5b8d42e3f9d65540589d2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ultraviewpager-1.0.7.7.aar/6d79ec1948c5b8d42e3f9d65540589d2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
