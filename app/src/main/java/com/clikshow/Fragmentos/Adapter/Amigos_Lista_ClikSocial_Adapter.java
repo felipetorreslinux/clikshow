@@ -25,10 +25,6 @@ import com.clikshow.Service.Service_ClikSocial;
 import com.clikshow.Service.Toast.ToastClass;
 import com.clikshow.Views.View_Ingresso;
 import com.clikshow.Views.View_Lista_Amigos_ClikSocial;
-import com.github.nkzawa.emitter.Emitter;
-import com.github.nkzawa.socketio.client.IO;
-import com.github.nkzawa.socketio.client.Manager;
-import com.github.nkzawa.socketio.client.Socket;
 import com.santalu.aspectratioimageview.AspectRatioImageView;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
@@ -48,7 +44,6 @@ public class Amigos_Lista_ClikSocial_Adapter extends RecyclerView.Adapter<Amigos
     private Activity activity;
     InputMethodManager keyboard;
     private SharedPreferences sharedPreferences;
-    private Socket mSocket;
 
     public Amigos_Lista_ClikSocial_Adapter(final Activity activity, List<AmigosClikSocialModel> lista_amigos){
         this.activity = activity;
@@ -152,7 +147,6 @@ public class Amigos_Lista_ClikSocial_Adapter extends RecyclerView.Adapter<Amigos
                 direct_amigo_clik_social.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        mSocket.connect();
                         box_send_direct_amigo_clik_social.setVisibility(View.VISIBLE);
                         info_para_amigo_cli_social.setText("Envie um direct para "+amigosClikSocialModel.getUsername().toLowerCase().replace(" ", ""));
                     }

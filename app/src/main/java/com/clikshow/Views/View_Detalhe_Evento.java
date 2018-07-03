@@ -103,15 +103,6 @@ public class View_Detalhe_Evento extends Activity {
         local_evento_detalhes = (TextView) findViewById(R.id.local_evento_detalhes);
         local_evento_detalhes.setText(local_evento);
 
-        img_detalhe_evento.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent open = new Intent(View_Detalhe_Evento.this, View_Foto_Evento_Zoom.class);
-                open.putExtra("banner", getIntent().getExtras().getString("banner"));
-                startActivity(open);
-            }
-        });
-
         Picasso.get()
         .load(getIntent().getExtras().getString("banner"))
         .error(R.drawable.ic_place_doodle)
