@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.media.Image;
 import android.os.Bundle;
+import android.support.design.widget.BottomSheetDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -27,6 +28,7 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
     String image_amigo;
     ImageView imageview_amigo_direct;
     ImageView imageview_back_conversa_direct;
+    ImageView imageview_call_direct;
     ImageView imageview_menu_conversa_direct;
     TextView textview_name_direct;
     TextView textview_username_direct;
@@ -36,6 +38,7 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
     RecyclerView recyclerview_conversa_direct;
 
     EditText edittexct_message_direct;
+    ImageView imageview_record_direct;
     ImageView imageview_envia_direct;
 
     Banco_Direct banco;
@@ -66,6 +69,9 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         recyclerview_conversa_direct.setNestedScrollingEnabled(false);
         recyclerview_conversa_direct.setHasFixedSize(true);
 
+        imageview_call_direct = (ImageView) findViewById(R.id.imageview_call_direct);
+        imageview_call_direct.setOnClickListener(this);
+
         imageview_menu_conversa_direct = (ImageView) findViewById(R.id.imageview_menu_conversa_direct);
         imageview_menu_conversa_direct.setOnClickListener(this);
 
@@ -73,6 +79,9 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         imageview_back_conversa_direct.setOnClickListener(this);
 
         edittexct_message_direct = (EditText) findViewById(R.id.edittexct_message_direct);
+
+        imageview_record_direct = (ImageView) findViewById(R.id.imageview_record_direct);
+        imageview_record_direct.setOnClickListener(this);
 
         imageview_envia_direct = (ImageView) findViewById(R.id.imageview_envia_direct);
         imageview_envia_direct.setOnClickListener(this);
@@ -92,6 +101,10 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
                 onBackPressed();
                 break;
 
+            case R.id.imageview_call_direct:
+                callUser();
+                break;
+
             case R.id.imageview_menu_conversa_direct:
                 openMenuConversa();
                 break;
@@ -101,11 +114,15 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
                 break;
         }
     }
-
     @Override
     public void onBackPressed(){
         finish();
     }
+
+    private void callUser() {
+
+    }
+
 
     private void amigoDirectDados(){
         if(image_amigo.isEmpty() || image_amigo.equals("null")){
@@ -133,21 +150,18 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
 
 
     private void openMenuConversa (){
-
+        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+        View view = getLayoutInflater().inflate(R.layout.dialog_menu_conversa_direct, null);
+        bottomSheetDialog.setContentView(view);
+        bottomSheetDialog.setCancelable(true);
+        bottomSheetDialog.show();
     }
 
     private void enviaMessageDirect (){
         if(edittexct_message_direct.getText().toString().isEmpty()){
-
+            edittexct_message_direct.setHint("Escreva algo antes de enviar...");
         }else{
-          boolean cad = banco.add(
-                    sharedPreferences.getInt("id", 0),
-                    getIntent().getExtras().getInt("id_amigo"),
-                    getIntent().getExtras().getString("name_amigo"),
-                    getIntent().getExtras().getString("username_amigo"),
-                    image_amigo,
-                    edittexct_message_direct.getText().toString(),
-                    Datas.data_hora_aparelho().toString());
+            edittexct_message_direct.setText(null);
         }
     }
 

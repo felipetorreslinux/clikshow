@@ -5,32 +5,34 @@
     build-mode="COLD"
     density="xxxhdpi"
     format="10"
+    ir-eligibility="FIELD_REMOVED"
     plugin-version="3.1.3"
-    timestamp="1530594541223"
+    timestamp="1530600387398"
     token="-441142048130880745"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2526" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="26" />
     <task
         name="verifier"
-        duration="0" />
+        duration="7" />
 
     <artifact
-        location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1530594255775"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1530599506676"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -50,9 +52,6 @@
             location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -65,16 +64,29 @@
             location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1530594541223"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1530600017419"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_REMOVED"
+        timestamp="1530600387398"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\FelipeTorres\Desktop\ClikShow\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

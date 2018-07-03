@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
 MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\b3e0fb4fa4e96e00b66a814c503b2b5c\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\206cc219d09534b87483cd44a13b6a88\AndroidManifest.xml:17:1-22:12
 MERGED from [com.amitshekhar.android:android-networking:1.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-networking-1.0.1.aar\ee5d18e8830cdb5062cb271e90edfd6e\AndroidManifest.xml:18:1-27:12
@@ -43,6 +43,7 @@ MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gr
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\97a3fee0adca60258f7970b6a3693d97\AndroidManifest.xml:17:1-22:12
 MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.3.0.aar\b4ae285ce995308a05c20327f3818f70\AndroidManifest.xml:2:1-12:12
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:2:1-14:12
+MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:transition:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f2e9f224064e9264891bdec0af9b785f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\d7be383bb380a2cb25f190276b77b30a\AndroidManifest.xml:2:1-11:12
@@ -60,20 +61,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\FelipeTorres\.gradle
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6a26de9dda76421b3562d35a81b9613d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\dd7e6c46b6717a9fd177c39513b49b3f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6a4e48761d6be7225e3671e1922ba6bf\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
 	package
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:3:5-27
 		INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
 		INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:1-175:12
 		INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:2:11-69
@@ -143,8 +144,26 @@ uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:15:5-74
 	android:name
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:15:22-71
+uses-feature#android.hardware.microphone
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:18:5-20:35
+	android:required
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:19:9-51
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:23:22-72
 application
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:17:5-163:19
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:27:5-173:19
 MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\b3e0fb4fa4e96e00b66a814c503b2b5c\AndroidManifest.xml:12:5-20
 MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\b3e0fb4fa4e96e00b66a814c503b2b5c\AndroidManifest.xml:12:5-20
 MERGED from [com.github.santalu:aspect-ratio-imageview:1.0.3] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\aspect-ratio-imageview-1.0.3.aar\7520f82782cf16fb9b3185c410983665\AndroidManifest.xml:12:5-20
@@ -191,6 +210,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Feli
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\468a5dc8572d404ab492e7bf5b9714a9\AndroidManifest.xml:22:5-26:19
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:12:5-20
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:12:5-20
+MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:11:5-17:19
+MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:11:5-17:19
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\d7be383bb380a2cb25f190276b77b30a\AndroidManifest.xml:9:5-20
@@ -198,265 +219,265 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\292552039f2205919ebab5a935ed78b9\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\292552039f2205919ebab5a935ed78b9\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:33:9-35
 	android:label
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:31:9-41
 	android:roundIcon
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:32:9-54
 	android:largeHeap
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:24:9-33
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:34:9-33
 	android:icon
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:20:9-38
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:30:9-38
 	android:allowBackup
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:29:9-35
 	android:theme
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:35:9-40
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:28:9-41
 activity#com.clikshow.Splash
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:37:9-45:20
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:40:13-49
 	android:theme
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:29:13-42
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:39:13-42
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:28:13-35
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:38:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:31:13-34:29
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:41:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:43:27-74
 activity#com.clikshow.Login.View_Login
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:37:9-40:67
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:47:9-50:67
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:49:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:40:13-64
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:50:13-64
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:48:13-45
 activity#com.clikshow.Profile.View_Cadastro_Novo_Usuario
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:41:9-44:58
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:51:9-54:58
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:53:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:44:13-55
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:54:13-55
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:42:13-63
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:52:13-63
 activity#com.clikshow.Profile.View_Editar_Usuario
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:45:9-48:57
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:55:9-58:57
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:57:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:48:13-54
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:46:13-56
-activity#com.clikshow.Profile.View_Pagamento_Profile
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:49:9-52:67
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:51:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:52:13-64
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:50:13-59
-activity#com.clikshow.IUGU.Models.Views.CadastrarCartaoClass
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:53:9-56:57
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:55:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:56:13-54
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:54:13-67
-activity#com.clikshow.SMS.View_Digita_Cellphone
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:57:9-60:67
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:59:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:60:13-64
-	android:name
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:58:13-54
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:56:13-56
+activity#com.clikshow.Profile.View_Pagamento_Profile
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:59:9-62:67
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:61:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:62:13-64
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:60:13-59
+activity#com.clikshow.IUGU.Models.Views.CadastrarCartaoClass
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:63:9-66:57
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:65:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:66:13-54
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:64:13-67
+activity#com.clikshow.SMS.View_Digita_Cellphone
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:67:9-70:67
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:69:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:70:13-64
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:68:13-54
 activity#com.clikshow.SMS.View_SMS_Code
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:61:9-64:67
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:71:9-74:67
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:63:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:73:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:64:13-64
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:74:13-64
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:62:13-46
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:72:13-46
 activity#com.clikshow.Views.View_Principal
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:65:9-68:67
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:75:9-78:67
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:67:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:77:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:68:13-64
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:78:13-64
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:66:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:76:13-49
 activity#com.clikshow.Login.View_Recovery_Password
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:69:9-72:67
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:79:9-82:67
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:71:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:81:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:72:13-64
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:82:13-64
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:70:13-57
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:80:13-57
 activity#com.clikshow.Carrinho.View_Carrinho
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:73:9-76:67
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:75:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:76:13-64
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:74:13-51
-activity#com.clikshow.Views.View_Detalhe_Evento
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:77:9-80:57
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:79:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:80:13-54
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:78:13-54
-activity#com.clikshow.Views.View_Foto_Evento_Zoom
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:82:9-65
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:82:19-62
-activity#com.clikshow.Views.View_Ajuda
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:84:9-85:51
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:83:9-86:67
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:85:13-49
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:84:19-51
-activity#com.clikshow.Views.View_Sobre
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:87:9-88:51
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:88:13-49
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:87:19-51
-activity#com.clikshow.Profile.View_Servicos_Profile
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:90:9-91:51
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:91:13-49
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:90:19-64
-activity#com.clikshow.Views.View_Ingresso
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:93:9-94:51
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:94:13-49
-	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:93:19-54
-activity#com.clikshow.Views.View_Lista_Amigos_ClikSocial
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:96:9-98:69
-	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:97:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:98:13-67
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:86:13-64
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:96:19-69
-activity#com.clikshow.ClikPortaria.Views.View_Valida_Ingresso_Portaria
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:84:13-51
+activity#com.clikshow.Views.View_Detalhe_Evento
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:87:9-90:57
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:89:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:90:13-54
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:88:13-54
+activity#com.clikshow.Views.View_Foto_Evento_Zoom
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:92:9-65
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:92:19-62
+activity#com.clikshow.Views.View_Ajuda
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:94:9-95:51
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:94:19-51
+activity#com.clikshow.Views.View_Sobre
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:97:9-98:51
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:97:19-51
+activity#com.clikshow.Profile.View_Servicos_Profile
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:100:9-101:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:101:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:100:19-83
-activity#com.clikshow.Views.View_Search
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:103:9-105:69
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:100:19-64
+activity#com.clikshow.Views.View_Ingresso
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:103:9-104:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:104:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:105:13-67
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:103:19-52
-activity#com.clikshow.Views.View_Resultado_Search
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:107:9-108:51
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:103:19-54
+activity#com.clikshow.Views.View_Lista_Amigos_ClikSocial
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:106:9-108:69
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:108:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:107:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:108:13-67
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:107:19-62
-activity#com.clikshow.Views.View_Termos_Condicoes
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:106:19-69
+activity#com.clikshow.ClikPortaria.Views.View_Valida_Ingresso_Portaria
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:110:9-111:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:111:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:110:19-62
-activity#com.clikshow.Views.View_Politica_Privacidade
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:113:9-114:51
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:110:19-83
+activity#com.clikshow.Views.View_Search
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:113:9-115:69
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:114:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:115:13-67
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:113:19-66
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:113:19-52
+activity#com.clikshow.Views.View_Resultado_Search
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:117:9-118:51
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:117:19-62
+activity#com.clikshow.Views.View_Termos_Condicoes
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:120:9-121:51
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:121:13-49
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:120:19-62
+activity#com.clikshow.Views.View_Politica_Privacidade
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:123:9-124:51
+	android:screenOrientation
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:123:19-66
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:116:9-118:71
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:126:9-128:71
 	android:value
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:118:13-68
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:128:13-68
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:117:13-58
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:127:13-58
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:120:9-121:58
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:130:9-131:58
 	android:theme
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:121:13-56
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:131:13-56
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:120:19-82
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:130:19-82
 activity#com.clikshow.Direct.View_Direct
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:126:9-128:54
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:136:9-138:54
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:127:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:137:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:128:13-52
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:138:13-52
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:126:19-53
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:136:19-53
 activity#com.clikshow.Direct.View_Conversa_Direct
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:130:9-132:69
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:140:9-142:69
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:131:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:141:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:132:13-67
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:142:13-67
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:130:19-62
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:140:19-62
 activity#com.clikshow.ClikBIlheteria.Impressora.Lista_Impressoras_BlueTooth
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:139:9-140:51
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:149:9-150:51
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:140:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:150:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:139:19-88
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:149:19-88
 activity#com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:142:9-143:51
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:152:9-153:51
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:153:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:142:19-87
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:152:19-87
 activity#com.clikshow.ClikBIlheteria.Views.View_Revendedor
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:145:9-146:51
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:155:9-156:51
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:146:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:156:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:145:19-71
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:155:19-71
 activity#com.clikshow.ClikBIlheteria.Views.View_Coordenador
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:148:9-150:57
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:158:9-160:57
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:149:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:159:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:150:13-55
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:160:13-55
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:148:19-72
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:158:19-72
 activity#com.clikshow.ClikBIlheteria.Views.View_Ingresso_Impressora
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:152:9-155:51
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:162:9-165:51
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:155:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:165:13-49
 	android:resizeableActivity
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:154:13-46
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:164:13-46
 	android:theme
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:153:13-72
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:163:13-72
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:152:19-80
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:162:19-80
 activity#com.clikshow.ClikPortaria.Views.View_Principal_Portaria
-ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:160:9-161:51
+ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:170:9-171:51
 	android:screenOrientation
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:161:13-49
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:171:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:160:19-77
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:170:19-77
 uses-sdk
 INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml
@@ -539,6 +560,8 @@ MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gr
 MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.3.0.aar\b4ae285ce995308a05c20327f3818f70\AndroidManifest.xml:8:5-10:41
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:8:5-10:41
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\4ab886cf239349f761d6f4f6488b97c7\AndroidManifest.xml:8:5-10:41
+MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:7:5-9:41
+MERGED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:transition:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f2e9f224064e9264891bdec0af9b785f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f2e9f224064e9264891bdec0af9b785f\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\3724feabd6f585b8330fddd4239f51d5\AndroidManifest.xml:7:5-9:41
@@ -851,3 +874,7 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Felip
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\468a5dc8572d404ab492e7bf5b9714a9\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\468a5dc8572d404ab492e7bf5b9714a9\AndroidManifest.xml:24:13-58
+service#com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService
+ADDED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:12:9-16:19
+	android:name
+		ADDED from [:sinch-android-rtc:3.12.5] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.5.aar\7c0ec9b6bcb9a133d1cc0b0fc9d49245\AndroidManifest.xml:12:18-97
