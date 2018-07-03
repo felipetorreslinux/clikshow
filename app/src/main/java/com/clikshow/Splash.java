@@ -28,11 +28,14 @@ public class Splash extends Activity implements View.OnClickListener {
     private LinearLayout button_open_login;
     private LinearLayout button_open_novo_usuario;
     SharedPreferences sharedPreferences;
+    public static String tokenFirebase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
 
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder()
                 .connectTimeout(10, TimeUnit.SECONDS)
@@ -40,16 +43,10 @@ public class Splash extends Activity implements View.OnClickListener {
                 .writeTimeout(120, TimeUnit.SECONDS)
                 .build();
 
-        ActivityCompat.requestPermissions(this,
-                new String[]{Manifest.permission.RECORD_AUDIO},
-                1);
-
         AndroidNetworking.initialize(getApplicationContext(), okHttpClient);
 
         FirebaseApp.initializeApp(this);
-        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
-
-        sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
+        tokenFirebase = FirebaseInstanceId.getInstance().getToken();
 
         button_open_login = (LinearLayout) findViewById(R.id.button_open_login);
         button_open_login.setOnClickListener(this);
@@ -68,22 +65,6 @@ public class Splash extends Activity implements View.OnClickListener {
             return;
         }
     };
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        super.onActivityResult(requestCode, resultCode, data);
-
-        switch (requestCode){
-            case 1001:
-                if(resultCode == RESULT_OK){
-
-                }
-                if(resultCode == RESULT_CANCELED){
-
-                }
-                break;
-        }
-    }
 
     @Override
     public void onBackPressed(){

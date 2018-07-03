@@ -54,8 +54,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         database = FirebaseDatabase.getInstance();
         databaseReference = database.getReference().getRoot();
 
-        System.out.println(databaseReference);
-
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
         banco = new Banco_Direct(this);
 

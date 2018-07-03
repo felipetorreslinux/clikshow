@@ -35,7 +35,7 @@
                     android:layout_gravity="fill_horizontal|center"
                     android:padding="13dp"
                     android:src="@drawable/ic_cart_black"
-                    android:tint="@android:color/black"/>
+                    android:tint="@color/chumbo"/>
 
                 <TextView
                     android:id="@+id/count_carrinho_feed"
@@ -69,7 +69,8 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="fill_horizontal|center"
                     android:padding="13dp"
-                    android:src="@drawable/ic_direct_mail" />
+                    android:src="@drawable/ic_direct_mail"
+                    android:tint="@color/chumbo"/>
 
                 <TextView
                     android:id="@+id/count_direct_feed"
