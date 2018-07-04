@@ -7,26 +7,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.location.Address;
-import android.location.Geocoder;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Bundle;
-import android.os.Message;
-import android.util.Log;
-import android.widget.TextView;
 
 import com.clikshow.Service.Toast.ToastClass;
-
-import java.io.IOException;
-import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.List;
-import java.util.Locale;
 
 public class APIServer {
 //    public static String URL = "http://34.200.90.213/";
@@ -35,6 +21,8 @@ public class APIServer {
     public static String CLIKSOCIALPROD = "http://api.cliksocial.com/";
     public static String LOCAL = "http://192.168.0.20:8000/";
     public static String SOCKET = "http://socket.cliksocial.com:3000";
+
+    public static String LOCAL_CHAT = "http://192.168.0.104/clikshow/";
 
     public static String LINK_GERENCIADOR = "http://clikshow.cliksocial.com";
 

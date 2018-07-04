@@ -45,7 +45,9 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/baged_carrinho"
                     android:paddingHorizontal="5dp"
+                    android:textSize="12dp"
                     android:textColor="@color/white"/>
+
             </FrameLayout>
 
             <ImageView
@@ -78,7 +80,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="fill_vertical|right"
                     android:layout_margin="5dp"
+                    android:background="@drawable/baged_carrinho"
                     android:paddingHorizontal="5dp"
+                    android:textSize="12dp"
                     android:textColor="@color/white"/>
 
             </FrameLayout>

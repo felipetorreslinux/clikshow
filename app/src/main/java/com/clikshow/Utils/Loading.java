@@ -10,9 +10,9 @@ import com.clikshow.R;
 
 public class Loading {
 
-    private static AlertDialog dialog_loading;
-    private static AlertDialog.Builder builder_loading;
-    private static View view;
+    static AlertDialog dialog_loading;
+    static AlertDialog.Builder builder_loading;
+    static View view;
 
     public static void open (final Activity activity){
         builder_loading = new AlertDialog.Builder(activity);

@@ -2,7 +2,9 @@ package com.clikshow.Fragmentos;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -22,6 +24,7 @@ import android.widget.TextView;
 
 import com.clikshow.API.APIServer;
 import com.clikshow.Carrinho.View_Carrinho;
+import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.Direct.View_Direct;
 import com.clikshow.Fragmentos.Models.Search_Model;
 import com.clikshow.R;
@@ -39,6 +42,7 @@ public class Feed_Fragment extends Fragment {
 
     public static ImageView btn_open_cart;
     public static TextView count_carrinho_feed;
+    TextView count_direct_feed;
 
     RelativeLayout buscar_eventos_feed;
     FrameLayout container_tabs_feed;
@@ -48,6 +52,8 @@ public class Feed_Fragment extends Fragment {
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
 
+    SharedPreferences sharedPreferences;
+
     @Nullable
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
@@ -56,6 +62,8 @@ public class Feed_Fragment extends Fragment {
 
         container_tabs_feed = (FrameLayout) rootView.findViewById(R.id.container_tabs_feed);
         count_carrinho_feed = (TextView) rootView.findViewById(R.id.count_carrinho_feed);
+
+        count_direct_feed = (TextView) rootView.findViewById(R.id.count_direct_feed);
 
         buscar_eventos_feed = (RelativeLayout) rootView.findViewById(R.id.buscar_eventos_feed);
         buscar_eventos_feed.setOnClickListener(new View.OnClickListener() {
@@ -94,9 +102,6 @@ public class Feed_Fragment extends Fragment {
         return  rootView;
     };
 
-
-
-
     public void listaSearchFeed (String search) {
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_search);
         mLayoutManager = new GridLayoutManager(getActivity(), 2);
@@ -116,7 +121,18 @@ public class Feed_Fragment extends Fragment {
         super.onResume();
         Banco banco = new Banco(getActivity());
         banco.count_carrinho();
+        count_message_direct();
     };
+
+    public void count_message_direct(){
+        sharedPreferences = getActivity().getSharedPreferences("user_info", Context.MODE_PRIVATE);
+        if(APIServer.conexao(getActivity()) == true){
+            Service_Direct.coutn_user_message(getActivity(), sharedPreferences.getInt("id", 0), count_direct_feed);
+        }else{
+            count_direct_feed.setVisibility(View.GONE);
+        }
+    }
+
 
     @Override
     public void onPause(){

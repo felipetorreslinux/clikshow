@@ -172,39 +172,47 @@ public class View_Principal extends Activity implements View.OnClickListener {
             break;
 
             case R.id.img_tab_feed:
-                tabindex = 0;
-                img_tab_feed.setImageResource(R.drawable.ic_feed_orange);
-                img_tab_favorites.setImageResource(R.drawable.ic_favorites);
-                img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
-                getFragmentManager().beginTransaction().replace(R.id.container_principal,
-                        new Feed_Fragment()).commit();
+                if(tabindex != 0){
+                    tabindex = 0;
+                    img_tab_feed.setImageResource(R.drawable.ic_feed_orange);
+                    img_tab_favorites.setImageResource(R.drawable.ic_favorites);
+                    img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
+                    getFragmentManager().beginTransaction().replace(R.id.container_principal,
+                            new Feed_Fragment()).commit();
+                }
             break;
 
             case R.id.img_tab_favorites:
-                tabindex = 1;
-                img_tab_feed.setImageResource(R.drawable.ic_feed);
-                img_tab_favorites.setImageResource(R.drawable.ic_favorites_orange);
-                img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
-                getFragmentManager().beginTransaction().replace(R.id.container_principal,
-                        new Favorites_Fragment()).commit();
+                if(tabindex != 1){
+                    tabindex = 1;
+                    img_tab_feed.setImageResource(R.drawable.ic_feed);
+                    img_tab_favorites.setImageResource(R.drawable.ic_favorites_orange);
+                    img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
+                    getFragmentManager().beginTransaction().replace(R.id.container_principal,
+                            new Favorites_Fragment()).commit();
+                }
             break;
 
             case R.id.img_tab_ticket:
-                tabindex = 2;
-                img_tab_feed.setImageResource(R.drawable.ic_feed);
-                img_tab_favorites.setImageResource(R.drawable.ic_favorites);
-                img_tab_ticket.setImageResource(R.drawable.ic_bilhete_orange);
-                getFragmentManager().beginTransaction().replace(R.id.container_principal,
-                        new Meus_Ingressos_Fragment()).commit();
+                if(tabindex != 2){
+                    tabindex = 2;
+                    img_tab_feed.setImageResource(R.drawable.ic_feed);
+                    img_tab_favorites.setImageResource(R.drawable.ic_favorites);
+                    img_tab_ticket.setImageResource(R.drawable.ic_bilhete_orange);
+                    getFragmentManager().beginTransaction().replace(R.id.container_principal,
+                            new Meus_Ingressos_Fragment()).commit();
+                }
             break;
 
             case R.id.img_tab_profile:
-                tabindex = 4;
-                img_tab_feed.setImageResource(R.drawable.ic_feed);
-                img_tab_favorites.setImageResource(R.drawable.ic_favorites);
-                img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
-                getFragmentManager().beginTransaction().replace(R.id.container_principal,
-                        new Profile_Fragment()).commit();
+                if(tabindex != 4){
+                    tabindex = 4;
+                    img_tab_feed.setImageResource(R.drawable.ic_feed);
+                    img_tab_favorites.setImageResource(R.drawable.ic_favorites);
+                    img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
+                    getFragmentManager().beginTransaction().replace(R.id.container_principal,
+                            new Profile_Fragment()).commit();
+                }
             break;
         }
     }

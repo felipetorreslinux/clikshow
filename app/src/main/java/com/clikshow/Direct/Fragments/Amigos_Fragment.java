@@ -14,6 +14,7 @@ import com.clikshow.Direct.Adapter.Amigos_Lista_Adapter;
 import com.clikshow.Direct.Models.Amigos_Model;
 import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.R;
+import com.clikshow.Utils.Loading;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,8 @@ public class Amigos_Fragment extends Fragment{
         recyclerview_amigos_direct.setLayoutManager(layoutManager);
         recyclerview_amigos_direct.setNestedScrollingEnabled(false);
         recyclerview_amigos_direct.setHasFixedSize(true);
+
+        Loading.open(getActivity());
 
         if(APIServer.conexao(getActivity()) == true){
             Service_Direct.lista_amigos(getActivity(), lista_amigos, recyclerview_amigos_direct);

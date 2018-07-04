@@ -7,8 +7,10 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import com.clikshow.API.APIServer;
 import com.clikshow.Direct.Fragments.Amigos_Fragment;
 import com.clikshow.Direct.Fragments.Conversas_Fragment;
+import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.R;
 
 public class View_Direct extends Activity implements View.OnClickListener {
@@ -16,6 +18,7 @@ public class View_Direct extends Activity implements View.OnClickListener {
     ImageView imageview_back_direct;
     TabLayout tablayout_direct;
     FrameLayout container_direct;
+    int tab_index;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -33,10 +36,12 @@ public class View_Direct extends Activity implements View.OnClickListener {
             public void onTabSelected(TabLayout.Tab tab) {
                 switch (tab.getPosition()){
                     case 0:
+                        tab_index = 0;
                         getFragmentManager().beginTransaction().replace(R.id.container_direct,
                                 new Conversas_Fragment()).commit();
                         break;
                     case 1:
+                        tab_index = 1;
                         getFragmentManager().beginTransaction().replace(R.id.container_direct,
                                 new Amigos_Fragment()).commit();
                         break;
@@ -49,6 +54,10 @@ public class View_Direct extends Activity implements View.OnClickListener {
             @Override
             public void onTabReselected(TabLayout.Tab tab) {}
         });
+        tab_index=0;
+        getFragmentManager().beginTransaction().replace(R.id.container_direct,
+                new Conversas_Fragment()).commit();
+
     }
 
     @Override
@@ -62,6 +71,17 @@ public class View_Direct extends Activity implements View.OnClickListener {
 
     @Override
     public void onBackPressed(){
-        finish();
+        switch (tab_index){
+            case 0:
+                finish();
+                break;
+            default:
+                TabLayout.Tab tab = tablayout_direct.getTabAt(0);
+                tab.select();
+                tab_index=0;
+                getFragmentManager().beginTransaction().replace(R.id.container_direct,
+                        new Conversas_Fragment()).commit();
+
+        }
     }
 }
