@@ -57,7 +57,6 @@ public class View_Principal_Portaria extends Activity {
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
         EVENT_ID_PORTARIA = getIntent().getExtras().getInt("event_id");
 
-        cpf_portaria = (EditText) findViewById(R.id.cpf_portaria);
 
         cpf_portaria.addTextChangedListener(new TextWatcher() {
             @Override
@@ -83,7 +82,6 @@ public class View_Principal_Portaria extends Activity {
             }
         });
 
-        btn_open_qrcode_portaria = (ImageView) findViewById(R.id.btn_open_qrcode_portaria);
         btn_open_qrcode_portaria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,13 +89,6 @@ public class View_Principal_Portaria extends Activity {
             }
         });
 
-        btn_exit_portaria = (ImageView) findViewById(R.id.btn_exit_portaria);
-        btn_exit_portaria.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
 
     };
 

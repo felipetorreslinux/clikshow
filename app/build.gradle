@@ -58,4 +58,11 @@ dependencies {
         transitive = true
     }
     implementation files('libs/btsdk.jar')
+
+    implementation 'com.firebase:firebase-client-android:2.5.1+'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+
 }
+
+apply plugin: 'com.google.gms.google-services'

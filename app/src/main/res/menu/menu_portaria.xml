@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:title="Porteiro"
-        android:icon="@drawable/ic_menu_grid"/>
+        android:id="@+id/trocar_portaria"
+        android:title="Trocar Portaria"/>
+
+    <item
+        android:id="@+id/validados_portaria"
+        android:title="Validados"/>
+
+    <item
+        android:id="@+id/pendentes_portaria"
+        android:title="Pendentes"/>
+
+    <item
+        android:id="@+id/list_geral_portaria"
+        android:title="Lista Geral" />
+
+    <item
+        android:id="@+id/encerrar_portaria"
+        android:title="Encerrar"/>
 </menu>

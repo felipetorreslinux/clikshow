@@ -12,11 +12,17 @@ import android.widget.LinearLayout;
 
 import com.androidnetworking.AndroidNetworking;
 import com.clikshow.API.APIServer;
+import com.clikshow.FireBase.FireApp;
 import com.clikshow.Login.View_Login;
 import com.clikshow.Profile.View_Editar_Usuario;
 import com.clikshow.Views.View_Principal;
 import com.clikshow.Profile.View_Cadastro_Novo_Usuario;
+import com.firebase.client.Firebase;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -26,7 +32,8 @@ public class Splash extends Activity implements View.OnClickListener {
     private LinearLayout button_open_login;
     private LinearLayout button_open_novo_usuario;
     SharedPreferences sharedPreferences;
-    public static String tokenFirebase;
+
+    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +57,15 @@ public class Splash extends Activity implements View.OnClickListener {
         button_open_novo_usuario.setOnClickListener(this);
 
         verificarLogados();
-    };
+
+        Firebase firebase = FireApp.getFirebase().child("direct").child("usuarios");
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("name", "felipe torres");
+        map.put("name", "felipe torres");
+        map.put("name", "felipe torres");
+        map.put("name", "felipe torres");
+        firebase.updateChildren(map);
+    }
 
     public void verificarLogados(){
         if(sharedPreferences.getBoolean("is_login", false) == true){

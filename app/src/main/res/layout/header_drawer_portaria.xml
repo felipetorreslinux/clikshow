@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:background="@drawable/bg_drawer"
+    android:padding="16dp"
+    android:layout_gravity="fill_vertical|center">
+
+        <ImageView
+            android:id="@+id/imageview_profile_portaria"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textview_name_prolife_portaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textview_email_prolife_portaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"/>
+
+
+
+</LinearLayout>
