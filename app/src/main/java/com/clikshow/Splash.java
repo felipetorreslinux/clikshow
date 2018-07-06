@@ -61,9 +61,6 @@ public class Splash extends Activity implements View.OnClickListener {
         Firebase firebase = FireApp.getFirebase().child("direct").child("usuarios");
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("name", "felipe torres");
-        map.put("name", "felipe torres");
-        map.put("name", "felipe torres");
-        map.put("name", "felipe torres");
         firebase.updateChildren(map);
     }
 
