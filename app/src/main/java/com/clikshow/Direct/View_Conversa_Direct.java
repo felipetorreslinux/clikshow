@@ -12,9 +12,16 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.clikshow.Direct.Banco.Banco_Direct;
+import com.clikshow.FireBase.FireApp;
 import com.clikshow.R;
+import com.clikshow.Service.Datas;
+import com.firebase.client.Firebase;
 import com.squareup.picasso.Picasso;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -130,10 +137,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         textview_name_direct.setText(getIntent().getExtras().getString("name_amigo"));
         textview_username_direct.setText(getIntent().getExtras().getString("username_amigo"));
 
-
-        Map<String, Object> map = new HashMap<String, Object>();
-        map.put(textview_username_direct.getText().toString(), "");
-
     }
 
 
@@ -149,7 +152,18 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         if(edittexct_message_direct.getText().toString().isEmpty()){
             edittexct_message_direct.setHint("Escreva algo antes de enviar...");
         }else{
+            String room = sharedPreferences.getInt("id", 0)+"_"+getIntent().getExtras().getInt("id_amigo");
+            String item = String.valueOf(new Date().getTime());
+            Firebase firebase = FireApp.getFirebase().child("direct").child("rooms").child(room).child(item);
+            Map<String, Object> map = new HashMap<>();
+            map.put("sender", sharedPreferences.getInt("id", 0));
+            map.put("receiver", getIntent().getExtras().getInt("id_amigo"));
+            map.put("message", edittexct_message_direct.getText().toString().trim());
+            map.put("type", "text");
+            map.put("timestamp", item);
+            firebase.setValue(map);
             edittexct_message_direct.setText(null);
+
         }
     }
 

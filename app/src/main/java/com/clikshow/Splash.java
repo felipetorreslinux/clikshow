@@ -57,11 +57,6 @@ public class Splash extends Activity implements View.OnClickListener {
         button_open_novo_usuario.setOnClickListener(this);
 
         verificarLogados();
-
-        Firebase firebase = FireApp.getFirebase().child("direct").child("usuarios");
-        Map<String, Object> map = new HashMap<String, Object>();
-        map.put("name", "felipe torres");
-        firebase.updateChildren(map);
     }
 
     public void verificarLogados(){
