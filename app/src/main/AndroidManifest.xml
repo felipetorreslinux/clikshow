@@ -152,7 +152,8 @@
 
         <!--ClikPortaria-->
 
-        <activity android:name=".ClikPortaria.Views.View_Principal_Portaria"
+        <activity android:name=".Portaria.View_Portaria"
+            android:windowSoftInputMode="stateHidden|adjustPan"
             android:screenOrientation="portrait"/>
 
     </application>

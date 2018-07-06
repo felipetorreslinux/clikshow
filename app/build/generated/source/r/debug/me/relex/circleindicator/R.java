@@ -26,21 +26,21 @@ public final class R {
     }
     public static final class id {
         public static final int bottom = 0x7f0a0042;
-        public static final int center = 0x7f0a00aa;
-        public static final int center_horizontal = 0x7f0a00ad;
-        public static final int center_vertical = 0x7f0a00af;
-        public static final int clip_horizontal = 0x7f0a00b7;
-        public static final int clip_vertical = 0x7f0a00b8;
-        public static final int end = 0x7f0a0103;
-        public static final int fill = 0x7f0a010c;
-        public static final int fill_horizontal = 0x7f0a010d;
-        public static final int fill_vertical = 0x7f0a010e;
-        public static final int horizontal = 0x7f0a011b;
-        public static final int left = 0x7f0a015e;
-        public static final int right = 0x7f0a01d4;
-        public static final int start = 0x7f0a01fc;
-        public static final int top = 0x7f0a022f;
-        public static final int vertical = 0x7f0a0250;
+        public static final int center = 0x7f0a00ab;
+        public static final int center_horizontal = 0x7f0a00ae;
+        public static final int center_vertical = 0x7f0a00b0;
+        public static final int clip_horizontal = 0x7f0a00b8;
+        public static final int clip_vertical = 0x7f0a00b9;
+        public static final int end = 0x7f0a0104;
+        public static final int fill = 0x7f0a010d;
+        public static final int fill_horizontal = 0x7f0a010e;
+        public static final int fill_vertical = 0x7f0a010f;
+        public static final int horizontal = 0x7f0a011c;
+        public static final int left = 0x7f0a015f;
+        public static final int right = 0x7f0a01d5;
+        public static final int start = 0x7f0a01fd;
+        public static final int top = 0x7f0a0233;
+        public static final int vertical = 0x7f0a0254;
     }
     public static final class styleable {
         public static final int[] CircleIndicator = { 0x7f040060, 0x7f040061, 0x7f040062, 0x7f040063, 0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068 };

@@ -17,6 +17,7 @@ import com.clikshow.ClikBIlheteria.Impressora.BlueTooth;
 import com.clikshow.ClikBIlheteria.Services.Bilheteria_Service;
 import com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria;
 import com.clikshow.ClikPortaria.Views.View_Principal_Portaria;
+import com.clikshow.Portaria.View_Portaria;
 import com.clikshow.Profile.Models.ServicosProfileModel;
 import com.clikshow.R;
 import com.clikshow.Service.Datas;
@@ -89,7 +90,7 @@ public class ServicosProfileAdapter extends RecyclerView.Adapter<ServicosProfile
 
                     // Portaria
                     case 7:
-                        Intent open_portaria = new Intent(activity, View_Principal_Portaria.class);
+                        Intent open_portaria = new Intent(activity, View_Portaria.class);
                         open_portaria.putExtra("event_id", servicosProfileModel.getEvent_id());
                         open_portaria.putExtra("type_service", 7);
                         activity.startActivity(open_portaria);

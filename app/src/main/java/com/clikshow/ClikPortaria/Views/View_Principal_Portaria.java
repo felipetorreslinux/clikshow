@@ -1,36 +1,24 @@
 package com.clikshow.ClikPortaria.Views;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.hardware.Camera;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.IBinder;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.SurfaceView;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.clikshow.API.APIServer;
-import com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria;
 
 import com.clikshow.ClikPortaria.Views.Service.Service_Portaria;
-import com.clikshow.IUGU.Models.Service.Cartao_Credito;
 import com.clikshow.R;
 import com.clikshow.Service.Toast.ToastClass;
-import com.google.zxing.Result;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 import com.squareup.picasso.Picasso;
@@ -40,14 +28,11 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.util.Timer;
-import java.util.TimerTask;
 
-import io.supercharge.shimmerlayout.ShimmerLayout;
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
 public class View_Principal_Portaria extends Activity {
 
-    private ImageView img_user_logado_portaria;
     private ImageView btn_exit_portaria;
     private ImageView btn_open_qrcode_portaria;
     private SharedPreferences sharedPreferences;
@@ -67,7 +52,7 @@ public class View_Principal_Portaria extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.view_principal_portaria);
+        setContentView(R.layout.view_portaria);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
         EVENT_ID_PORTARIA = getIntent().getExtras().getInt("event_id");
@@ -97,13 +82,6 @@ public class View_Principal_Portaria extends Activity {
                 }
             }
         });
-
-        img_user_logado_portaria = (ImageView) findViewById(R.id.img_user_logado_portaria);
-        Picasso.get()
-            .load(Uri.fromFile(new File(sharedPreferences.getString("profile_pic", null))))
-            .transform(new CropCircleTransformation())
-            .resize(100,100)
-            .into(img_user_logado_portaria);
 
         btn_open_qrcode_portaria = (ImageView) findViewById(R.id.btn_open_qrcode_portaria);
         btn_open_qrcode_portaria.setOnClickListener(new View.OnClickListener() {
