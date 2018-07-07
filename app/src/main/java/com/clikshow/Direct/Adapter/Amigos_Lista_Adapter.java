@@ -17,14 +17,7 @@ import android.widget.TextView;
 
 import com.clikshow.Direct.Models.Amigos_Model;
 import com.clikshow.Direct.View_Conversa_Direct;
-import com.clikshow.FireBase.FireApp;
 import com.clikshow.R;
-import com.clikshow.Service.Toast.ToastClass;
-import com.firebase.client.ChildEventListener;
-import com.firebase.client.DataSnapshot;
-import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseError;
-import com.firebase.client.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -70,31 +63,6 @@ public class Amigos_Lista_Adapter extends RecyclerView.Adapter<Amigos_Lista_Adap
         }
 
         holder.name_amigos_lista_direct.setText(amigos_model.getName());
-
-        Firebase firebase = FireApp.getFirebase().child("direct").child("users").child(String.valueOf(amigos_model.getId()));
-        firebase.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                if(dataSnapshot.child("isOnline").getValue() != null){
-                    if(dataSnapshot.child("isOnline").getValue().toString().equals("true")){
-                        holder.username_amigos_lista_direct.setText("Online");
-                        holder.username_amigos_lista_direct.setTextColor(activity.getResources().getColor(R.color.green_cliksocial));
-                    }else{
-                        holder.username_amigos_lista_direct.setText("Offline");
-                        holder.username_amigos_lista_direct.setTextColor(activity.getResources().getColor(R.color.red_of_problem));
-
-                    }
-                }else{
-                    holder.username_amigos_lista_direct.setText(amigos_model.getUsername());
-                    holder.username_amigos_lista_direct.setTextColor(activity.getResources().getColor(R.color.chumbo));
-                }
-            }
-
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
-
-            }
-        });
 
         holder.item_lista_amigos_direct.setOnClickListener(new View.OnClickListener() {
             @Override

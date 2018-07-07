@@ -17,7 +17,6 @@ import com.clikshow.Login.View_Login;
 import com.clikshow.Profile.View_Editar_Usuario;
 import com.clikshow.Views.View_Principal;
 import com.clikshow.Profile.View_Cadastro_Novo_Usuario;
-import com.firebase.client.Firebase;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

@@ -76,20 +76,20 @@ public final class R {
         public static final int ghost_view = 0x7f0a0119;
         public static final int icon = 0x7f0a0120;
         public static final int icon_group = 0x7f0a0121;
-        public static final int info = 0x7f0a014e;
-        public static final int italic = 0x7f0a0154;
-        public static final int line1 = 0x7f0a0163;
-        public static final int line3 = 0x7f0a0164;
-        public static final int normal = 0x7f0a019e;
-        public static final int notification_background = 0x7f0a019f;
-        public static final int notification_main_column = 0x7f0a01a0;
-        public static final int notification_main_column_container = 0x7f0a01a1;
-        public static final int parent_matrix = 0x7f0a01b0;
-        public static final int right_icon = 0x7f0a01db;
-        public static final int right_side = 0x7f0a01dc;
-        public static final int save_image_matrix = 0x7f0a01df;
-        public static final int save_non_transition_alpha = 0x7f0a01e0;
-        public static final int save_scale_type = 0x7f0a01e1;
+        public static final int info = 0x7f0a014f;
+        public static final int italic = 0x7f0a0155;
+        public static final int line1 = 0x7f0a0164;
+        public static final int line3 = 0x7f0a0165;
+        public static final int normal = 0x7f0a019f;
+        public static final int notification_background = 0x7f0a01a0;
+        public static final int notification_main_column = 0x7f0a01a1;
+        public static final int notification_main_column_container = 0x7f0a01a2;
+        public static final int parent_matrix = 0x7f0a01b1;
+        public static final int right_icon = 0x7f0a01dc;
+        public static final int right_side = 0x7f0a01dd;
+        public static final int save_image_matrix = 0x7f0a01e0;
+        public static final int save_non_transition_alpha = 0x7f0a01e1;
+        public static final int save_scale_type = 0x7f0a01e2;
         public static final int tag_transition_group = 0x7f0a020c;
         public static final int text = 0x7f0a0210;
         public static final int text2 = 0x7f0a0211;
@@ -113,7 +113,7 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0c0088;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f10008d;
+        public static final int status_bar_notification_info_overflow = 0x7f10008e;
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f1100f3;

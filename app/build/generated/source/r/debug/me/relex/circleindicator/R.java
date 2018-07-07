@@ -31,14 +31,14 @@ public final class R {
         public static final int center_vertical = 0x7f0a00b0;
         public static final int clip_horizontal = 0x7f0a00b8;
         public static final int clip_vertical = 0x7f0a00b9;
-        public static final int end = 0x7f0a0106;
-        public static final int fill = 0x7f0a010f;
-        public static final int fill_horizontal = 0x7f0a0110;
-        public static final int fill_vertical = 0x7f0a0111;
+        public static final int end = 0x7f0a0105;
+        public static final int fill = 0x7f0a010e;
+        public static final int fill_horizontal = 0x7f0a010f;
+        public static final int fill_vertical = 0x7f0a0110;
         public static final int horizontal = 0x7f0a011e;
-        public static final int left = 0x7f0a0161;
-        public static final int right = 0x7f0a01da;
-        public static final int start = 0x7f0a0202;
+        public static final int left = 0x7f0a0162;
+        public static final int right = 0x7f0a01db;
+        public static final int start = 0x7f0a0203;
         public static final int top = 0x7f0a0237;
         public static final int vertical = 0x7f0a025a;
     }

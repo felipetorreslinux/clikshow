@@ -23,6 +23,14 @@
         android:theme="@style/AppTheme"
         android:name=".FireBase.FireApp">
 
+        <service
+            android:name=".FireBase.NotificationFireBase">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".Splash"
             android:theme="@style/Splash"

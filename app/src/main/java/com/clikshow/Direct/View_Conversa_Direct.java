@@ -2,7 +2,6 @@ package com.clikshow.Direct;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.BottomSheetDialog;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,23 +12,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.clikshow.Direct.Banco.Banco_Direct;
 import com.clikshow.FireBase.DirectFirebase;
-import com.clikshow.FireBase.FireApp;
 import com.clikshow.R;
-import com.clikshow.Service.Datas;
-import com.firebase.client.DataSnapshot;
-import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseError;
-import com.firebase.client.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
@@ -51,16 +37,12 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
     ImageView imageview_record_direct;
     ImageView imageview_envia_direct;
 
-    Banco_Direct banco;
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_conversa_direct);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
-        banco = new Banco_Direct(this);
-
         image_amigo = getIntent().getExtras().getString("image_amigo");
         imageview_amigo_direct = (ImageView) findViewById(R.id.imageview_amigo_direct);
         textview_name_direct = (TextView) findViewById(R.id.textview_name_direct);
@@ -172,17 +154,7 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         if(edittexct_message_direct.getText().toString().isEmpty()){
             edittexct_message_direct.setHint("Escreva algo antes de enviar...");
         }else{
-            String room = sharedPreferences.getInt("id", 0)+"_"+getIntent().getExtras().getInt("id_amigo");
-            String item = String.valueOf(new Date().getTime());
-            Firebase firebase = FireApp.getFirebase().child("direct").child("rooms").child(room).child(item);
-            Map<String, Object> map = new HashMap<>();
-            map.put("sender", sharedPreferences.getInt("id", 0));
-            map.put("receiver", getIntent().getExtras().getInt("id_amigo"));
-            map.put("message", edittexct_message_direct.getText().toString().trim());
-            map.put("type", "text");
-            map.put("timestamp", item);
-            firebase.setValue(map);
-            edittexct_message_direct.setText(null);
+
         }
     };
 }

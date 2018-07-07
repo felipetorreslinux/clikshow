@@ -32,8 +32,8 @@ public final class R {
     }
     public static final class id {
         public static final int centerCrop = 0x7f0a00ac;
-        public static final int fitCenter = 0x7f0a0112;
-        public static final int fitXY = 0x7f0a0113;
+        public static final int fitCenter = 0x7f0a0111;
+        public static final int fitXY = 0x7f0a0112;
         public static final int zxing_back_button = 0x7f0a026b;
         public static final int zxing_barcode_scanner = 0x7f0a026c;
         public static final int zxing_barcode_surface = 0x7f0a026d;
@@ -54,10 +54,10 @@ public final class R {
         public static final int zxing_beep = 0x7f0f0007;
     }
     public static final class string {
-        public static final int zxing_app_name = 0x7f100099;
-        public static final int zxing_button_ok = 0x7f10009a;
-        public static final int zxing_msg_camera_framework_bug = 0x7f10009b;
-        public static final int zxing_msg_default_status = 0x7f10009c;
+        public static final int zxing_app_name = 0x7f10009a;
+        public static final int zxing_button_ok = 0x7f10009b;
+        public static final int zxing_msg_camera_framework_bug = 0x7f10009c;
+        public static final int zxing_msg_default_status = 0x7f10009d;
     }
     public static final class style {
         public static final int zxing_CaptureTheme = 0x7f110182;
