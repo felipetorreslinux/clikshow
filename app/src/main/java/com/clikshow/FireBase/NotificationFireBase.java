@@ -36,18 +36,14 @@ public class NotificationFireBase extends FirebaseMessagingService  {
         }
     }
 
-
     public void notification_message(RemoteMessage remoteMessage){
         Intent intent = new Intent(this, View_Direct.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_ONE_SHOT);
         String channelId = getString(R.string.default_notification_channel_id);
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        SharedPreferences sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
-        Bitmap bitmap = BitmapFactory.decodeFile(sharedPreferences.getString("profile_pic", null));
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, channelId)
                 .setSmallIcon(R.drawable.logo_ic)
-                .setLargeIcon(bitmap)
                 .setContentTitle(remoteMessage.getNotification().getTitle())
                 .setContentText(remoteMessage.getNotification().getBody())
                 .setAutoCancel(false)
@@ -61,6 +57,6 @@ public class NotificationFireBase extends FirebaseMessagingService  {
             notificationManager.createNotificationChannel(channel);
         }
         notificationManager.notify(0, notificationBuilder.build());
-    }
+    };
 
 }

@@ -1,6 +1,7 @@
 package com.clikshow.Direct;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
@@ -13,6 +14,7 @@ import com.clikshow.Direct.Fragments.Amigos_Fragment;
 import com.clikshow.Direct.Fragments.Conversas_Fragment;
 import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.R;
+import com.clikshow.Views.View_Search;
 
 public class View_Direct extends Activity implements View.OnClickListener {
 
@@ -44,6 +46,8 @@ public class View_Direct extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.imageview_search_friends_direct:
+                Intent intent = new Intent(this, View_Search_Direct.class);
+                startActivityForResult(intent, 1);
                 break;
 
             case R.id.floatbutton_friends_direct:
@@ -54,5 +58,19 @@ public class View_Direct extends Activity implements View.OnClickListener {
     @Override
     public void onBackPressed(){
         finish();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        switch (requestCode){
+            case 1:
+                if(requestCode == Activity.RESULT_OK){
+
+                }else{
+
+                }
+                break;
+        }
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }

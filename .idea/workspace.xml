@@ -14,33 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c83deab-09f7-4da0-9219-5ed7b537de05" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_16_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_interop_16_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Search_Direct.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_search_direct.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_2_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_2_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_2_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebase_firebase_client_android_2_5_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebase_firebase_client_jvm_2_5_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebase_tubesock_0_0_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_17_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_license_11_8_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" />
@@ -60,9 +44,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/esafirm/imagepicker/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/esafirm/imagepicker/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/maps/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/maps/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase/messaging/license/R.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/messaging/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/messaging/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/zxing/client/android/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/zxing/client/android/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/santalu/aspectratioimageview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/santalu/aspectratioimageview/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theartofdev/edmodo/cropper/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theartofdev/edmodo/cropper/R.java" />
@@ -70,121 +52,25 @@
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/jp/wasabeef/recyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/jp/wasabeef/recyclerview/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/me/relex/circleindicator/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/me/relex/circleindicator/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-af.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-am.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ar.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-az.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-az.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-be.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-be.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bg.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bn.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bs.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ca.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-cs.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-da.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-de.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-el.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-es.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-et.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-et.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-eu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-eu.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fa.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fi.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-fr.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-gl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-gl.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-gu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-gu.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hi.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hr.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hu.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hy.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hy.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-in.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-is.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-is.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-it.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-iw.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ja.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ka.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ka.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-kk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-kk.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-km.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-km.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-kn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-kn.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ko.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ky.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ky.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lo.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lo.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lt.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lv.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mk.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ml.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ml.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mn.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mr.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ms.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ms.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-my.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-my.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-nb.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ne.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ne.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-nl.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pa.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ro.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ru.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-si.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-si.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sk.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sl.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sq.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sq.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sr.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sv.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sw.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ta.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ta.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-te.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-te.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-th.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-tl.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-tr.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-uk.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ur.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ur.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-uz.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-uz.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-vi.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/View_Carrinho.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/View_Carrinho.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.class" />
@@ -192,32 +78,25 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$2.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Banco/Banco_Direct.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Fragments/Amigos_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Fragments/Amigos_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Conversa_Direct$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Conversa_Direct$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Conversa_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Conversa_Direct.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/DirectFirebase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/DirectFirebase.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/FireApp.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/FireApp.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Favorites_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Favorites_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Feed_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Feed_Fragment.class" />
@@ -237,6 +116,11 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Pagamento_Profile.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Pagamento_Profile.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Servicos_Profile.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Servicos_Profile.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$raw.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$style.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$styleable.class" />
@@ -244,7 +128,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_Digita_Cellphone.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_Digita_Cellphone.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_SMS_Code.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_SMS_Code.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SQLite/Banco$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SQLite/Banco$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Splash.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Splash.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ajuda.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ajuda.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ingresso.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ingresso.class" />
@@ -253,202 +136,47 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Principal.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Principal.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Search.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Search.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Sobre.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Sobre.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Termos_Condicoes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Termos_Condicoes.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase/messaging/license/R.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/messaging/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/messaging/R.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tmall/ultraviewpager/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tmall/ultraviewpager/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/relex/circleindicator/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/relex/circleindicator/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2NqJVTvIYJn3It_Rij_K8PYtUaM=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Eqhg6kNrZmdbLzSxxOTQaJG2RPE=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Oj_NMI8o9IyrpLEVCltoACDr0VA=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PIr6E9IRPnYqPQoLh3El7m4umBM=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QdzCHQTxEP1mE5OuJo9V0wEP4XQ=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Z+iTw+fIwFB3jfTfswnTyD5ohG8=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/n1Lt1Q91TxVlUKWzaYdj6n6qsaU=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pOkXrq9vdxUQjAdVZ3e2eaF_css=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/2NqJVTvIYJn3It_Rij_K8PYtUaM=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Eqhg6kNrZmdbLzSxxOTQaJG2RPE=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Oj_NMI8o9IyrpLEVCltoACDr0VA=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/PIr6E9IRPnYqPQoLh3El7m4umBM=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/QdzCHQTxEP1mE5OuJo9V0wEP4XQ=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Z+iTw+fIwFB3jfTfswnTyD5ohG8=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/n1Lt1Q91TxVlUKWzaYdj6n6qsaU=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/pOkXrq9vdxUQjAdVZ3e2eaF_css=" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rGT/values-es-rGT.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru-rRU/values-ru-rRU.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/K97Jueob4qT03jj8yz1W7xe3NPY=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/K97Jueob4qT03jj8yz1W7xe3NPY=" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/aYPJrYnNwCPZ66gT3FIGSqSC5Qs=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/aYPJrYnNwCPZ66gT3FIGSqSC5Qs=" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_direct.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_direct.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/View_Carrinho.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/View_Carrinho.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.dex" />
@@ -456,32 +184,25 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$2.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Banco/Banco_Direct.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Fragments/Amigos_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Fragments/Amigos_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Conversa_Direct$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Conversa_Direct$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Conversa_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Conversa_Direct.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct$1.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/DirectFirebase.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/DirectFirebase.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/FireApp.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/FireApp.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Favorites_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Favorites_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Feed_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Feed_Fragment.dex" />
@@ -501,6 +222,11 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Pagamento_Profile.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Pagamento_Profile.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Servicos_Profile.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Servicos_Profile.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$menu.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$menu.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$mipmap.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$mipmap.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$raw.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$raw.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$style.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$styleable.dex" />
@@ -508,7 +234,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_Digita_Cellphone.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_Digita_Cellphone.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_SMS_Code.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_SMS_Code.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SQLite/Banco$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SQLite/Banco$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Splash.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Splash.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ajuda.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ajuda.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ingresso.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ingresso.dex" />
@@ -517,49 +242,27 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Principal.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Principal.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Search.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Search.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Sobre.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Sobre.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Termos_Condicoes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Termos_Condicoes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/base/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/base/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/maps/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/maps/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase/messaging/license/R.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/messaging/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/messaging/R.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/tmall/ultraviewpager/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/tmall/ultraviewpager/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$string.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/me/relex/circleindicator/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/me/relex/circleindicator/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/87.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/88.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/89.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/90.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/91.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/92.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/95.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/98.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Banco/Banco_Direct.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Conversa_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Conversa_Direct.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/DirectFirebase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/DirectFirebase.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/FireApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/FireApp.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
@@ -631,53 +334,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View_Conversa_Direct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Conversa_Direct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="method#onResume#0;class#View_Conversa_Direct#0" expanded="false" />
-                <element signature="method#onClick#0;class#View_Conversa_Direct#0" expanded="false" />
-                <element signature="method#callUser#0;class#View_Conversa_Direct#0" expanded="false" />
-                <element signature="method#amigoDirectDados#0;class#View_Conversa_Direct#0" expanded="false" />
-                <element signature="method#openMenuConversa#0;class#View_Conversa_Direct#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="view_direct.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectFirebase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/DirectFirebase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationFireBase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="50" column="75" lean-forward="false" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+            <state relative-caret-position="136">
+              <caret line="39" column="25" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="39" selection-end-column="25" />
               <folding>
-                <element signature="e#1380#1431#0" expanded="true" />
+                <element signature="e#282#1521#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Search_Direct.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Search_Direct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_search_direct.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_search_direct.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -685,11 +379,11 @@
       <file leaf-file-name="View_Direct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="340">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -701,8 +395,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -2780,18 +2474,20 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Views/View_Principal.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_lista_amigos_direct.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/MyFirebaseMessagingService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/FireApp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Conversa_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/DirectFirebase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/MyFirebaseMessagingService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_search_direct.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Search_Direct.java" />
       </list>
     </option>
   </component>
@@ -2861,13 +2557,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Direct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="FireBase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
@@ -3185,32 +2874,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/View_Editar_Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="66" column="23" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="66" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_menu_conversa_direct.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Validation/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3346,6 +3009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3492,32 +3156,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding>
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/MyFirebaseMessagingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -3570,14 +3212,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Service/Service_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="289">
+          <caret line="56" column="62" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding>
+            <element signature="e#1379#1430#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3589,12 +3238,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="75" lean-forward="false" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+        <state relative-caret-position="243">
+          <caret line="135" column="73" lean-forward="false" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="e#1380#1431#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#282#1521#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_search_direct.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Search_Direct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
           </folding>
         </state>
       </provider>
