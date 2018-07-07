@@ -51,6 +51,7 @@
     <string name="ef_selected_with_limit">%1$d/%2$d selectate</string>
     <string name="ef_title_folder">Fișier</string>
     <string name="ef_title_select_image">Atingeți pentru a selecta imagini</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Diverse"</string>
     <string msgid="146198913615257606" name="search_menu_title">"Căutați"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"˃999"</string>
     <string name="zxing_app_name">Barcode Scanner</string>

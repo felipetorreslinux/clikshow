@@ -7,15 +7,21 @@ import android.os.Bundle;
 import android.support.design.widget.BottomSheetDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.clikshow.Direct.Banco.Banco_Direct;
+import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.FireBase.FireApp;
 import com.clikshow.R;
 import com.clikshow.Service.Datas;
+import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
@@ -76,13 +82,30 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
 
         edittexct_message_direct = (EditText) findViewById(R.id.edittexct_message_direct);
 
+        edittexct_message_direct.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(s.length() > 0){
+                    DirectFirebase.userDigitingOn(View_Conversa_Direct.this);
+
+                }else{
+                    DirectFirebase.userDigitingOff(View_Conversa_Direct.this);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {}
+        });
+
         imageview_record_direct = (ImageView) findViewById(R.id.imageview_record_direct);
         imageview_record_direct.setOnClickListener(this);
 
         imageview_envia_direct = (ImageView) findViewById(R.id.imageview_envia_direct);
         imageview_envia_direct.setOnClickListener(this);
-
-    }
+    };
 
     @Override
     public void onResume(){
@@ -109,7 +132,8 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
                 enviaMessageDirect();
                 break;
         }
-    }
+    };
+
     @Override
     public void onBackPressed(){
         finish();
@@ -117,8 +141,7 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
 
     private void callUser() {
 
-    }
-
+    };
 
     private void amigoDirectDados(){
         if(image_amigo.isEmpty() || image_amigo.equals("null")){
@@ -135,10 +158,7 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
                     .into(imageview_amigo_direct);
         }
         textview_name_direct.setText(getIntent().getExtras().getString("name_amigo"));
-        textview_username_direct.setText(getIntent().getExtras().getString("username_amigo"));
-
-    }
-
+    };
 
     private void openMenuConversa (){
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
@@ -146,7 +166,7 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         bottomSheetDialog.setContentView(view);
         bottomSheetDialog.setCancelable(true);
         bottomSheetDialog.show();
-    }
+    };
 
     private void enviaMessageDirect (){
         if(edittexct_message_direct.getText().toString().isEmpty()){
@@ -163,8 +183,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
             map.put("timestamp", item);
             firebase.setValue(map);
             edittexct_message_direct.setText(null);
-
         }
-    }
-
+    };
 }

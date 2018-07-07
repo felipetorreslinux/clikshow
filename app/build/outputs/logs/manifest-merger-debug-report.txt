@@ -11,6 +11,7 @@ MERGED from [com.github.santalu:aspect-ratio-imageview:1.0.3] C:\Users\FelipeTor
 MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.12.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\imagepicker-1.12.0.aar\68c9aabbfba2e56b786f5c665f90895d\AndroidManifest.xml:2:1-32:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\8f65a63d0d2367b656b44fa11149a481\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\81e566ac89aa1dfdb8f969d173f2ca3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:17:1-37:12
 MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-transformations-2.2.1.aar\11b12423ec08a49bb517f499efbf154c\AndroidManifest.xml:2:1-12:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\2dfdff7890960d6e7e6393cafecc2f83\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\990d3c5e41c4528b8a3a94d78cf5a0f3\AndroidManifest.xml:17:1-32:12
@@ -18,6 +19,8 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\FelipeTorres
 MERGED from [me.relex:circleindicator:1.2.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\circleindicator-1.2.2.aar\5f6e6d4b67f344fa952829bcef8630fb\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\cf2b7b8628889ed7dfb109a77abfea0f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.alibaba.android:ultraviewpager:1.0.7.7] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\ultraviewpager-1.0.7.7.aar\febe19e94483153da57d14ccdeefc5e1\AndroidManifest.xml:27:1-36:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\d32f55efa00ed602a2566ed63c57a723\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\fa032640c39e75f21ce795a2932937ee\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\1a1c3c22191f103763c3a987b4bb2549\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\dde07b7f34a773458a925fcc7c011a15\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.0.aar\cb5f05a5600b5e73f5bbb34cab762aca\AndroidManifest.xml:17:1-34:12
@@ -26,16 +29,14 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\Felipe
 MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\23e215f8df33b99273508e9ad9f06e7b\AndroidManifest.xml:17:1-65:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\4e0a4810ce960ebb1dfb2d3d852c8ded\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\4e6048943063c2fe123539a6770cfa01\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\e4969dc3178f4da2ced85e4a7607ac38\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:2:1-16:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\c776468ba5c4ee7b4575a969bbf74c6c\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\e4969dc3178f4da2ced85e4a7607ac38\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\342f2fa3fb1385fc23fb05a19ecf27bb\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\bb1ae5980a4cd322fb1c4f7b83804b14\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\ac41ea6dc60546caa3fac68ba5f3f4f9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\00a11851634f210ccadfff1a3189c4f4\AndroidManifest.xml:17:1-28:12
-MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\d32f55efa00ed602a2566ed63c57a723\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\fa032640c39e75f21ce795a2932937ee\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b6bffa599562d47ac1985914bc0f36bb\AndroidManifest.xml:17:1-22:12
 MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.3.0.aar\dc8917bf5ddab8f1fdd82dab53f72b98\AndroidManifest.xml:2:1-12:12
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\e2091643db55243d95ec96bc656c215f\AndroidManifest.xml:2:1-14:12
@@ -51,6 +52,7 @@ MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Felipe
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b878df279742adbb3d6c906ffc5d875f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\95fa7cdaab134dff1bb26aad2c16b37b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\15e5cf9e69b281e7879a010d480715f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\931e2cfb5f6a6fa19acefb6f25843adb\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\9bb267a2689024e286fae926f7228343\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a25d8cd87a6d7d9097f8376f3c482d77\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\2545a8f4b22c9cf516e9821ebe1b76c6\AndroidManifest.xml:17:1-22:12
@@ -153,6 +155,8 @@ MERGED from [com.github.santalu:aspect-ratio-imageview:1.0.3] C:\Users\FelipeTor
 MERGED from [com.github.santalu:aspect-ratio-imageview:1.0.3] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\aspect-ratio-imageview-1.0.3.aar\49d2b73dc9d51a1603561b40569972f1\AndroidManifest.xml:12:5-20
 MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.12.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\imagepicker-1.12.0.aar\68c9aabbfba2e56b786f5c665f90895d\AndroidManifest.xml:15:5-30:19
 MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.12.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\imagepicker-1.12.0.aar\68c9aabbfba2e56b786f5c665f90895d\AndroidManifest.xml:15:5-30:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:22:5-35:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\2dfdff7890960d6e7e6393cafecc2f83\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\2dfdff7890960d6e7e6393cafecc2f83\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\990d3c5e41c4528b8a3a94d78cf5a0f3\AndroidManifest.xml:30:5-20
@@ -173,16 +177,16 @@ MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\FelipeTor
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\4e0a4810ce960ebb1dfb2d3d852c8ded\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\4e6048943063c2fe123539a6770cfa01\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\4e6048943063c2fe123539a6770cfa01\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:8:5-14:19
-MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:8:5-14:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\342f2fa3fb1385fc23fb05a19ecf27bb\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\342f2fa3fb1385fc23fb05a19ecf27bb\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\bb1ae5980a4cd322fb1c4f7b83804b14\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\bb1ae5980a4cd322fb1c4f7b83804b14\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\ac41ea6dc60546caa3fac68ba5f3f4f9\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\ac41ea6dc60546caa3fac68ba5f3f4f9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\00a11851634f210ccadfff1a3189c4f4\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\00a11851634f210ccadfff1a3189c4f4\AndroidManifest.xml:22:5-26:19
 MERGED from [io.supercharge:shimmerlayout:2.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\shimmerlayout-2.1.0.aar\e2091643db55243d95ec96bc656c215f\AndroidManifest.xml:12:5-20
@@ -191,6 +195,8 @@ MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradl
 MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\73501ec8d8b8754e2719169bd55fae11\AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\e5f94c996b14ac2050c480f26a4bb299\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\e5f94c996b14ac2050c480f26a4bb299\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\931e2cfb5f6a6fa19acefb6f25843adb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\931e2cfb5f6a6fa19acefb6f25843adb\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\9bb267a2689024e286fae926f7228343\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\9bb267a2689024e286fae926f7228343\AndroidManifest.xml:22:5-20
 	android:supportsRtl
@@ -469,6 +475,8 @@ MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\Felipe
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\8f65a63d0d2367b656b44fa11149a481\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\81e566ac89aa1dfdb8f969d173f2ca3f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\81e566ac89aa1dfdb8f969d173f2ca3f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:20:5-44
 MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-transformations-2.2.1.aar\11b12423ec08a49bb517f499efbf154c\AndroidManifest.xml:8:5-10:41
 MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-transformations-2.2.1.aar\11b12423ec08a49bb517f499efbf154c\AndroidManifest.xml:8:5-10:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\2dfdff7890960d6e7e6393cafecc2f83\AndroidManifest.xml:5:5-44
@@ -483,6 +491,10 @@ MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\FelipeTorres\.grad
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\cf2b7b8628889ed7dfb109a77abfea0f\AndroidManifest.xml:20:5-44
 MERGED from [com.alibaba.android:ultraviewpager:1.0.7.7] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\ultraviewpager-1.0.7.7.aar\febe19e94483153da57d14ccdeefc5e1\AndroidManifest.xml:32:5-34:41
 MERGED from [com.alibaba.android:ultraviewpager:1.0.7.7] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\ultraviewpager-1.0.7.7.aar\febe19e94483153da57d14ccdeefc5e1\AndroidManifest.xml:32:5-34:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\d32f55efa00ed602a2566ed63c57a723\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\d32f55efa00ed602a2566ed63c57a723\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\fa032640c39e75f21ce795a2932937ee\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\fa032640c39e75f21ce795a2932937ee\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\1a1c3c22191f103763c3a987b4bb2549\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\1a1c3c22191f103763c3a987b4bb2549\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\dde07b7f34a773458a925fcc7c011a15\AndroidManifest.xml:5:5-44
@@ -499,26 +511,22 @@ MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\FelipeTor
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\4e0a4810ce960ebb1dfb2d3d852c8ded\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\4e6048943063c2fe123539a6770cfa01\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\4e6048943063c2fe123539a6770cfa01\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\e4969dc3178f4da2ced85e4a7607ac38\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\e4969dc3178f4da2ced85e4a7607ac38\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:5:5-6:37
-MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:5:5-6:37
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\c776468ba5c4ee7b4575a969bbf74c6c\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\c776468ba5c4ee7b4575a969bbf74c6c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\e4969dc3178f4da2ced85e4a7607ac38\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\e4969dc3178f4da2ced85e4a7607ac38\AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\342f2fa3fb1385fc23fb05a19ecf27bb\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\342f2fa3fb1385fc23fb05a19ecf27bb\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\bb1ae5980a4cd322fb1c4f7b83804b14\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\bb1ae5980a4cd322fb1c4f7b83804b14\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\ac41ea6dc60546caa3fac68ba5f3f4f9\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\ac41ea6dc60546caa3fac68ba5f3f4f9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\221acf9a316b7ba9b2bd9e9d5019c33c\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b00ca39597ef31762c0f6eebf6b17376\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\00a11851634f210ccadfff1a3189c4f4\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\00a11851634f210ccadfff1a3189c4f4\AndroidManifest.xml:20:5-44
-MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\d32f55efa00ed602a2566ed63c57a723\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\d32f55efa00ed602a2566ed63c57a723\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\fa032640c39e75f21ce795a2932937ee\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\fa032640c39e75f21ce795a2932937ee\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b6bffa599562d47ac1985914bc0f36bb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b6bffa599562d47ac1985914bc0f36bb\AndroidManifest.xml:20:5-44
 MERGED from [jp.wasabeef:recyclerview-animators:2.3.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.3.0.aar\dc8917bf5ddab8f1fdd82dab53f72b98\AndroidManifest.xml:8:5-10:41
@@ -549,6 +557,8 @@ MERGED from [com.android.support:support-compat:27.1.1] C:\Users\FelipeTorres\.g
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\95fa7cdaab134dff1bb26aad2c16b37b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\15e5cf9e69b281e7879a010d480715f5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\15e5cf9e69b281e7879a010d480715f5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\931e2cfb5f6a6fa19acefb6f25843adb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\931e2cfb5f6a6fa19acefb6f25843adb\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\9bb267a2689024e286fae926f7228343\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\9bb267a2689024e286fae926f7228343\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a25d8cd87a6d7d9097f8376f3c482d77\AndroidManifest.xml:20:5-44
@@ -593,6 +603,20 @@ ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.12.0] C:\Users
 		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.12.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\imagepicker-1.12.0.aar\68c9aabbfba2e56b786f5c665f90895d\AndroidManifest.xml:28:17-68
 	android:name
 		ADDED from [com.github.esafirm.android-image-picker:imagepicker:1.12.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\imagepicker-1.12.0.aar\68c9aabbfba2e56b786f5c665f90895d\AndroidManifest.xml:27:17-67
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\336387a6718e91c4666ab1e12feb7967\AndroidManifest.xml:32:25-75
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\FelipeTorres\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\2dfdff7890960d6e7e6393cafecc2f83\AndroidManifest.xml:8:9-11:40
 	android:authorities

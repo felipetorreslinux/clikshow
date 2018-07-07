@@ -43,6 +43,7 @@
     <string name="crop_image_menu_flip_vertically">اقلب رأسيًا</string>
     <string name="crop_image_menu_rotate_left">أدر عكس اتجاه عقارب الساعة</string>
     <string name="crop_image_menu_rotate_right">أدر</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
     <string name="pick_image_intent_chooser_title">اختر مصدرًا</string>
     <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>

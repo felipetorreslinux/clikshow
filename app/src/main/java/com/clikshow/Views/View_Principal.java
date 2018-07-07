@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.Fragmentos.Favorites_Fragment;
 import com.clikshow.Fragmentos.Feed_Fragment;
 import com.clikshow.Fragmentos.Profile_Fragment;
@@ -88,8 +89,14 @@ public class View_Principal extends Activity implements View.OnClickListener {
     public void onResume(){
         super.onResume();
         imageProfilePic();
-
+        DirectFirebase.userOnline(this);
     };
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        DirectFirebase.userOffline(this);
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -229,6 +236,7 @@ public class View_Principal extends Activity implements View.OnClickListener {
                     new Feed_Fragment()).commit();
         }else{
             finish();
+            DirectFirebase.userOffline(this);
         };
     };
 }

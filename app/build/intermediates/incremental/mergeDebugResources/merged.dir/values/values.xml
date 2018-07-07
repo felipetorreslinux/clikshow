@@ -919,7 +919,7 @@
     <string name="crop_image_menu_flip_vertically">Flip vertically</string>
     <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
     <string name="crop_image_menu_rotate_right">Rotate</string>
-    <string name="default_web_client_id" translatable="false">816886361776-bhd8q19j7n39to37isd5itc77neq8oml.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">351222630554-vmu27fki7t5bc7ev935srtg8alhmfku6.apps.googleusercontent.com</string>
     <string name="editTextLogin">Email ou CPF</string>
     <string name="editTextPasswordLogin">Senha</string>
     <string name="ef_camera">CAMERA</string>
@@ -943,13 +943,14 @@
     <string name="ef_title_select_image">Tap to select images</string>
     <string name="email_hint">e-mail</string>
     <string name="entendi_btn">entendi</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="female">Feminino</string>
-    <string name="firebase_database_url" translatable="false">https://clikshow-ab5cd.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">816886361776</string>
-    <string name="google_api_key" translatable="false">AIzaSyBPIeqNDQLC-Cd4NzUt0tfUG9HuL3Ih4nk</string>
-    <string name="google_app_id" translatable="false">1:816886361776:android:3982dc1d95616441</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPIeqNDQLC-Cd4NzUt0tfUG9HuL3Ih4nk</string>
-    <string name="google_storage_bucket" translatable="false">clikshow-ab5cd.appspot.com</string>
+    <string name="firebase_database_url" translatable="false">https://clikshow-3aa9a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">351222630554</string>
+    <string name="google_api_key" translatable="false">AIzaSyAro5ea16ZGGPo7o0rduIWZ9g7XISc489w</string>
+    <string name="google_app_id" translatable="false">1:351222630554:android:3982dc1d95616441</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAro5ea16ZGGPo7o0rduIWZ9g7XISc489w</string>
+    <string name="google_storage_bucket" translatable="false">clikshow-3aa9a.appspot.com</string>
     <string name="hintLoginEmpty">Informe seu email ou CPF</string>
     <string name="hintPasswordEmpty">Informe sua senha</string>
     <string name="hintPasswordNotLength">Senha muito curta</string>
@@ -981,7 +982,7 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="pick_image_intent_chooser_title">Select source</string>
     <string name="positive_button_dialog">Sim</string>
-    <string name="project_id" translatable="false">clikshow-ab5cd</string>
+    <string name="project_id" translatable="false">clikshow-3aa9a</string>
     <string name="question_new_profile">Já tem conta?</string>
     <string name="question_valid_code_phone_sms">Não recebi o SMS.</string>
     <string name="recover_pass_title">Recuperar senha</string>

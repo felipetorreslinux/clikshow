@@ -836,8 +836,8 @@ public final class R {
         public static final int ef_selected_with_limit = 0x7f10005c;
         public static final int ef_title_folder = 0x7f10005d;
         public static final int ef_title_select_image = 0x7f10005e;
-        public static final int search_menu_title = 0x7f10008b;
-        public static final int status_bar_notification_info_overflow = 0x7f10008c;
+        public static final int search_menu_title = 0x7f10008c;
+        public static final int status_bar_notification_info_overflow = 0x7f10008d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f110000;

@@ -209,6 +209,18 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/image_picker_provider_paths" />
         </provider>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.clikshow.com.squareup.picasso"

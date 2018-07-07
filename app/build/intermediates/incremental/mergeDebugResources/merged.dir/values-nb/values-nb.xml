@@ -43,6 +43,7 @@
     <string name="crop_image_menu_flip_vertically">Vend loddrett</string>
     <string name="crop_image_menu_rotate_left">Roter teller med urviseren</string>
     <string name="crop_image_menu_rotate_right">Roter</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Diverse"</string>
     <string name="pick_image_intent_chooser_title">Velg kilde</string>
     <string msgid="146198913615257606" name="search_menu_title">"Søk"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>

@@ -1,32 +1,49 @@
 {
   "project_info": {
-    "project_number": "816886361776",
-    "firebase_url": "https://clikshow-ab5cd.firebaseio.com",
-    "project_id": "clikshow-ab5cd",
-    "storage_bucket": "clikshow-ab5cd.appspot.com"
+    "project_number": "351222630554",
+    "firebase_url": "https://clikshow-3aa9a.firebaseio.com",
+    "project_id": "clikshow-3aa9a",
+    "storage_bucket": "clikshow-3aa9a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:816886361776:android:3982dc1d95616441",
+        "mobilesdk_app_id": "1:351222630554:android:3982dc1d95616441",
         "android_client_info": {
           "package_name": "com.clikshow"
         }
       },
       "oauth_client": [
         {
-          "client_id": "816886361776-bhd8q19j7n39to37isd5itc77neq8oml.apps.googleusercontent.com",
+          "client_id": "351222630554-bjvcc3k9lqef27cvnrjp5s5l71dm7v5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clikshow",
+            "certificate_hash": "083a212123526367c4fdbbd4b916a13bdfc5181d"
+          }
+        },
+        {
+          "client_id": "351222630554-vmu27fki7t5bc7ev935srtg8alhmfku6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
-      "api_key": [{"current_key":"AIzaSyBPIeqNDQLC-Cd4NzUt0tfUG9HuL3Ih4nk"}],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAro5ea16ZGGPo7o0rduIWZ9g7XISc489w"
+        }
+      ],
       "services": {
         "analytics_service": {
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351222630554-vmu27fki7t5bc7ev935srtg8alhmfku6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

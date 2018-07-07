@@ -54,10 +54,10 @@ public final class R {
         public static final int zxing_beep = 0x7f0f0007;
     }
     public static final class string {
-        public static final int zxing_app_name = 0x7f100098;
-        public static final int zxing_button_ok = 0x7f100099;
-        public static final int zxing_msg_camera_framework_bug = 0x7f10009a;
-        public static final int zxing_msg_default_status = 0x7f10009b;
+        public static final int zxing_app_name = 0x7f100099;
+        public static final int zxing_button_ok = 0x7f10009a;
+        public static final int zxing_msg_camera_framework_bug = 0x7f10009b;
+        public static final int zxing_msg_default_status = 0x7f10009c;
     }
     public static final class style {
         public static final int zxing_CaptureTheme = 0x7f110182;
