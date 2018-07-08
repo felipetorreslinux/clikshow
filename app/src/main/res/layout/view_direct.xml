@@ -7,7 +7,7 @@
     android:background="@color/fundo_app">
 
     <RelativeLayout
-        android:id="@+id/actionbar_portaria"
+        android:id="@+id/actionbar_direct"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/white">
@@ -28,16 +28,26 @@
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/ic_logo_orange" />
 
-            <ImageView
-                android:id="@+id/imageview_search_friends_direct"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:padding="15dp"
-                android:src="@drawable/ic_search"
-                android:tint="@color/black"
-                android:layout_alignParentRight="true" />
-
         </RelativeLayout>
+    
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@id/actionbar_direct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recylclerview_direct_conversas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatbutton_friends_direct"

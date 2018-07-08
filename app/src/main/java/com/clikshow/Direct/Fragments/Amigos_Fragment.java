@@ -38,14 +38,6 @@ public class Amigos_Fragment extends Fragment{
         recyclerview_amigos_direct.setNestedScrollingEnabled(false);
         recyclerview_amigos_direct.setHasFixedSize(true);
 
-        Loading.open(getActivity());
-
-        if(APIServer.conexao(getActivity()) == true){
-            Service_Direct.lista_amigos(getActivity(), lista_amigos, recyclerview_amigos_direct);
-        }else{
-
-        }
-
         return rootView;
     }
 }

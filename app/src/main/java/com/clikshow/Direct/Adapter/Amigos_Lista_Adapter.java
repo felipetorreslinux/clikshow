@@ -1,22 +1,18 @@
 package com.clikshow.Direct.Adapter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
-import android.support.annotation.StyleableRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.clikshow.Direct.Models.Amigos_Model;
-import com.clikshow.Direct.View_Conversa_Direct;
+import com.clikshow.Direct.View_Chat_Direct;
 import com.clikshow.R;
 import com.squareup.picasso.Picasso;
 
@@ -28,12 +24,10 @@ public class Amigos_Lista_Adapter extends RecyclerView.Adapter<Amigos_Lista_Adap
 
     Activity activity;
     List<Amigos_Model> lista_amigos;
-    SharedPreferences sharedPreferences;
 
     public Amigos_Lista_Adapter(final Activity activity, final List<Amigos_Model> lista_amigos){
         this.activity = activity;
         this.lista_amigos = lista_amigos;
-        this.sharedPreferences = activity.getSharedPreferences("user_info", Context.MODE_PRIVATE);
     }
 
     @NonNull
@@ -63,16 +57,18 @@ public class Amigos_Lista_Adapter extends RecyclerView.Adapter<Amigos_Lista_Adap
         }
 
         holder.name_amigos_lista_direct.setText(amigos_model.getName());
+        holder.username_amigos_lista_direct.setText(amigos_model.getUsername());
 
         holder.item_lista_amigos_direct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(activity, View_Conversa_Direct.class);
+                Intent intent = new Intent(activity, View_Chat_Direct.class);
                 intent.putExtra("id_amigo", amigos_model.getId());
                 intent.putExtra("image_amigo", amigos_model.getThumb());
                 intent.putExtra("name_amigo", amigos_model.getName());
                 intent.putExtra("username_amigo", amigos_model.getUsername());
                 activity.startActivity(intent);
+                activity.finish();
             }
         });
     }

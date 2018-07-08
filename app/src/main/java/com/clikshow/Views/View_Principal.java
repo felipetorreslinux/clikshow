@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import com.clikshow.API.APIServer;
+import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.Fragmentos.Favorites_Fragment;
 import com.clikshow.Fragmentos.Feed_Fragment;
@@ -33,10 +35,14 @@ public class View_Principal extends Activity implements View.OnClickListener {
 
     public static int codeBuy = 100;
 
+    DirectFirebase directFirebase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_principal);
+
+        directFirebase = new DirectFirebase(this);
 
         profile = getSharedPreferences("user_info", MODE_PRIVATE);
         container_principal = (FrameLayout) findViewById(R.id.container_principal);
@@ -89,13 +95,14 @@ public class View_Principal extends Activity implements View.OnClickListener {
     public void onResume(){
         super.onResume();
         imageProfilePic();
-        DirectFirebase.userOnline(this);
+        directFirebase.userOnline(this);
+
     };
 
     @Override
     public void onDestroy(){
         super.onDestroy();
-        DirectFirebase.userOffline(this);
+        directFirebase.userOffline(this);
     }
 
     @Override
@@ -236,7 +243,7 @@ public class View_Principal extends Activity implements View.OnClickListener {
                     new Feed_Fragment()).commit();
         }else{
             finish();
-            DirectFirebase.userOffline(this);
+            directFirebase.userOffline(this);
         };
     };
 }

@@ -12,7 +12,7 @@
         android:layout_height="56dp"
         android:background="@color/white"
         android:elevation="1dp"
-        android:columnCount="4"
+        android:columnCount="3"
         android:rowCount="1">
 
         <FrameLayout
@@ -80,21 +80,6 @@
             android:layout_width="56dp"
             android:layout_height="match_parent"
             android:layout_column="2"
-            android:layout_row="0">
-
-            <ImageView
-                android:id="@+id/imageview_call_direct"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:padding="16dp"
-                android:src="@drawable/ic_local_phone" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="56dp"
-            android:layout_height="match_parent"
-            android:layout_column="3"
             android:layout_row="0">
 
             <ImageView

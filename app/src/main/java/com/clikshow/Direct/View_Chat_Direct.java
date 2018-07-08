@@ -16,15 +16,13 @@ import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.R;
 import com.squareup.picasso.Picasso;
 
-
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
-public class View_Conversa_Direct extends Activity implements View.OnClickListener {
+public class View_Chat_Direct extends Activity implements View.OnClickListener {
 
     String image_amigo;
     ImageView imageview_amigo_direct;
     ImageView imageview_back_conversa_direct;
-    ImageView imageview_call_direct;
     ImageView imageview_menu_conversa_direct;
     TextView textview_name_direct;
     TextView textview_username_direct;
@@ -37,12 +35,22 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
     ImageView imageview_record_direct;
     ImageView imageview_envia_direct;
 
+    DirectFirebase directFirebase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_conversa_direct);
 
+        directFirebase = new DirectFirebase(this);
+
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
+
+        directFirebase.chat_room(this,
+                String.valueOf(sharedPreferences.getInt("id", 0)),
+                String.valueOf(getIntent().getExtras().getInt("id_amigo")));
+
+
         image_amigo = getIntent().getExtras().getString("image_amigo");
         imageview_amigo_direct = (ImageView) findViewById(R.id.imageview_amigo_direct);
         textview_name_direct = (TextView) findViewById(R.id.textview_name_direct);
@@ -52,9 +60,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         recyclerview_conversa_direct.setLayoutManager(new LinearLayoutManager(this));
         recyclerview_conversa_direct.setNestedScrollingEnabled(false);
         recyclerview_conversa_direct.setHasFixedSize(true);
-
-        imageview_call_direct = (ImageView) findViewById(R.id.imageview_call_direct);
-        imageview_call_direct.setOnClickListener(this);
 
         imageview_menu_conversa_direct = (ImageView) findViewById(R.id.imageview_menu_conversa_direct);
         imageview_menu_conversa_direct.setOnClickListener(this);
@@ -71,16 +76,18 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length() > 0){
-                    DirectFirebase.userDigitingOn(View_Conversa_Direct.this);
+                    directFirebase.userDigitingOn(View_Chat_Direct.this);
 
                 }else{
-                    DirectFirebase.userDigitingOff(View_Conversa_Direct.this);
+                    directFirebase.userDigitingOff(View_Chat_Direct.this);
                 }
             }
 
             @Override
             public void afterTextChanged(Editable s) {}
         });
+
+
 
         imageview_record_direct = (ImageView) findViewById(R.id.imageview_record_direct);
         imageview_record_direct.setOnClickListener(this);
@@ -102,10 +109,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
                 onBackPressed();
                 break;
 
-            case R.id.imageview_call_direct:
-                callUser();
-                break;
-
             case R.id.imageview_menu_conversa_direct:
                 openMenuConversa();
                 break;
@@ -120,10 +123,6 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
     public void onBackPressed(){
         finish();
     }
-
-    private void callUser() {
-
-    };
 
     private void amigoDirectDados(){
         if(image_amigo.isEmpty() || image_amigo.equals("null")){
@@ -154,7 +153,8 @@ public class View_Conversa_Direct extends Activity implements View.OnClickListen
         if(edittexct_message_direct.getText().toString().isEmpty()){
             edittexct_message_direct.setHint("Escreva algo antes de enviar...");
         }else{
-
+            directFirebase.sendMessage(getIntent().getExtras().getInt("id_amigo"), edittexct_message_direct.getText().toString().trim());
+            edittexct_message_direct.setText(null);
         }
     };
 }
