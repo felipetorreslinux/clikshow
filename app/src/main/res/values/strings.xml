@@ -93,6 +93,8 @@
     <string name="positive_button_dialog">Sim</string>
     <string name="title_portaria_bottomsheet">Portaria Clik Show</string>
     <string name="default_notification_channel_id">canal_clikShow</string>
+    <string name="text_empty_commets">Comente aqui antes de enviar</string>
+    <string name="text_commets">Comente aqui...</string>
 
     <string-array name="ordenado_ticket">
         <item>Ordenado por</item>

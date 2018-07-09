@@ -49,11 +49,11 @@ public class DirectFirebase {
                 map.put("id", String.valueOf(id));
                 map.put("isOnline", true);
                 map.put("isDigiting", false);
+                map.put("token_firebase", NotificationFireBase.onTokenRefresh());
                 map.put("name", sharedPreferences.getString("name", null));
                 map.put("username", sharedPreferences.getString("username", null));
                 map.put("thumb", sharedPreferences.getString("profile_pic", null));
                 firebaseDatabase.setValue(map);
-
             }
         }
     }

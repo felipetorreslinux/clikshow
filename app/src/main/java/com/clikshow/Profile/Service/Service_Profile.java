@@ -131,7 +131,7 @@ public class Service_Profile {
             });
     }
 
-    public static void add (final Activity activity, EditText name, final EditText email, EditText username, EditText password, final EditText cpf){
+    public static void add (final Activity activity, EditText name, final EditText email, final EditText username, EditText password, final EditText cpf){
         Loading.open(activity);
         final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         AndroidNetworking.post(APIServer.CLIKSOCIALPROD+"api/user")
@@ -169,6 +169,23 @@ public class Service_Profile {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
                                         activity.finish();
+                                    }
+                                });
+                                builder.create().show();
+                                break;
+
+                            case 2:
+                                Loading.close();
+                                builder.setTitle(R.string.app_name);
+                                builder.setMessage("Usuário já está em uso\nEscolha outro nome de usuário");
+                                builder.setCancelable(false);
+                                builder.setPositiveButton("Trocar usuário", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        builder.create().dismiss();
+                                        username.setText(null);
+                                        username.requestFocus();
+                                        Keyboard.open(activity, username);
                                     }
                                 });
                                 builder.create().show();

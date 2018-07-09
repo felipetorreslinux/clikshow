@@ -19,6 +19,7 @@ import com.clikshow.Views.View_Principal;
 import com.clikshow.Profile.View_Cadastro_Novo_Usuario;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -40,6 +41,8 @@ public class Splash extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_splash);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
+
 
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder()
                 .connectTimeout(10, TimeUnit.SECONDS)

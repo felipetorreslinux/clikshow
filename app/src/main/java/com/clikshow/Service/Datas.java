@@ -1,6 +1,7 @@
 package com.clikshow.Service;
 
-import java.text.DateFormat;
+import org.ocpsoft.prettytime.PrettyTime;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;

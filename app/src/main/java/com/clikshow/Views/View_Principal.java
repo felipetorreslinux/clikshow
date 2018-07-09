@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import com.clikshow.API.APIServer;
 import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.FireBase.DirectFirebase;
+import com.clikshow.FireBase.NotificationFireBase;
 import com.clikshow.Fragmentos.Favorites_Fragment;
 import com.clikshow.Fragmentos.Feed_Fragment;
 import com.clikshow.Fragmentos.Profile_Fragment;
@@ -19,6 +20,11 @@ import com.clikshow.Fragmentos.Meus_Ingressos_Fragment;
 import com.clikshow.R;
 import com.clikshow.SQLite.Banco;
 import com.squareup.picasso.Picasso;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Date;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 

@@ -69,6 +69,16 @@
             </intent-filter>
         </service>
 
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_logo_splash" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
         <activity
             android:name="com.clikshow.Splash"
             android:screenOrientation="portrait"
@@ -123,6 +133,10 @@
             android:name="com.clikshow.Views.View_Detalhe_Evento"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.clikshow.Comments.View_Comments"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.clikshow.Views.View_Ajuda"
             android:screenOrientation="portrait" />
