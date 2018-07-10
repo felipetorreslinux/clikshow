@@ -3,11 +3,17 @@ package com.clikshow.Views;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.MediaStore;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -22,16 +28,19 @@ import com.clikshow.Fragmentos.Detalhe_Evento_ComoChegar_Fragment;
 import com.clikshow.Fragmentos.Detalhe_Evento_Info_Fragment;
 import com.clikshow.Fragmentos.Detalhe_Evento_Ingressos_Fragment;
 import com.clikshow.Fragmentos.Models.FavoritosModel;
+import com.clikshow.Manifest;
 import com.clikshow.R;
 import com.clikshow.SQLite.Banco;
 import com.clikshow.Service.Datas;
 import com.clikshow.Service.Localizacao.Local_Service;
 import com.clikshow.Service.Service_Favoritos;
+import com.clikshow.Service.Toast.ToastClass;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +49,7 @@ public class View_Detalhe_Evento extends Activity {
     private ImageView img_detalhe_evento;
     private ImageView img_favorite_evento;
     private ImageView img_comments_evento;
+    private ImageView img_share_evento;
     private TextView textview_count_likes;
     private TextView textview_count_comments;
     private ImageView back_detalhes_evento;
@@ -169,6 +179,14 @@ public class View_Detalhe_Evento extends Activity {
         });
 
 
+        img_share_evento = (ImageView) findViewById(R.id.img_share_evento);
+        img_share_evento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                shareEventWhatsapp();
+            }
+        });
+
 
         tab_detalhe_evento.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -219,6 +237,18 @@ public class View_Detalhe_Evento extends Activity {
             }
         });
 
+    }
+
+    private void shareEventWhatsapp() {
+        System.out.println(getIntent().getExtras().getString("banner"));
+        Uri uri = Uri.parse(getIntent().getExtras().getString("banner"));
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_TEXT, nome_evento+"\n"+Description_Evento);
+        intent.putExtra(Intent.EXTRA_STREAM,uri);
+        intent.setType("image/jpg");
+        intent.setPackage("com.whatsapp");
+        startActivity(intent);
     };
 
 

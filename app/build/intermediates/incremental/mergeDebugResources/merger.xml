@@ -2007,7 +2007,7 @@
         <item>Data</item>
         <item>Local</item>
         <item>Preço</item>
-    </string-array><string name="text_empty_commets">Comente aqui antes de enviar</string><string name="text_commets">Comente aqui...</string></file><file path="C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </string-array><string name="text_empty_commets">Comente aqui antes de enviar</string><string name="text_commets">Comente aqui...</string><string name="whatsapp_not">Whatsapp não instalado</string></file><file path="C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

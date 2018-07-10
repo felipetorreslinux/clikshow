@@ -57,6 +57,7 @@
             android:weightSum="2">
 
             <TextView
+                android:visibility="invisible"
                 android:layout_weight="1"
                 android:id="@+id/textview_create_at_comment"
                 android:layout_width="match_parent"

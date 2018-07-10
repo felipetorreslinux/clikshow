@@ -60,14 +60,13 @@ public class View_Comments extends Activity implements View.OnClickListener {
         recyvlerview_comments.setLayoutManager(new LinearLayoutManager(this));
         recyvlerview_comments.setNestedScrollingEnabled(false);
         recyvlerview_comments.setHasFixedSize(true);
-
-
     }
 
     @Override
     public void onResume() {
         super.onResume();
         listComments();
+        FirebaseMessaging.getInstance().unsubscribeFromTopic("all");
     }
 
     @Override
@@ -87,6 +86,13 @@ public class View_Comments extends Activity implements View.OnClickListener {
     @Override
     public void onBackPressed() {
         finish();
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
     }
 
     private void sendComments (){

@@ -19,6 +19,7 @@ import com.clikshow.Fragmentos.Profile_Fragment;
 import com.clikshow.Fragmentos.Meus_Ingressos_Fragment;
 import com.clikshow.R;
 import com.clikshow.SQLite.Banco;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
@@ -102,13 +103,21 @@ public class View_Principal extends Activity implements View.OnClickListener {
         super.onResume();
         imageProfilePic();
         directFirebase.userOnline(this);
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
 
     };
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
+    }
 
     @Override
     public void onDestroy(){
         super.onDestroy();
         directFirebase.userOffline(this);
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
     }
 
     @Override
@@ -249,6 +258,7 @@ public class View_Principal extends Activity implements View.OnClickListener {
                     new Feed_Fragment()).commit();
         }else{
             finish();
+            FirebaseMessaging.getInstance().subscribeToTopic("all");
             directFirebase.userOffline(this);
         };
     };

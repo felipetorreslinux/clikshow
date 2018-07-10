@@ -95,6 +95,7 @@
     <string name="default_notification_channel_id">canal_clikShow</string>
     <string name="text_empty_commets">Comente aqui antes de enviar</string>
     <string name="text_commets">Comente aqui...</string>
+    <string name="whatsapp_not">Whatsapp não instalado</string>
 
     <string-array name="ordenado_ticket">
         <item>Ordenado por</item>

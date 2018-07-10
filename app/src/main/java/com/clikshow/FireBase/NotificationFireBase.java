@@ -26,6 +26,7 @@ import com.clikshow.R;
 import com.clikshow.Service.Toast.ToastClass;
 import com.clikshow.Views.View_Principal;
 import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
@@ -51,7 +52,6 @@ public class NotificationFireBase extends FirebaseMessagingService  {
     }
 
     public void notification_message(RemoteMessage remoteMessage){
-
         switch (remoteMessage.getData().get("type")){
             case "comments":
                 Intent intent = new Intent(this, View_Comments.class);
@@ -114,6 +114,8 @@ public class NotificationFireBase extends FirebaseMessagingService  {
             notifi.put("notification", dados);
             notifi.put("data", data);
 
+            FirebaseMessaging.getInstance().unsubscribeFromTopic("all");
+
             AndroidNetworking.post("https://fcm.googleapis.com/fcm/send")
                     .addHeaders("Content-Type", "application/json")
                     .addHeaders("Authorization", "key=AIzaSyCa4bLEd1qWf7yH8wA99XzB_cVZwQSS35A")
@@ -122,12 +124,12 @@ public class NotificationFireBase extends FirebaseMessagingService  {
                     .getAsJSONObject(new JSONObjectRequestListener() {
                         @Override
                         public void onResponse(JSONObject response) {
-                            System.out.println(response);
+
                         }
 
                         @Override
                         public void onError(ANError anError) {
-                            System.out.println(anError.getMessage());
+
                         }
                     });
 
@@ -149,6 +151,8 @@ public class NotificationFireBase extends FirebaseMessagingService  {
             notifi.put("to", "/topics/all");
             notifi.put("notification", dados);
             notifi.put("data", data);
+
+            FirebaseMessaging.getInstance().unsubscribeFromTopic("all");
 
             AndroidNetworking.post("https://fcm.googleapis.com/fcm/send")
             .addHeaders("Content-Type", "application/json")

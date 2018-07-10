@@ -121,6 +121,21 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"/>
 
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/img_share_evento"
+                                    android:layout_width="50dp"
+                                    android:layout_gravity="right"
+                                    android:layout_height="match_parent"
+                                    android:padding="8dp"
+                                    android:src="@drawable/ic_share_evento"/>
+                            </FrameLayout>
+
+
+
                         </LinearLayout>
 
                         <!--Layout nome do evento-->

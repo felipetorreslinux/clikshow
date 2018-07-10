@@ -36,11 +36,11 @@ public final class R {
         public static final int fill_horizontal = 0x7f0a0113;
         public static final int fill_vertical = 0x7f0a0114;
         public static final int horizontal = 0x7f0a0122;
-        public static final int left = 0x7f0a016d;
-        public static final int right = 0x7f0a01e9;
-        public static final int start = 0x7f0a0211;
-        public static final int top = 0x7f0a024d;
-        public static final int vertical = 0x7f0a0270;
+        public static final int left = 0x7f0a016e;
+        public static final int right = 0x7f0a01ea;
+        public static final int start = 0x7f0a0212;
+        public static final int top = 0x7f0a024e;
+        public static final int vertical = 0x7f0a0271;
     }
     public static final class styleable {
         public static final int[] CircleIndicator = { 0x7f040060, 0x7f040061, 0x7f040062, 0x7f040063, 0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068 };
