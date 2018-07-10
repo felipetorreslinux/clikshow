@@ -137,7 +137,6 @@ public class View_Detalhe_Evento extends Activity {
                     Service_Comments.add_like_event(id_event, sharedPreferences.getInt("id", 0));
                     Service_Favoritos.cadastrar(View_Detalhe_Evento.this, String.valueOf(id_event));
                     img_favorite_evento.setImageResource(R.drawable.ic_favorites_orange);
-                    sendPushNotication();
                     is_favorite = true;
                 }else{
                     Service_Comments.remove_like_event(id_event, sharedPreferences.getInt("id", 0));
@@ -271,29 +270,6 @@ public class View_Detalhe_Evento extends Activity {
             img_favorite_evento.setImageResource(R.drawable.ic_favorites_orange);
         }
     };
-
-
-
-    private void sendPushNotication() {
-        try{
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.put("type", "likes");
-            jsonObject.put("lat", lat);
-            jsonObject.put("lng", lng);
-            jsonObject.put("nome_evento", nome_evento);
-            jsonObject.put("local_evento", local_evento);
-            jsonObject.put("event_id", id_event);
-            jsonObject.put("is_favorite", is_favorite);
-
-            NotificationFireBase.send_push_click(
-                    nome_evento,
-                    sharedPreferences.getString("username", null)+" gostou deste evento...",
-                    jsonObject);
-
-        }catch (JSONException e){}catch (NullPointerException e){}
-    };
-
-
 
     @Override
     public void onBackPressed(){

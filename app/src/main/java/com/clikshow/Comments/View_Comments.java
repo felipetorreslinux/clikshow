@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.view.ViewStub;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -34,13 +35,14 @@ import java.util.Map;
 
 public class View_Comments extends Activity implements View.OnClickListener {
 
+    ImageView imageview_back_comments;
     DatabaseReference databaseReference;
     SharedPreferences sharedPreferences;
     List<Comment_Model> list_comments = new ArrayList<>();
     RecyclerView recyvlerview_comments;
     EditText edittexct_comments;
-    ImageView imageview_gallery_comments;
     ImageView imageview_send_comments;
+    ViewStub viewstub_not_comments;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -50,23 +52,24 @@ public class View_Comments extends Activity implements View.OnClickListener {
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
 
         edittexct_comments = (EditText) findViewById(R.id.edittexct_comments);
+        imageview_back_comments = (ImageView) findViewById(R.id.imageview_back_comments);
+        imageview_back_comments.setOnClickListener(this);
         imageview_send_comments = (ImageView) findViewById(R.id.imageview_send_comments);
         imageview_send_comments.setOnClickListener(this);
-
-        imageview_gallery_comments = (ImageView) findViewById(R.id.imageview_gallery_comments);
-        imageview_gallery_comments.setOnClickListener(this);
 
         recyvlerview_comments = (RecyclerView) findViewById(R.id.recyvlerview_comments);
         recyvlerview_comments.setLayoutManager(new LinearLayoutManager(this));
         recyvlerview_comments.setNestedScrollingEnabled(false);
         recyvlerview_comments.setHasFixedSize(true);
+
+        viewstub_not_comments = (ViewStub) findViewById(R.id.viewstub_not_comments);
+
     }
 
     @Override
     public void onResume() {
         super.onResume();
         listComments();
-        FirebaseMessaging.getInstance().unsubscribeFromTopic("all");
     }
 
     @Override
@@ -76,30 +79,28 @@ public class View_Comments extends Activity implements View.OnClickListener {
                 sendComments();
                 break;
 
-            case R.id.imageview_gallery_comments:
-
+            case R.id.imageview_back_comments:
+                onBackPressed();
                 break;
         }
-
     }
 
     @Override
     public void onBackPressed() {
         finish();
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-    }
+    };
 
     @Override
     protected void onPause() {
         super.onPause();
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-    }
+    };
 
     private void sendComments (){
         if(!edittexct_comments.getText().toString().isEmpty()){
             String id = String.valueOf(getIntent().getExtras().getInt("event_id"));
             String id_comment = String.valueOf(new Date().getTime());
-            databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("comments").child(id).child(id_comment);
+            databaseReference = FirebaseDatabase.getInstance().getReference().getRoot()
+                    .child("comments").child(id).child(id_comment);
             Map<String, Object> map = new HashMap<>();
             map.put("event_id", String.valueOf(getIntent().getExtras().getInt("event_id")));
             map.put("user_id", String.valueOf(sharedPreferences.getInt("id", 0)));
@@ -116,9 +117,6 @@ public class View_Comments extends Activity implements View.OnClickListener {
                 JSONObject data = new JSONObject();
                 data.put("event_id", getIntent().getExtras().getInt("event_id"));
                 data.put("type", "comments");
-                NotificationFireBase.send_push_comments(
-                        getIntent().getExtras().getString("event_name"),
-                        sharedPreferences.getString("username", null)+" comentou neste evento...", data);
                 edittexct_comments.setText(null);
                 edittexct_comments.setHint(R.string.text_commets);
                 recyvlerview_comments.scrollToPosition(recyvlerview_comments.getAdapter().getItemCount() - 1);
@@ -132,7 +130,7 @@ public class View_Comments extends Activity implements View.OnClickListener {
             edittexct_comments.setHint(R.string.text_empty_commets);
             edittexct_comments.requestFocus();
         }
-    }
+    };
 
     private void listComments (){
         String id = String.valueOf(getIntent().getExtras().getInt("event_id"));
@@ -141,10 +139,12 @@ public class View_Comments extends Activity implements View.OnClickListener {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot.getChildrenCount() > 0){
+                    viewstub_not_comments.setVisibility(View.GONE);
                     list_comments.clear();
                     for(DataSnapshot snapshot : dataSnapshot.getChildren()){
                         Map<String, String> map = (Map)snapshot.getValue();
                         Comment_Model comment_model = new Comment_Model(
+                                snapshot.getKey(),
                                 map.get("event_id"),
                                 map.get("user_id"),
                                 map.get("name"),
@@ -157,10 +157,10 @@ public class View_Comments extends Activity implements View.OnClickListener {
                                 String.valueOf(map.get("is_count_like")));
                         list_comments.add(comment_model);
                     }
-                    Adapter_Comments adapter_comments = new Adapter_Comments(View_Comments.this, list_comments);
+                    Adapter_Comments adapter_comments = new Adapter_Comments(View_Comments.this, list_comments, recyvlerview_comments);
                     recyvlerview_comments.setAdapter(adapter_comments);
                 }else{
-
+                    viewstub_not_comments.setVisibility(View.VISIBLE);
                 }
             }
 
@@ -169,5 +169,5 @@ public class View_Comments extends Activity implements View.OnClickListener {
                 APIServer.error_server(View_Comments.this, databaseError.getCode());
             }
         });
-    }
+    };
 }

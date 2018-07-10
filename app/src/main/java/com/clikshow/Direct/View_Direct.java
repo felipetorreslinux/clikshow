@@ -58,8 +58,8 @@ public class View_Direct extends Activity implements View.OnClickListener {
     @Override
     protected void onResume() {
         super.onResume();
-        directFirebase = new DirectFirebase(this);
-        directFirebase.list_chat_direct(this, list_rooms, recylclerview_direct_conversas);
+//        directFirebase = new DirectFirebase(this);
+//        directFirebase.list_chat_direct(this, list_rooms, recylclerview_direct_conversas);
     }
 
     @Override

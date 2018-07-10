@@ -1,6 +1,7 @@
 package com.clikshow.Comments.Model;
 
 public class Comment_Model {
+    String id;
     String event_id;
     String user_id;
     String name;
@@ -12,7 +13,8 @@ public class Comment_Model {
     String is_like;
     String count_like;
 
-    public Comment_Model(String event_id, String user_id, String name, String username, String thumb, String comment, String type, String create_at, String is_like, String count_like) {
+    public Comment_Model(String id, String event_id, String user_id, String name, String username, String thumb, String comment, String type, String create_at, String is_like, String count_like) {
+        this.id = id;
         this.event_id = event_id;
         this.user_id = user_id;
         this.name = name;
@@ -23,6 +25,14 @@ public class Comment_Model {
         this.create_at = create_at;
         this.is_like = is_like;
         this.count_like = count_like;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getEvent_id() {

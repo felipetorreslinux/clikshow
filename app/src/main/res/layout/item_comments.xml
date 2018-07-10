@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:id="@+id/item_comments_list"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -57,7 +58,6 @@
             android:weightSum="2">
 
             <TextView
-                android:visibility="invisible"
                 android:layout_weight="1"
                 android:id="@+id/textview_create_at_comment"
                 android:layout_width="match_parent"
@@ -67,17 +67,31 @@
                 android:textColor="@color/graybold"
                 android:textSize="11dp" />
 
-            <TextView
-                android:id="@+id/texview_curti_comments"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Curtir"
-                android:textColor="@color/blue"
-                android:textSize="11dp"
-                android:textStyle="bold"
-                android:fontFamily="@font/roboto"
-                android:gravity="right"/>
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/imageview_like_comments"
+                    android:layout_width="match_parent"
+                    android:layout_marginVertical="2dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_heart"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/imageview_response_comments"
+                    android:layout_width="match_parent"
+                    android:layout_marginVertical="2dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_cha_bubble"/>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 

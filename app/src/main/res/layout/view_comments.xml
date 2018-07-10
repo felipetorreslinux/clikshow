@@ -5,7 +5,41 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+    <GridLayout
+        android:id="@+id/action_comments"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:elevation="1dp">
+
+        <ImageView
+            android:id="@+id/imageview_back_comments"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:src="@drawable/ic_back_black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Comentários"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/roboto"/>
+
+    </GridLayout>
+
+    <ViewStub
+        android:id="@+id/viewstub_not_comments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/fragment_not_comments"/>
+
     <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/action_comments"
         android:id="@+id/recyvlerview_comments"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,7 +48,7 @@
     <GridLayout
         android:id="@+id/bottom_text_comments"
         android:layout_alignParentBottom="true"
-        android:columnCount="3"
+        android:columnCount="1"
         android:rowCount="2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,41 +58,40 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/fundo_app"
-            android:layout_columnSpan="3"
+            android:layout_column="0"
             android:layout_row="0"
             android:layout_marginVertical="1dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <EditText
-            android:id="@+id/edittexct_comments"
+        <RelativeLayout
             android:layout_column="0"
             android:layout_row="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="fill_horizontal|center"
-            android:padding="10dp"
-            android:hint="Escreva aqui..."
-            android:background="@android:color/transparent"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/imageview_gallery_comments"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:padding="12dp"
-            android:layout_column="1"
-            android:layout_row="1"
-            android:src="@drawable/ic_gallery"
-            android:tint="@color/graybold"/>
+            <EditText
+                android:id="@+id/edittexct_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="55dp"
+                android:maxLines="3"
+                android:maxLength="255"
+                android:padding="10dp"
+                android:hint="Comente aqui..."
+                android:background="@android:color/transparent"/>
 
 
-        <ImageView
-            android:id="@+id/imageview_send_comments"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:padding="12dp"
-            android:layout_column="2"
-            android:layout_row="1"
-            android:src="@drawable/ic_send"/>
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:id="@+id/imageview_send_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:padding="12dp"
+                android:src="@drawable/ic_send"/>
+
+        </RelativeLayout>
 
     </GridLayout>
 

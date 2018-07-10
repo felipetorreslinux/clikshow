@@ -11,6 +11,7 @@ import android.widget.ImageView;
 
 import com.clikshow.API.APIServer;
 import com.clikshow.Direct.Service.Service_Direct;
+import com.clikshow.FireBase.BancoFire;
 import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.FireBase.NotificationFireBase;
 import com.clikshow.Fragmentos.Favorites_Fragment;
@@ -76,6 +77,10 @@ public class View_Principal extends Activity implements View.OnClickListener {
         getFragmentManager().beginTransaction().replace(R.id.container_principal,
                 new Feed_Fragment()).commit();
 
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
+        FirebaseMessaging.getInstance().subscribeToTopic("comments");
+        FirebaseMessaging.getInstance().subscribeToTopic("likes");
+
     };
 
     public void imageProfilePic(){
@@ -102,23 +107,8 @@ public class View_Principal extends Activity implements View.OnClickListener {
     public void onResume(){
         super.onResume();
         imageProfilePic();
-        directFirebase.userOnline(this);
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-
+        BancoFire.add_user(this);
     };
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-    }
-
-    @Override
-    public void onDestroy(){
-        super.onDestroy();
-        directFirebase.userOffline(this);
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -257,9 +247,8 @@ public class View_Principal extends Activity implements View.OnClickListener {
             getFragmentManager().beginTransaction().replace(R.id.container_principal,
                     new Feed_Fragment()).commit();
         }else{
+            BancoFire.offline_user(this);
             finish();
-            FirebaseMessaging.getInstance().subscribeToTopic("all");
-            directFirebase.userOffline(this);
         };
     };
 }

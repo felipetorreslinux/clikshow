@@ -69,26 +69,6 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
 
         edittexct_message_direct = (EditText) findViewById(R.id.edittexct_message_direct);
 
-        edittexct_message_direct.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(s.length() > 0){
-                    directFirebase.userDigitingOn(View_Chat_Direct.this);
-
-                }else{
-                    directFirebase.userDigitingOff(View_Chat_Direct.this);
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {}
-        });
-
-
-
         imageview_record_direct = (ImageView) findViewById(R.id.imageview_record_direct);
         imageview_record_direct.setOnClickListener(this);
 

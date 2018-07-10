@@ -40,69 +40,6 @@ public class DirectFirebase {
         this.sharedPreferences = context.getSharedPreferences("user_info", Context.MODE_PRIVATE);
     }
 
-    public void userOnline(final Activity activity) {
-        if (sharedPreferences != null) {
-            int id = sharedPreferences.getInt("id", 0);
-            if (id != 0) {
-                firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("users").child(String.valueOf(id));
-                Map<String, Object> map = new HashMap<>();
-                map.put("id", String.valueOf(id));
-                map.put("isOnline", true);
-                map.put("isDigiting", false);
-                map.put("token_firebase", NotificationFireBase.onTokenRefresh());
-                map.put("name", sharedPreferences.getString("name", null));
-                map.put("username", sharedPreferences.getString("username", null));
-                map.put("thumb", sharedPreferences.getString("profile_pic", null));
-                firebaseDatabase.setValue(map);
-            }
-        }
-    }
-
-    public void userOffline(final Activity activity){
-
-        if(sharedPreferences != null){
-            int id = sharedPreferences.getInt("id", 0);
-            if(id != 0){
-                firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("users").child(String.valueOf(id));
-                Map<String, Object> map = new HashMap<>();
-                map.put("id", String.valueOf(id));
-                map.put("isOnline", false);
-                map.put("isDigiting", false);
-                map.put("name", sharedPreferences.getString("name", null));
-                map.put("username", sharedPreferences.getString("username", null));
-                map.put("thumb", sharedPreferences.getString("profile_pic", null));
-                firebaseDatabase.updateChildren(map);
-
-            }
-        }
-    }
-
-    public void userDigitingOn(final Activity activity){
-
-        if(sharedPreferences != null){
-            int id = sharedPreferences.getInt("id", 0);
-            if(id != 0){
-                firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("users").child(String.valueOf(id));
-                Map<String, Object> map = new HashMap<>();
-                map.put("isDigiting", true);
-                firebaseDatabase.updateChildren(map);
-            }
-        }
-    }
-
-    public void userDigitingOff(final Activity activity){
-
-        if(sharedPreferences != null){
-            int id = sharedPreferences.getInt("id", 0);
-            if(id != 0){
-                firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("users").child(String.valueOf(id));
-                Map<String, Object> map = new HashMap<>();
-                map.put("isDigiting", false);
-                firebaseDatabase.updateChildren(map);
-            }
-        }
-    }
-
     public void sendMessage (int receiver, String editText){
         if(sharedPreferences != null){
             int id = sharedPreferences.getInt("id", 0);

@@ -70,4 +70,44 @@ public class Datas {
 
         return response;
     };
+
+
+    private static final int SECOND_MILLIS = 1000;
+    private static final int MINUTE_MILLIS = 60 * SECOND_MILLIS;
+    private static final int HOUR_MILLIS = 60 * MINUTE_MILLIS;
+    private static final int DAY_MILLIS = 24 * HOUR_MILLIS;
+
+    public static Date currentDate() {
+        Calendar calendar = Calendar.getInstance();
+        return calendar.getTime();
+    }
+
+    public static String getTimeAgo(long time) {
+        if (time < 1000000000000L) {
+            // if timestamp given in seconds, convert to millis
+            time *= 1000;
+        }
+
+        long now = currentDate().getTime();
+        if (time > now || time <= 0) {
+            return "in the future";
+        }
+
+        final long diff = now - time;
+        if (diff < MINUTE_MILLIS) {
+            return "agora";
+        } else if (diff < 2 * MINUTE_MILLIS) {
+            return "ha um minuto ";
+        } else if (diff < 50 * MINUTE_MILLIS) {
+            return "ha "+diff / MINUTE_MILLIS + " minutos atrás";
+        } else if (diff < 90 * MINUTE_MILLIS) {
+            return "ha uma hora";
+        } else if (diff < 24 * HOUR_MILLIS) {
+            return "ha "+diff / HOUR_MILLIS + " horas atrás";
+        } else if (diff < 48 * HOUR_MILLIS) {
+            return "ontem";
+        } else {
+            return "ha "+diff / DAY_MILLIS + " dias atrás";
+        }
+    }
 }
