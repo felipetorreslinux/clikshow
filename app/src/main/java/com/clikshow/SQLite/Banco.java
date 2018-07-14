@@ -367,14 +367,10 @@ public class Banco {
                         e.printStackTrace();
                     }
 
-
-
                 }
 
                 @Override
                 public void onError(ANError anError) {
-                    System.out.println(anError.getErrorCode());
-                    System.out.println(anError.getMessage());
                     ToastClass.curto(activity, anError.toString());
                 }
             });

@@ -192,6 +192,10 @@
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\81e566ac89aa1dfdb8f969d173f2ca3f\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_trash.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_trash.png"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.ttf.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\debug\\res\\font\\roboto.ttf"
     },
@@ -250,6 +254,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_revenda.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable\\ic_logo_revenda.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_trash.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_trash.xml"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
@@ -440,6 +448,10 @@
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_chat_bubble.xml"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sweet_info_profile_cortesia.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\bottom_sweet_info_profile_cortesia.xml"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_black.xml.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_black.xml"
     },
@@ -526,6 +538,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_geo_local.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable\\ic_geo_local.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_edit.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",
@@ -752,6 +768,10 @@
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable\\shadow_image.xml"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_exclude_comments.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\bottom_exclude_comments.xml"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ajuda.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable\\ic_ajuda.png"
     },
@@ -770,6 +790,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\95fa7cdaab134dff1bb26aad2c16b37b\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_edit.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_valida_ingresso_portaria.xml.flat",
@@ -1192,6 +1216,10 @@
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_card_cpf.png"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_trash.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_trash.png"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\81e566ac89aa1dfdb8f969d173f2ca3f\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
@@ -1234,6 +1262,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_edit.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -1648,6 +1680,10 @@
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\81e566ac89aa1dfdb8f969d173f2ca3f\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_trash.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_trash.png"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\4e6048943063c2fe123539a6770cfa01\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
@@ -1790,6 +1826,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_boll_black.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_boll_black.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_edit.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
@@ -2076,6 +2116,10 @@
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_white.png"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_edit.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_edit.png"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\81e566ac89aa1dfdb8f969d173f2ca3f\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -2302,6 +2346,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_eye_gray_24dp.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_eye_gray_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_trash.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_trash.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -2904,6 +2952,10 @@
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\81e566ac89aa1dfdb8f969d173f2ca3f\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_trash.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_trash.png"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\raw_loading.json.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\raw\\loading.json"
     },
@@ -3192,6 +3244,10 @@
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\4e6048943063c2fe123539a6770cfa01\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_edit.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_edit.xml"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_mail_recovery.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_mail_recovery.png"
     },
@@ -3402,6 +3458,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_check.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_edit.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -3728,6 +3788,10 @@
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\item_image_slide.xml"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottomsweet_edit_comments.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\bottomsweet_edit_comments.xml"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8a49f970761918b5742dac49c4bd565e\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
@@ -3738,6 +3802,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\4e6048943063c2fe123539a6770cfa01\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_trash.png.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_trash.png"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",

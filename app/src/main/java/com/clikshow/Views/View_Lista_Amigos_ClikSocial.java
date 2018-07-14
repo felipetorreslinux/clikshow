@@ -52,29 +52,30 @@ public class View_Lista_Amigos_ClikSocial extends Activity implements View.OnCli
         texto_buscar_amigos_cliksocial.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
-
             @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {}
-
+            public void afterTextChanged(Editable editable) {}
             @Override
-            public void afterTextChanged(Editable editable) {
-                if(APIServer.conexao(View_Lista_Amigos_ClikSocial.this) == true){
-                    Service_ClikSocial.buscar_users(View_Lista_Amigos_ClikSocial.this, editable, lista_amigos, mRecyclerView);
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                if(charSequence.length() > 0){
+                    if(APIServer.conexao(View_Lista_Amigos_ClikSocial.this) == true){
+                        Service_ClikSocial.buscar_users(View_Lista_Amigos_ClikSocial.this, charSequence, lista_amigos, mRecyclerView);
+                    }
                 }else{
-                    ToastClass.curto(View_Lista_Amigos_ClikSocial.this, "Aparelho offline\nVerifique sua conexão");
+                    if(APIServer.conexao(View_Lista_Amigos_ClikSocial.this) == true){
+                        Service_ClikSocial.lista_amigos(View_Lista_Amigos_ClikSocial.this, lista_amigos, mRecyclerView);
+                    }
                 }
             }
         });
-
-        if(APIServer.conexao(this) == true){
-            Service_ClikSocial.lista_amigos(this, lista_amigos, mRecyclerView);
-        }else{
-
-        }
-
-
     };
 
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        if(APIServer.conexao(View_Lista_Amigos_ClikSocial.this) == true){
+            Service_ClikSocial.lista_amigos(View_Lista_Amigos_ClikSocial.this, lista_amigos, mRecyclerView);
+        }
+    }
 
     @Override
     public void onClick(View v) {

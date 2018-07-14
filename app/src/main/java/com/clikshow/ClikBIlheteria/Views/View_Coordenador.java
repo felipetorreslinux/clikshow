@@ -29,10 +29,20 @@ public class View_Coordenador extends Activity implements View.OnClickListener{
     ImageView back_coordenador_bilheteria;
     TabLayout tablayout_coordenador;
 
+    public static String NAME_EVENT = null;
+    public static int VALIDATE_EVENT = 0;
+    public static String EVENT_THUMB = null;
+    public static String TIPO_INGRESSO = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_coordenador_bilheteria);
+
+        NAME_EVENT = getIntent().getExtras().getString("event_name");
+        EVENT_THUMB = getIntent().getExtras().getString("event_thumb");
+        TIPO_INGRESSO = getIntent().getExtras().getString("name");
+        VALIDATE_EVENT = getIntent().getExtras().getInt("ends");
 
         container_coordenador_bilheteria = (FrameLayout) findViewById(R.id.container_coordenador_bilheteria);
 

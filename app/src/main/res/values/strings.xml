@@ -96,6 +96,7 @@
     <string name="text_empty_commets">Comente aqui antes de enviar</string>
     <string name="text_commets">Comente aqui...</string>
     <string name="whatsapp_not">Whatsapp não instalado</string>
+    <string name="text_label_cortesia">Pesquisar usuários</string>
 
     <string-array name="ordenado_ticket">
         <item>Ordenado por</item>

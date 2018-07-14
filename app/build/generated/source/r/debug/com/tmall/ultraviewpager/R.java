@@ -26,12 +26,12 @@ public final class R {
     }
     public static final class id {
         public static final int backward = 0x7f0a0043;
-        public static final int forward = 0x7f0a011b;
-        public static final int horizontal = 0x7f0a0123;
-        public static final int item_touch_helper_previous_elevation = 0x7f0a016f;
-        public static final int none = 0x7f0a01af;
-        public static final int ultraviewpager_page_container = 0x7f0a0260;
-        public static final int vertical = 0x7f0a0274;
+        public static final int forward = 0x7f0a011f;
+        public static final int horizontal = 0x7f0a0127;
+        public static final int item_touch_helper_previous_elevation = 0x7f0a0175;
+        public static final int none = 0x7f0a01b5;
+        public static final int ultraviewpager_page_container = 0x7f0a026d;
+        public static final int vertical = 0x7f0a0281;
     }
     public static final class string {
         public static final int app_name = 0x7f10001d;

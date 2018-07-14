@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/ef_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="Deseja excluir este seu comentário?"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingVertical="5dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button_back_exclude_comments"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textAllCaps="true"
+            android:text="voltar"
+            android:fontFamily="@font/roboto"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/button_exclude_comments"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:text="Excluir"
+            android:fontFamily="@font/roboto"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -72,7 +72,8 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:weightSum="2">
+                android:weightSum="2"
+                android:paddingVertical="5dp">
 
                 <ImageView
                     android:layout_weight="1"
@@ -94,6 +95,18 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_open_response_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="há 2 respostas"
+            android:paddingVertical="5dp"
+            android:gravity="right"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/blue"
+            android:textSize="13dp"
+            android:clickable="true"/>
 
     </LinearLayout>
 

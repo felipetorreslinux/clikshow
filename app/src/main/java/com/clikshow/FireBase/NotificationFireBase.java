@@ -26,27 +26,23 @@ import com.clikshow.Direct.View_Direct;
 import com.clikshow.R;
 import com.clikshow.Service.Toast.ToastClass;
 import com.clikshow.Views.View_Principal;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.io.File;
-import java.util.Date;
-import java.util.HashMap;
 import java.util.Map;
 
 public class NotificationFireBase extends FirebaseMessagingService  {
 
-    public static String onTokenRefresh() {
+    private static String onTokenRefresh() {
         String token_firebase = null;
         token_firebase = FirebaseInstanceId.getInstance().getToken();
         return token_firebase;
@@ -54,16 +50,16 @@ public class NotificationFireBase extends FirebaseMessagingService  {
 
     public static void sendNotifi(JSONObject jsonObject){
         AndroidNetworking.post("https://fcm.googleapis.com/fcm/send")
-        .addHeaders("Content-Type", "application/json")
-        .addHeaders("Authorization", "key=AIzaSyCa4bLEd1qWf7yH8wA99XzB_cVZwQSS35A")
-        .addJSONObjectBody(jsonObject)
-        .build()
-        .getAsJSONObject(new JSONObjectRequestListener() {
-            @Override
-            public void onResponse(JSONObject response) {}
-            @Override
-            public void onError(ANError anError) {}
-        });
+                .addHeaders("Content-Type", "application/json")
+                .addHeaders("Authorization", "key=AIzaSyCa4bLEd1qWf7yH8wA99XzB_cVZwQSS35A")
+                .addJSONObjectBody(jsonObject)
+                .build()
+                .getAsJSONObject(new JSONObjectRequestListener() {
+                    @Override
+                    public void onResponse(JSONObject response) {}
+                    @Override
+                    public void onError(ANError anError) {}
+                });
     };
 
     @Override
@@ -73,9 +69,9 @@ public class NotificationFireBase extends FirebaseMessagingService  {
         }
     }
 
-    public void notification_message(RemoteMessage remoteMessage){
+    private void notification_message(RemoteMessage remoteMessage){
         switch (remoteMessage.getData().get("type")){
-            case "likes_comments":
+            case "likes":
             Intent intent_likes = new Intent(this, View_Comments.class);
             intent_likes.putExtra("event_id", Integer.parseInt(remoteMessage.getData().get("event_id")));
             intent_likes.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -98,9 +94,6 @@ public class NotificationFireBase extends FirebaseMessagingService  {
             }
             notificationManager_likes.notify(Integer.parseInt(remoteMessage.getData().get("event_id")), notificationBuilder_likes.build());
             break;
-
-            default:
-                return;
         }
     };
 
@@ -155,6 +148,4 @@ public class NotificationFireBase extends FirebaseMessagingService  {
             });
         }catch (JSONException e){}catch (NullPointerException e){}
     }
-
-
 }

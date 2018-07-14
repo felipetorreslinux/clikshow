@@ -41,8 +41,6 @@ public class Splash extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_splash);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-
 
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder()
                 .connectTimeout(10, TimeUnit.SECONDS)

@@ -23,6 +23,7 @@ import com.clikshow.Fragmentos.Models.AmigosClikSocialModel;
 import com.clikshow.R;
 import com.clikshow.Service.Service_ClikSocial;
 import com.clikshow.Service.Toast.ToastClass;
+import com.clikshow.Utils.Keyboard;
 import com.clikshow.Views.View_Ingresso;
 import com.clikshow.Views.View_Lista_Amigos_ClikSocial;
 import com.santalu.aspectratioimageview.AspectRatioImageView;
@@ -34,6 +35,7 @@ import org.json.JSONObject;
 import org.w3c.dom.Text;
 
 import java.net.URISyntaxException;
+import java.security.Key;
 import java.util.List;
 
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation;
@@ -92,84 +94,12 @@ public class Amigos_Lista_ClikSocial_Adapter extends RecyclerView.Adapter<Amigos
         holder.item_lista_amigos_cliksocial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Keyboard.close(activity, activity.getWindow().getDecorView());
                 Intent intent = new Intent();
                 intent.putExtra("name", amigosClikSocialModel.getName());
                 intent.putExtra("user_id", amigosClikSocialModel.getUser_id());
                 activity.setResult(Activity.RESULT_OK, intent);
                 activity.onBackPressed();
-            }
-        });
-
-        holder.imagem_amigo_lista_cliksocial.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                final AlertDialog.Builder builder =  new AlertDialog.Builder(activity);
-                final View view = activity.getLayoutInflater().inflate(R.layout.item_box_lista_amigos_cliksocial, null);
-                builder.setView(view);
-                builder.setCancelable(true);
-                AlertDialog alertDialog = builder.create();
-                alertDialog.show();
-
-                final AspectRatioImageView imagem_user_click_social = view.findViewById(R.id.imagem_user_clik_social);
-                final TextView name_user_clik_social = view.findViewById(R.id.name_user_clik_social);
-                final TextView username_user_clik_social = view.findViewById(R.id.username_user_clik_social);
-
-
-                final ImageView direct_amigo_clik_social = view.findViewById(R.id.direct_amigo_clik_social);
-                final LinearLayout box_send_direct_amigo_clik_social = view.findViewById(R.id.box_send_direct_amigo_clik_social);
-                box_send_direct_amigo_clik_social.setVisibility(View.GONE);
-
-                final TextView info_para_amigo_cli_social = view.findViewById(R.id.info_para_amigo_cli_social);
-                final EditText texto_direct_amigo_clik_social = view.findViewById(R.id.texto_direct_amigo_clik_social);
-                final ImageView btn_enviar_direct_amigo_clik_social = view.findViewById(R.id.btn_enviar_direct_amigo_clik_social);
-
-                if(amigosClikSocialModel.getProfile_pic_thumb().equals("")){
-                    Picasso.get()
-                    .load(R.drawable.ic_place_doodle)
-                    .error(R.drawable.ic_place_doodle)
-                    .placeholder(R.drawable.ic_place_doodle)
-                    .resize(150,150)
-                    .into(holder.imagem_amigo_lista_cliksocial);
-                }else{
-                    Picasso.get()
-                    .load(amigosClikSocialModel.getProfile_pic_thumb())
-                    .error(R.drawable.ic_place_doodle)
-                    .placeholder(R.drawable.ic_place_doodle)
-                    .resize(150,150)
-                    .into(imagem_user_click_social);
-                };
-
-                name_user_clik_social.setText(amigosClikSocialModel.getName());
-                username_user_clik_social.setText(amigosClikSocialModel.getUsername().toLowerCase().replace(" ", ""));
-
-
-                direct_amigo_clik_social.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        box_send_direct_amigo_clik_social.setVisibility(View.VISIBLE);
-                        info_para_amigo_cli_social.setText("Envie um direct para "+amigosClikSocialModel.getUsername().toLowerCase().replace(" ", ""));
-                    }
-                });
-
-                btn_enviar_direct_amigo_clik_social.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        if(texto_direct_amigo_clik_social.getText().toString().isEmpty()){
-                            texto_direct_amigo_clik_social.setHint("Escreva algo antes de enviar...");
-                            texto_direct_amigo_clik_social.requestFocus();
-                            keyboard.showSoftInput(texto_direct_amigo_clik_social, InputMethodManager.SHOW_IMPLICIT);
-                        }else{
-                            Service_ClikSocial.enviar_direct(activity,
-                                    String.valueOf(amigosClikSocialModel.getUser_id()),
-                                    String.valueOf(sharedPreferences.getInt("id", 0)),
-                                    sharedPreferences.getString("username", null),
-                                    texto_direct_amigo_clik_social.getText().toString());
-                            texto_direct_amigo_clik_social.setText(null);
-
-                        }
-                    }
-                });
             }
         });
 

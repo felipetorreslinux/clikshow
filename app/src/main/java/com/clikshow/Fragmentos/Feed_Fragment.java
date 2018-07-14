@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -50,8 +51,6 @@ public class Feed_Fragment extends Fragment {
 
     List<Search_Model> lista_search = new ArrayList<>();
     RecyclerView mRecyclerView;
-    RecyclerView.LayoutManager mLayoutManager;
-
     SharedPreferences sharedPreferences;
 
     @Nullable
@@ -104,8 +103,7 @@ public class Feed_Fragment extends Fragment {
 
     public void listaSearchFeed (String search) {
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_search);
-        mLayoutManager = new GridLayoutManager(getActivity(), 2);
-        mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setNestedScrollingEnabled(false);
         if(APIServer.conexao(getActivity()) == true){

@@ -111,7 +111,7 @@ public class Service_ClikSocial {
         });
     }
 
-    public static void buscar_users (final Activity activity, Editable busca, final List<AmigosClikSocialModel> lista_amigos, final RecyclerView recyclerView){
+    public static void buscar_users (final Activity activity, CharSequence busca, final List<AmigosClikSocialModel> lista_amigos, final RecyclerView recyclerView){
         AndroidNetworking.post(APIServer.CLIKSOCIALPROD+"api/search")
         .addHeaders("Authorization", APIServer.token(activity))
         .addBodyParameter("term", busca.toString())
@@ -184,40 +184,6 @@ public class Service_ClikSocial {
             @Override
             public void onError(ANError anError) {
                 System.out.println(anError.getMessage());
-            }
-        });
-    }
-
-    public static void enviar_direct (final Activity activity, String sender_id, String receiver_id, String username, String message){
-        AndroidNetworking.post(APIServer.CLIKSOCIALPROD+"api/send_message")
-        .addHeaders("Authorization", APIServer.token(activity))
-        .addBodyParameter("sender_id", sender_id)
-        .addBodyParameter("receiver_id", receiver_id)
-        .addBodyParameter("room_id", sender_id+"_"+receiver_id)
-        .addBodyParameter("username", username)
-        .addBodyParameter("message", message)
-        .build()
-        .getAsJSONObject(new JSONObjectRequestListener() {
-            @Override
-            public void onResponse(JSONObject response) {
-                System.out.println(response.toString());
-                try{
-                    int code = response.getInt("code");
-                    switch (code){
-                        case 0:
-                            break;
-                    }
-                }catch (JSONException e){
-                    e.printStackTrace();
-                }
-            }
-
-            @Override
-            public void onError(ANError anError) {
-                System.out.println(anError.getErrorCode());
-                System.out.println(anError.getMessage());
-                System.out.println(anError.getResponse());
-                System.out.println(anError.getErrorBody());
             }
         });
     }

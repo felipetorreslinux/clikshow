@@ -52,7 +52,6 @@ public class Service_Eventos {
             .getAsJSONObject(new JSONObjectRequestListener() {
                 @Override
                 public void onResponse(JSONObject response) {
-                    System.out.println(response.toString());
                     try{
                         int code = response.getInt("code");
                         switch (code){

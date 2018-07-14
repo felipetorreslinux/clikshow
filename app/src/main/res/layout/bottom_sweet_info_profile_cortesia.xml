@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validar Cortesia"
+        android:fontFamily="@font/roboto"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Usuário"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/imageview_image_profile_cortesia"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_name_profile_cortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="18dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textview_cpf_profile_cortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Evento"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/imageview_image_event_cortesia"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_name_event_cortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="18dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textview_ingresso_event_cortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/textview_validade_event_cortesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="16dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button_back_profile_cortesia"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:background="@color/gray"
+            android:layout_marginRight="5dp"
+            android:text="cancelar"/>
+
+        <Button
+            android:id="@+id/button_ok_profile_cortesia"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Validar"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/btn_login"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -45,12 +45,16 @@ public class View_Principal extends Activity implements View.OnClickListener {
 
     DirectFirebase directFirebase;
 
+    static boolean openIngresso;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_principal);
 
         directFirebase = new DirectFirebase(this);
+
+        openIngresso = false;
 
         profile = getSharedPreferences("user_info", MODE_PRIVATE);
         container_principal = (FrameLayout) findViewById(R.id.container_principal);
@@ -76,11 +80,6 @@ public class View_Principal extends Activity implements View.OnClickListener {
         img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
         getFragmentManager().beginTransaction().replace(R.id.container_principal,
                 new Feed_Fragment()).commit();
-
-        FirebaseMessaging.getInstance().subscribeToTopic("all");
-        FirebaseMessaging.getInstance().subscribeToTopic("comments");
-        FirebaseMessaging.getInstance().subscribeToTopic("likes");
-
     };
 
     public void imageProfilePic(){
@@ -108,6 +107,19 @@ public class View_Principal extends Activity implements View.OnClickListener {
         super.onResume();
         imageProfilePic();
         BancoFire.add_user(this);
+        try{
+            openIngresso = getIntent().getExtras().getBoolean("open_ingressos");
+            if(openIngresso == true){
+                tabindex = 2;
+                img_tab_feed.setImageResource(R.drawable.ic_feed);
+                img_tab_favorites.setImageResource(R.drawable.ic_favorites);
+                img_tab_ticket.setImageResource(R.drawable.ic_bilhete_orange);
+                getFragmentManager().beginTransaction().replace(R.id.container_principal,
+                        new Meus_Ingressos_Fragment()).commit();
+                openIngresso = false;
+            }
+        }catch (NullPointerException e){}
+
     };
 
     @Override
