@@ -12,25 +12,18 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.clikshow.API.APIServer;
-import com.clikshow.ClikBIlheteria.Impressora.BlueTooth;
-import com.clikshow.ClikBIlheteria.Services.Bilheteria_Service;
-import com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria;
-import com.clikshow.ClikPortaria.Views.View_Principal_Portaria;
+import com.clikshow.Bilheteria.Views.View_Lista_Ingressos_Bilheteria;
+import com.clikshow.Permissoes.Permissoes;
 import com.clikshow.Portaria.View_Portaria;
 import com.clikshow.Profile.Models.ServicosProfileModel;
 import com.clikshow.R;
 import com.clikshow.Service.Datas;
-import com.clikshow.Service.Toast.ToastClass;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
 
 import java.util.List;
 
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation;
-
-import static android.app.Activity.RESULT_CANCELED;
-import static android.app.Activity.RESULT_OK;
 
 public class ServicosProfileAdapter extends RecyclerView.Adapter<ServicosProfileAdapter.ServicosHolder>{
 
@@ -90,8 +83,10 @@ public class ServicosProfileAdapter extends RecyclerView.Adapter<ServicosProfile
 
                     // Portaria
                     case 7:
+                        Permissoes.accept(activity);
                         Intent open_portaria = new Intent(activity, View_Portaria.class);
                         open_portaria.putExtra("event_id", servicosProfileModel.getEvent_id());
+                        open_portaria.putExtra("pass_id", servicosProfileModel.getId());
                         open_portaria.putExtra("type_service", 7);
                         activity.startActivity(open_portaria);
                         break;

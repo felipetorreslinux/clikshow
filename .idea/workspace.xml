@@ -7,10 +7,13 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f4eb95-94e7-43b4-a3c9-9ece6cfb866d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Permissoes/Permissoes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/Service/Portaria_Service.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sweet_valida_portaria.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -46,59 +49,161 @@
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/tmall/ultraviewpager/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/tmall/ultraviewpager/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/jp/wasabeef/recyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/jp/wasabeef/recyclerview/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/me/relex/circleindicator/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/me/relex/circleindicator/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/Adapter/Carrinho_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/Adapter/Carrinho_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/View_Carrinho.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Carrinho/View_Carrinho.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$ImpressorasHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$ImpressorasHolder.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$4$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/BlueTooth.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$ImpressorasHolder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Coordenador.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikBIlheteria/Views/View_Revendedor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikPortaria/Views/View_Principal_Portaria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikPortaria/Views/View_Principal_Portaria.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/View_Comments.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/View_Comments.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Fragments/Amigos_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Fragments/Amigos_Fragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Fragments/Conversas_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Fragments/Conversas_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Chat_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Chat_Direct.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Friends_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Friends_Direct.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Search_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Search_Direct.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.class" />
@@ -106,16 +211,23 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Feed_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Feed_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Feed_Lista_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Feed_Lista_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Meus_Ingressos_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Meus_Ingressos_Fragment.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Profile_Fragment$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Profile_Fragment$4$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Profile_Fragment$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Profile_Fragment$4.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Profile_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Profile_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter$CartaoCarrinhoHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter$CartaoCarrinhoHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter$CartaoHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter$CartaoHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Service/Cartao_Credito.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Service/Cartao_Credito.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Views/CadastrarCartaoClass.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/IUGU/Models/Views/CadastrarCartaoClass.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Login/View_Login.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Login/View_Login.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Login/View_Recovery_Password.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Login/View_Recovery_Password.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/Fragments/Inicio_Portaria_Fragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/Fragments/Inicio_Portaria_Fragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/View_Portaria$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/View_Portaria$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/View_Portaria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/View_Portaria.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Adapter/ServicosProfileAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Adapter/ServicosProfileAdapter$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Adapter/ServicosProfileAdapter$ServicosHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Adapter/ServicosProfileAdapter$ServicosHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Adapter/ServicosProfileAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Adapter/ServicosProfileAdapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Service/Service_Profile.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/Service/Service_Profile.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Cadastro_Novo_Usuario.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Cadastro_Novo_Usuario.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Editar_Usuario.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Editar_Usuario.class" />
@@ -134,7 +246,10 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_Digita_Cellphone.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_Digita_Cellphone.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_SMS_Code.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_SMS_Code.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SQLite/Banco$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SQLite/Banco$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Splash.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Splash.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Service/Service_CellPhone.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Service/Service_CellPhone.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Service/Service_Login.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Service/Service_Login.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Service/Service_Meus_Ingressos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Service/Service_Meus_Ingressos.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Utils/Loading.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Utils/Loading.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ajuda.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ajuda.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento$6.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento$7.class" />
@@ -144,79 +259,190 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Politica_Privacidade.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Politica_Privacidade.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Principal.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Principal.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Resultado_Search.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Search.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Search.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Sobre.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Sobre.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Termos_Condicoes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Termos_Condicoes.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tmall/ultraviewpager/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tmall/ultraviewpager/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/relex/circleindicator/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/relex/circleindicator/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/aYPJrYnNwCPZ66gT3FIGSqSC5Qs=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/aYPJrYnNwCPZ66gT3FIGSqSC5Qs=" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_coordenador_bilheteria.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_coordenador_bilheteria.xml.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_portaria.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_portaria.xml.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/Adapter/Carrinho_Adapter$CarrinhoHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/Adapter/Carrinho_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/Adapter/Carrinho_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/View_Carrinho.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Carrinho/View_Carrinho.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$ImpressorasHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$ImpressorasHolder.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter$ItensIngressos.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$2$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$2$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$4$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/BlueTooth.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter$ImpressorasHolder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth$ImpressorasAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Coordenador.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikBIlheteria/Views/View_Revendedor.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikPortaria/Views/View_Principal_Portaria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikPortaria/Views/View_Principal_Portaria.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/ClikPortaria/Views/View_Valida_Ingresso_Portaria.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/View_Comments.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/View_Comments.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter$AmigosHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Amigos_Lista_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Fragments/Amigos_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Fragments/Amigos_Fragment.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Fragments/Conversas_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Fragments/Conversas_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Chat_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Chat_Direct.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Friends_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Friends_Direct.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Search_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Search_Direct.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter$AmigosHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Amigos_Lista_ClikSocial_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter$AllEventsHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Feed_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Eventos_Slide_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter$FavoritosHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Favoritos_Tab_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter$ListTicketsViewHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ingressos_Detalhes_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter$IngressosNovosHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Meus_Ingressos_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter$SearchHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Search_Lista_Adapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_ComoChegar_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Info_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Detalhe_Evento_Ingressos_Fragment.dex" />
@@ -224,16 +450,23 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Feed_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Feed_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Feed_Lista_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Feed_Lista_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Meus_Ingressos_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Meus_Ingressos_Fragment.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Profile_Fragment$4$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Profile_Fragment$4$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Profile_Fragment$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Profile_Fragment$4.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Profile_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Profile_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter$CartaoCarrinhoHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter$CartaoCarrinhoHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCarrinhoAdapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter$CartaoHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter$CartaoHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Adapter/ListaCartaoCreditoAdapter.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Service/Cartao_Credito.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Service/Cartao_Credito.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Views/CadastrarCartaoClass.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/IUGU/Models/Views/CadastrarCartaoClass.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Login/View_Login.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Login/View_Login.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Login/View_Recovery_Password.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Login/View_Recovery_Password.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/Fragments/Inicio_Portaria_Fragment.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/Fragments/Inicio_Portaria_Fragment.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/View_Portaria$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/View_Portaria$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/View_Portaria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/View_Portaria.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Adapter/ServicosProfileAdapter$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Adapter/ServicosProfileAdapter$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Adapter/ServicosProfileAdapter$ServicosHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Adapter/ServicosProfileAdapter$ServicosHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Adapter/ServicosProfileAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Adapter/ServicosProfileAdapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Service/Service_Profile.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/Service/Service_Profile.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Cadastro_Novo_Usuario.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Cadastro_Novo_Usuario.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Editar_Usuario.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Editar_Usuario.dex" />
@@ -252,7 +485,10 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_Digita_Cellphone.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_Digita_Cellphone.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_SMS_Code.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_SMS_Code.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SQLite/Banco$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SQLite/Banco$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Splash.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Splash.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Service/Service_CellPhone.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Service/Service_CellPhone.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Service/Service_Login.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Service/Service_Login.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Service/Service_Meus_Ingressos.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Service/Service_Meus_Ingressos.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Utils/Loading.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Utils/Loading.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ajuda.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ajuda.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento$6.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento$7.dex" />
@@ -262,24 +498,53 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Politica_Privacidade.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Politica_Privacidade.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Principal.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Principal.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter$ItensHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search$ItensResultadoAdapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Resultado_Search.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Search.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Search.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Sobre.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Sobre.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Termos_Condicoes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Termos_Condicoes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/base/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/base/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/maps/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/maps/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/tmall/ultraviewpager/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/tmall/ultraviewpager/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$layout.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/me/relex/circleindicator/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/me/relex/circleindicator/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Cancelamento_Fragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Cortesia_Fragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Credito_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Credito_Fragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Debito_Fragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Dinheiro_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Dinheiro_Fragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Impressora/BlueTooth.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Impressora/BlueTooth.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Impressora/Lista_Impressoras_BlueTooth.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Impressora/Lista_Impressoras_BlueTooth.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Impressora/PrinterCommands.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Impressora/PrinterCommands.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Models/Bilheteria_Model.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Models/Bilheteria_Model.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Models/ImpressorasModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Models/ImpressorasModel.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Models/Lista_Servicos_Profile_Model.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Models/Lista_Servicos_Profile_Model.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Services/Bilheteria_Service.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Coordenador_Service.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Services/Coordenador_Service.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Coordenador.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Views/View_Coordenador.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Ingresso_Impressora.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Views/View_Ingresso_Impressora.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Views/View_Lista_Ingressos_Bilheteria.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Revendedor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Views/View_Revendedor.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/View_Portaria.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/View_Portaria.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_coordenador_bilheteria.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_coordenador_bilheteria.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/Adapter/ServicosProfileAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/Adapter/ServicosProfileAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/View_Servicos_Profile.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/View_Servicos_Profile.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_portaria.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_portaria.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -313,16 +578,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View_Portaria.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Portaria_Service.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/Service/Portaria_Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4192#4209#0" expanded="true" />
+                <element signature="e#4697#4714#0" expanded="true" />
+                <element signature="e#6325#6486#0" expanded="true" />
+                <element signature="e#6485#6486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bottom_sweet_valida_portaria.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sweet_valida_portaria.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+              <folding>
+                <element signature="e#1722#2175#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Portaria.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/View_Portaria.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="49" column="99" lean-forward="false" selection-start-line="49" selection-start-column="99" selection-end-line="49" selection-end-column="99" />
+            <state relative-caret-position="241">
+              <caret line="131" column="72" lean-forward="false" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
               <folding>
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2083#2084#0" expanded="true" />
-                <element signature="e#2397#2398#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
+                <element signature="e#5088#5089#0" expanded="true" />
+                <element signature="e#5122#5123#0" expanded="true" />
+                <element signature="e#6231#7354#0" expanded="true" />
+                <element signature="e#7353#7354#0" expanded="true" />
+                <element signature="e#7488#7505#0" expanded="true" />
+                <element signature="e#7646#7677#0" expanded="true" />
+                <element signature="e#7679#7859#0" expanded="true" />
+                <element signature="e#7858#7859#0" expanded="true" />
+                <element signature="e#7896#7927#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -334,11 +635,11 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="60" />
+            <state relative-caret-position="221">
+              <caret line="94" column="55" lean-forward="false" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
               <folding>
-                <element signature="e#286#1590#0" expanded="false" />
-                <element signature="e#1811#3061#0" expanded="false" />
+                <element signature="e#288#1592#0" expanded="false" />
+                <element signature="e#1598#3456#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -349,9 +650,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
-        <option value="Class" />
         <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -2422,8 +2723,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_lista_ingressos_bilheteria.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Coordenador.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_coordenador_bilheteria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/background_surface_portaria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Permissoes/Permissoes.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_portaria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikPortaria/Views/Service/Service_Portaria.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/Adapter/ServicosProfileAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/View_Portaria.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom_sweet_valida_portaria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/Service/Portaria_Service.java" />
       </list>
     </option>
   </component>
@@ -2474,18 +2781,56 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Portaria" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Portaria" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
@@ -2748,8 +3093,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Coordenador_Service.java</url>
-          <line>168</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Services/Coordenador_Service.java</url>
+          <line>158</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -2759,74 +3104,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikPortaria/Views/Service/Service_Portaria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikPortaria/Views/Service/Service_Portaria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Utils/Loading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Utils/Progress_Alert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Fragmentos/Models/AmigosClikSocialModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="122" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="98" column="57" lean-forward="false" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/API/APIServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Service/Service_ClikSocial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="113" column="74" lean-forward="false" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Views/View_Lista_Amigos_ClikSocial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -2926,20 +3203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2494">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#922#940#0" expanded="false" />
-            <element signature="e#1896#1937#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/Notificat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2988,13 +3251,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Cortesia_Fragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Cortesia_Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="83" column="16" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="83" selection-end-column="16" />
           <folding>
-            <element signature="e#3111#3292#0" expanded="false" />
-            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#2504#2685#0" expanded="false" />
+            <element signature="e#2684#2685#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3069,7 +3332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Debito_Fragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Debito_Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1272">
           <caret line="208" column="72" lean-forward="false" selection-start-line="208" selection-start-column="72" selection-end-line="208" selection-end-column="72" />
@@ -3077,7 +3340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Services/Bilheteria_Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="162" column="6" lean-forward="false" selection-start-line="162" selection-start-column="6" selection-end-line="162" selection-end-column="6" />
@@ -3088,7 +3351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Fragments/Cancelamento_Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="64" column="52" lean-forward="false" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
@@ -3096,7 +3359,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Coordenador_Service.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Services/Coordenador_Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="394" column="78" lean-forward="false" selection-start-line="394" selection-start-column="78" selection-end-line="394" selection-end-column="78" />
@@ -3108,13 +3371,13 @@
             <element signature="method#info_profile_cliksocial#0;class#Coordenador_Service#0" expanded="false" />
             <element signature="method#modal_info_profile#0;class#Coordenador_Service#0" expanded="false" />
             <element signature="method#validar_cortesia#0;class#Coordenador_Service#0" expanded="false" />
-            <element signature="e#19141#19430#0" expanded="false" />
-            <element signature="e#19429#19430#0" expanded="false" />
+            <element signature="e#18741#19030#0" expanded="false" />
+            <element signature="e#19029#19030#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Lista_Ingressos_Bilheteria.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Views/View_Lista_Ingressos_Bilheteria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
           <caret line="39" column="112" lean-forward="false" selection-start-line="39" selection-start-column="112" selection-end-line="39" selection-end-column="112" />
@@ -3179,7 +3442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Views/View_Coordenador.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Views/View_Coordenador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="107" column="61" lean-forward="false" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
@@ -3189,7 +3452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Bilheteria/Adapter/Bilheteria_Lista_Ingressos_Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
@@ -3224,29 +3487,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/API/APIServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-847">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background_surface_portaria.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Permissoes/Permissoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/View_Servicos_Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_portaria.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="60" />
+        <state relative-caret-position="221">
+          <caret line="94" column="55" lean-forward="false" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
           <folding>
-            <element signature="e#286#1590#0" expanded="false" />
-            <element signature="e#1811#3061#0" expanded="false" />
+            <element signature="e#288#1592#0" expanded="false" />
+            <element signature="e#1598#3456#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikPortaria/Views/View_Principal_Portaria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikPortaria/Views/Service/Service_Portaria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="101" lean-forward="false" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="101" />
+          <folding>
+            <element signature="method#checar_ingresso#0;class#Service_Portaria#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Profile/Adapter/ServicosProfileAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="88" column="55" lean-forward="false" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/View_Portaria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="49" column="99" lean-forward="false" selection-start-line="49" selection-start-column="99" selection-end-line="49" selection-end-column="99" />
+        <state relative-caret-position="241">
+          <caret line="131" column="72" lean-forward="false" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
           <folding>
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#5088#5089#0" expanded="true" />
+            <element signature="e#5122#5123#0" expanded="true" />
+            <element signature="e#6231#7354#0" expanded="true" />
+            <element signature="e#7353#7354#0" expanded="true" />
+            <element signature="e#7488#7505#0" expanded="true" />
+            <element signature="e#7646#7677#0" expanded="true" />
+            <element signature="e#7679#7859#0" expanded="true" />
+            <element signature="e#7858#7859#0" expanded="true" />
+            <element signature="e#7896#7927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sweet_valida_portaria.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="e#1722#2175#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Portaria/Service/Portaria_Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4192#4209#0" expanded="true" />
+            <element signature="e#4697#4714#0" expanded="true" />
+            <element signature="e#6325#6486#0" expanded="true" />
+            <element signature="e#6485#6486#0" expanded="true" />
           </folding>
         </state>
       </provider>

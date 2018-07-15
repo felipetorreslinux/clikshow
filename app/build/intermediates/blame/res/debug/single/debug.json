@@ -1568,6 +1568,10 @@
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\fragment_credito_bilheteria.xml"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sweet_valida_portaria.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\bottom_sweet_valida_portaria.xml"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_loading.xml.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\view_loading.xml"
     },

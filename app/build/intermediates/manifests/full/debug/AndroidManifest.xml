@@ -199,20 +199,20 @@
         <!-- ClikBilheteria -->
 
         <activity
-            android:name="com.clikshow.ClikBIlheteria.Impressora.Lista_Impressoras_BlueTooth"
+            android:name="com.clikshow.Bilheteria.Impressora.Lista_Impressoras_BlueTooth"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria"
+            android:name="com.clikshow.Bilheteria.Views.View_Lista_Ingressos_Bilheteria"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.clikshow.ClikBIlheteria.Views.View_Revendedor"
+            android:name="com.clikshow.Bilheteria.Views.View_Revendedor"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.clikshow.ClikBIlheteria.Views.View_Coordenador"
+            android:name="com.clikshow.Bilheteria.Views.View_Coordenador"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.clikshow.ClikBIlheteria.Views.View_Ingresso_Impressora"
+            android:name="com.clikshow.Bilheteria.Views.View_Ingresso_Impressora"
             android:resizeableActivity="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />

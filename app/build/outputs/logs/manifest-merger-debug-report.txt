@@ -463,33 +463,33 @@ ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:160:13-67
 	android:name
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:158:19-58
-activity#com.clikshow.ClikBIlheteria.Impressora.Lista_Impressoras_BlueTooth
+activity#com.clikshow.Bilheteria.Impressora.Lista_Impressoras_BlueTooth
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:167:9-168:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:168:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:167:19-88
-activity#com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:167:19-84
+activity#com.clikshow.Bilheteria.Views.View_Lista_Ingressos_Bilheteria
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:170:9-171:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:171:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:170:19-87
-activity#com.clikshow.ClikBIlheteria.Views.View_Revendedor
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:170:19-83
+activity#com.clikshow.Bilheteria.Views.View_Revendedor
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:173:9-174:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:174:13-49
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:173:19-71
-activity#com.clikshow.ClikBIlheteria.Views.View_Coordenador
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:173:19-67
+activity#com.clikshow.Bilheteria.Views.View_Coordenador
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:176:9-178:57
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:177:13-49
 	android:windowSoftInputMode
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:178:13-55
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:176:19-72
-activity#com.clikshow.ClikBIlheteria.Views.View_Ingresso_Impressora
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:176:19-68
+activity#com.clikshow.Bilheteria.Views.View_Ingresso_Impressora
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:180:9-183:51
 	android:screenOrientation
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:183:13-49
@@ -498,7 +498,7 @@ ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.x
 	android:theme
 		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:181:13-72
 	android:name
-		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:180:19-80
+		ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:180:19-76
 activity#com.clikshow.Portaria.View_Portaria
 ADDED from C:\Users\FelipeTorres\Desktop\ClikShow\app\src\main\AndroidManifest.xml:188:9-190:51
 	android:screenOrientation

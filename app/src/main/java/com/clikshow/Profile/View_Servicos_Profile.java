@@ -9,11 +9,7 @@ import android.view.View;
 import android.view.ViewStub;
 import android.widget.ImageView;
 
-import com.androidnetworking.AndroidNetworking;
 import com.clikshow.API.APIServer;
-import com.clikshow.ClikBIlheteria.Services.Bilheteria_Service;
-import com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria;
-import com.clikshow.Profile.Adapter.ServicosProfileAdapter;
 import com.clikshow.Profile.Models.ServicosProfileModel;
 import com.clikshow.Profile.Service.Service_Profile;
 import com.clikshow.R;
