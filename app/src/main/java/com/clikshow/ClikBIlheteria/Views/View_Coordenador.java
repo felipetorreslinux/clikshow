@@ -1,33 +1,30 @@
 package com.clikshow.ClikBIlheteria.Views;
 
 import android.app.Activity;
-import android.bluetooth.BluetoothAdapter;
-import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothSocket;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-
+import android.widget.TextView;
 import com.clikshow.ClikBIlheteria.Fragments.Cancelamento_Fragment;
 import com.clikshow.ClikBIlheteria.Fragments.Cortesia_Fragment;
 import com.clikshow.R;
-
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.Set;
-import java.util.UUID;
+import com.clikshow.Service.Datas;
+import com.squareup.picasso.Picasso;
+import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
 public class View_Coordenador extends Activity implements View.OnClickListener{
 
     FrameLayout container_coordenador_bilheteria;
     ImageView back_coordenador_bilheteria;
     TabLayout tablayout_coordenador;
+
+    ImageView imageview_image_event_coordenador;
+    TextView textview_name_ingresso_coordenador;
+    TextView textview_name_event_coordenador;
+    TextView textview_validade_event_coordenador;
 
     public static String NAME_EVENT = null;
     public static int VALIDATE_EVENT = 0;
@@ -45,6 +42,11 @@ public class View_Coordenador extends Activity implements View.OnClickListener{
         VALIDATE_EVENT = getIntent().getExtras().getInt("ends");
 
         container_coordenador_bilheteria = (FrameLayout) findViewById(R.id.container_coordenador_bilheteria);
+        imageview_image_event_coordenador = (ImageView) findViewById(R.id.imageview_image_event_coordenador);
+        textview_name_ingresso_coordenador = (TextView) findViewById(R.id.textview_name_ingresso_coordenador);
+        textview_name_event_coordenador = (TextView) findViewById(R.id.textview_name_event_coordenador);
+        textview_validade_event_coordenador = (TextView) findViewById(R.id.textview_validade_event_coordenador);
+
 
         tablayout_coordenador = (TabLayout) findViewById(R.id.tablayout_coordenador);
         tablayout_coordenador.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -53,12 +55,13 @@ public class View_Coordenador extends Activity implements View.OnClickListener{
                 switch (tab.getPosition()){
                     case 0:
                         getFragmentManager().beginTransaction().replace(R.id.container_coordenador_bilheteria,
-                                new Cancelamento_Fragment()).commit();
+                                new Cortesia_Fragment()).commit();
                         break;
 
                     case 1:
                         getFragmentManager().beginTransaction().replace(R.id.container_coordenador_bilheteria,
-                                new Cortesia_Fragment()).commit();
+                                new Cancelamento_Fragment()).commit();
+
                         break;
                 };
             };
@@ -73,9 +76,15 @@ public class View_Coordenador extends Activity implements View.OnClickListener{
         back_coordenador_bilheteria.setOnClickListener(this);
 
         getFragmentManager().beginTransaction().replace(R.id.container_coordenador_bilheteria,
-                new Cancelamento_Fragment()).commit();
+                new Cortesia_Fragment()).commit();
 
     };
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        info_evento();
+    }
 
     @Override
     public void onClick(View v) {
@@ -87,6 +96,17 @@ public class View_Coordenador extends Activity implements View.OnClickListener{
 
         }
     };
+
+    private void info_evento(){
+        Picasso.get()
+                .load(EVENT_THUMB)
+                .resize(150, 150)
+                .transform(new CropCircleTransformation())
+                .into(imageview_image_event_coordenador);
+        textview_name_ingresso_coordenador.setText(TIPO_INGRESSO);
+        textview_name_event_coordenador.setText(NAME_EVENT);
+        textview_validade_event_coordenador.setText("Validade até "+Datas.data_bilheteria(VALIDATE_EVENT));
+    }
 
     @Override
     public void onBackPressed(){

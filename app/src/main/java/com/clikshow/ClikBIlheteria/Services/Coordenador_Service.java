@@ -84,7 +84,6 @@ public class Coordenador_Service{
         button_ok_profile_cortesia = view.findViewById(R.id.button_ok_profile_cortesia);
     }
 
-
     public static String cpf_inibe (String cpf){
         cpf = cpf.replace(".", "").replace("-", "");
         return "*********"+cpf.charAt(9)+""+cpf.charAt(10);
@@ -98,6 +97,7 @@ public class Coordenador_Service{
             .getAsJSONObject(new JSONObjectRequestListener() {
                 @Override
                 public void onResponse(JSONObject response) {
+                    System.out.println(response);
                     try{
                         int code = response.getInt("code");
                         String name = null;
@@ -139,20 +139,138 @@ public class Coordenador_Service{
             });
     }
 
-    public static void cortesia (final Activity activity, final int pass_id, final String cpf){
-        final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setTitle(R.string.app_name);
-        builder.setCancelable(false);
+    public void modal_info (String name, final String cpf, final int pass_id){
+        textview_name_profile_cortesia.setText(name);
+        textview_cpf_profile_cortesia.setText("CPF: " + cpf_inibe(cpf));
+        Picasso.get()
+                .load(R.drawable.ic_profile)
+                .resize(150, 150)
+                .transform(new CropCircleTransformation())
+                .into(imageview_image_profile_cortesia);
+        Picasso.get()
+                .load(View_Coordenador.EVENT_THUMB)
+                .resize(150, 150)
+                .transform(new CropCircleTransformation())
+                .into(imageview_image_event_cortesia);
+        textview_name_event_cortesia.setText(View_Coordenador.NAME_EVENT);
+        textview_ingresso_event_cortesia.setText(View_Coordenador.TIPO_INGRESSO);
+        textview_validade_event_cortesia.setText("Valida até "+Datas.data_bilheteria(View_Coordenador.VALIDATE_EVENT));
+        bottomSheetDialog.show();
+        button_back_profile_cortesia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bottomSheetDialog.dismiss();
+            }
+        });
+        button_ok_profile_cortesia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String cpr_number = CPF.MaskCpf(cpf);
+                validar_cortesia(activity, pass_id, cpr_number);
+            }
+        });
+    }
+
+    public void info_profile_cliksocial(final Activity activity, final int id, final int pass_id){
+        AndroidNetworking.get(APIServer.CLIKSOCIALPROD+"api/profile/"+id)
+                .addHeaders("Authorization", APIServer.token(activity))
+                .build()
+                .getAsJSONObject(new JSONObjectRequestListener() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        System.out.println(response);
+                        try{
+                            int code = response.getInt("code");
+                            switch (code){
+                                case 0:
+                                    JSONObject jsonObject = response.getJSONObject("content").getJSONObject("profile_info");
+                                    modal_info_profile(jsonObject.getInt("profile_id"), pass_id, jsonObject);
+                                    break;
+                                default:
+                            }
+                        }catch (JSONException e){}catch (NullPointerException e){}
+                    }
+                    @Override
+                    public void onError(ANError anError) {
+
+                    }
+                });
+    }
+
+    public void modal_info_profile (final int id, final int pass_id, JSONObject jsonObject){
+        try{
+            if(jsonObject.getString("cpf").equals("")){
+                String name = jsonObject.getString("name");
+                builder.setTitle(R.string.app_name);
+                builder.setMessage(name+" não tem CPF cadastrado.\nRealize a validação da cortesia informando o CPF no campo acima");
+                builder.setCancelable(true);
+                builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                builder.create().show();
+                Keyboard.close(activity, activity.getWindow().getDecorView());
+            }else {
+                Keyboard.close(activity, activity.getWindow().getDecorView());
+                final String cpf_profile = jsonObject.getString("cpf");
+                if (!jsonObject.getString("profile_pic_thumb").equals("")) {
+                    Picasso.get()
+                            .load(jsonObject.getString("profile_pic_thumb"))
+                            .transform(new CropCircleTransformation())
+                            .into(imageview_image_profile_cortesia);
+                } else {
+                    Picasso.get()
+                            .load(R.drawable.ic_profile)
+                            .transform(new CropCircleTransformation())
+                            .into(imageview_image_profile_cortesia);
+                };
+                textview_name_profile_cortesia.setText(jsonObject.getString("name"));
+                textview_cpf_profile_cortesia.setText("CPF: " + cpf_inibe(jsonObject.getString("cpf")));
+
+                Picasso.get()
+                        .load(View_Coordenador.EVENT_THUMB)
+                        .resize(150, 150)
+                        .transform(new CropCircleTransformation())
+                        .into(imageview_image_event_cortesia);
+
+                textview_name_event_cortesia.setText(View_Coordenador.NAME_EVENT);
+                textview_ingresso_event_cortesia.setText(View_Coordenador.TIPO_INGRESSO);
+                textview_validade_event_cortesia.setText("Valida até " + Datas.data_bilheteria(View_Coordenador.VALIDATE_EVENT));
+
+                bottomSheetDialog.show();
+
+                button_back_profile_cortesia.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        bottomSheetDialog.dismiss();
+                    }
+                });
+
+                button_ok_profile_cortesia.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        validar_cortesia(activity, pass_id, cpf_profile);
+                    }
+                });
+            }
+            Progress_Alert.close();
+        }catch (JSONException e){}catch (NullPointerException e){}
+    }
+
+    public void validar_cortesia (final Activity activity, final int pass_id, final String cpf){
         AndroidNetworking.post(APIServer.URL+"api/buywithdealer")
                 .addHeaders("Authorization", APIServer.token(activity))
                 .addBodyParameter("pass_id", String.valueOf(pass_id))
-                .addBodyParameter("cpf", CPF.MaskCpf(cpf))
+                .addBodyParameter("cpf", cpf)
                 .addBodyParameter("payment_type", String.valueOf(4))
                 .addBodyParameter("force", String.valueOf(0))
                 .build()
                 .getAsJSONObject(new JSONObjectRequestListener() {
                     @Override
                     public void onResponse(JSONObject response) {
+                        System.out.println(response+" - "+cpf);
                         try{
                             int code = response.getInt("code");
                             switch (code){
@@ -179,7 +297,7 @@ public class Coordenador_Service{
                                     break;
 
                                 case 76:
-                                    builder.setMessage("já possui cortesia");
+                                    builder.setMessage("Este usuário já possui esta cortesia");
                                     builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {
@@ -190,13 +308,11 @@ public class Coordenador_Service{
                                     break;
 
                                 case 77:
-
-                                    builder.setMessage(" ja tem cortesia para este evento. Deseja ceder uma cortesia?");
+                                    builder.setMessage("Este usuário já tem cortesia para este evento.\nDeseja ceder outra cortesia?");
                                     builder.setPositiveButton("sim", new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {
-                                            Bilheteria_Service.force_checkin(activity,
-                                                    pass_id, cpf, 4, 1);
+                                            cortesia_forcada(activity, pass_id, cpf);
                                         }
                                     });
                                     builder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
@@ -206,10 +322,9 @@ public class Coordenador_Service{
                                         }
                                     });
                                     builder.create().show();
-
                                     break;
-
                             }
+                            bottomSheetDialog.dismiss();
                         }catch (JSONException e){
                             e.printStackTrace();
                         }
@@ -222,9 +337,14 @@ public class Coordenador_Service{
                 });
     }
 
-    public void info_profile_cliksocial(final Activity activity, final int id, final int pass_id){
-        AndroidNetworking.get(APIServer.CLIKSOCIALPROD+"api/profile/"+id)
+    public void cortesia_forcada (final Activity activity, final int pass_id, final String cpf){
+        Progress_Alert.open(activity, null, "Autorizando cortesia...");
+        AndroidNetworking.post(APIServer.URL+"api/buywithdealer")
         .addHeaders("Authorization", APIServer.token(activity))
+        .addBodyParameter("pass_id", String.valueOf(pass_id))
+        .addBodyParameter("cpf", cpf)
+        .addBodyParameter("payment_type", String.valueOf(4))
+        .addBodyParameter("force", String.valueOf(1))
         .build()
         .getAsJSONObject(new JSONObjectRequestListener() {
             @Override
@@ -234,113 +354,69 @@ public class Coordenador_Service{
                     int code = response.getInt("code");
                     switch (code){
                         case 0:
-                            JSONObject jsonObject = response.getJSONObject("content").getJSONObject("profile_info");
-                            modal_info_profile(jsonObject.getInt("profile_id"), pass_id, jsonObject);
+                            Progress_Alert.close();
+                            builder.setMessage("Cortesia realizada com sucesso");
+                            builder.setPositiveButton("Ok", null);
+                            builder.setNegativeButton(null, null);
+                            builder.create().show();
                             break;
                         default:
+                            Progress_Alert.close();
+                            builder.setMessage("Houver um erro na autorização.\nTente mais tarde ou procure a gerência.");
+                            builder.setPositiveButton("Ok", null);
+                            builder.setNegativeButton(null, null);
+                            builder.create().show();
                     }
-                }catch (JSONException e){}catch (NullPointerException e){}
+                }catch (JSONException e){}
             }
+
             @Override
             public void onError(ANError anError) {
-
+                Progress_Alert.close();
+                APIServer.error_server(activity, anError.getErrorCode());
             }
         });
     }
 
-    public void modal_info (String name, final String cpf, final int pass_id){
-        textview_name_profile_cortesia.setText(name);
-        textview_cpf_profile_cortesia.setText("CPF: "+cpf);
-        Picasso.get()
-                .load(R.drawable.ic_profile)
-                .resize(150, 150)
-                .transform(new CropCircleTransformation())
-                .into(imageview_image_profile_cortesia);
-        Picasso.get()
-                .load(View_Coordenador.EVENT_THUMB)
-                .resize(150, 150)
-                .transform(new CropCircleTransformation())
-                .into(imageview_image_event_cortesia);
-        textview_name_event_cortesia.setText(View_Coordenador.NAME_EVENT);
-        textview_ingresso_event_cortesia.setText(View_Coordenador.TIPO_INGRESSO);
-        textview_validade_event_cortesia.setText("Valida até "+Datas.data_bilheteria(View_Coordenador.VALIDATE_EVENT));
-        bottomSheetDialog.show();
-        button_back_profile_cortesia.setOnClickListener(new View.OnClickListener() {
+
+    public void cancelar_ingresso (final Activity activity, int pass_id, String cpf){
+        AndroidNetworking.post(APIServer.URL+"api/cancelpass")
+        .addHeaders("Authorization", APIServer.token(activity))
+        .addBodyParameter("pass_id", String.valueOf(pass_id))
+        .addBodyParameter("cpf", CPF.MaskCpf(cpf))
+        .build()
+        .getAsJSONObject(new JSONObjectRequestListener() {
             @Override
-            public void onClick(View v) {
-                bottomSheetDialog.dismiss();
+            public void onResponse(JSONObject response) {
+                try{
+                    int code = response.getInt("code");
+                    switch (code){
+                        case 0:
+                            builder.setMessage("Ingresso cancelado com sucesso");
+                            builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    activity.finish();
+                                }
+                            });
+                            builder.setNegativeButton(null, null);
+                            builder.create().show();
+                            break;
+                        case 60:
+                            builder.setMessage("Não existe ingresso para cancelar neste CPF");
+                            builder.setPositiveButton("voltar", null);
+                            builder.setNegativeButton(null, null);
+                            builder.create().show();
+                            break;
+                    }
+                }catch (JSONException e){}
+            }
+
+            @Override
+            public void onError(ANError anError) {
+                APIServer.error_server(activity, anError.getErrorCode());
             }
         });
-        button_ok_profile_cortesia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-    }
-
-    public void modal_info_profile (final int id, final int pass_id, JSONObject jsonObject){
-        try{
-            if(jsonObject.getString("cpf").equals("")){
-                String name = jsonObject.getString("name");
-                builder.setTitle(R.string.app_name);
-                builder.setMessage(name+" não tem CPF cadastrado. Realize a validação da cortesia informando o CPF no campo acima");
-                builder.setCancelable(true);
-                builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        builder.create().dismiss();
-                    }
-                });
-                builder.create().show();
-                Keyboard.close(activity, activity.getWindow().getDecorView());
-            }else {
-                Keyboard.close(activity, activity.getWindow().getDecorView());
-                final String cpf = jsonObject.getString("cpf");
-                if (!jsonObject.getString("profile_pic_thumb").equals("")) {
-                    Picasso.get()
-                            .load(jsonObject.getString("profile_pic_thumb"))
-                            .transform(new CropCircleTransformation())
-                            .into(imageview_image_profile_cortesia);
-                } else {
-                    Picasso.get()
-                            .load(R.drawable.ic_profile)
-                            .transform(new CropCircleTransformation())
-                            .into(imageview_image_profile_cortesia);
-                }
-                ;
-
-                textview_name_profile_cortesia.setText(jsonObject.getString("name"));
-                textview_cpf_profile_cortesia.setText("CPF: " + cpf_inibe(jsonObject.getString("cpf")));
-
-                Picasso.get()
-                        .load(View_Coordenador.EVENT_THUMB)
-                        .resize(150, 150)
-                        .transform(new CropCircleTransformation())
-                        .into(imageview_image_event_cortesia);
-
-                textview_name_event_cortesia.setText(View_Coordenador.NAME_EVENT);
-                textview_ingresso_event_cortesia.setText(View_Coordenador.TIPO_INGRESSO);
-                textview_validade_event_cortesia.setText("Valida até " + Datas.data_bilheteria(View_Coordenador.VALIDATE_EVENT));
-
-                bottomSheetDialog.show();
-
-                button_back_profile_cortesia.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        bottomSheetDialog.dismiss();
-                    }
-                });
-
-                button_ok_profile_cortesia.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        bottomSheetDialog.dismiss();
-                    }
-                });
-            }
-            Progress_Alert.close();
-        }catch (JSONException e){}catch (NullPointerException e){}
     }
 
 }

@@ -7,14 +7,6 @@
     android:background="@color/fundo"
     android:padding="24dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CPF"
-        android:textSize="18dp"
-        android:textColor="@android:color/black"
-        android:layout_marginBottom="10dp"/>
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -35,11 +27,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:inputType="number"
             android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:maxLength="11"
             android:textColor="@android:color/black"
-            android:hint="Somente números"
-            android:textSize="20dp"/>
+            android:hint="Informe o CPF"
+            android:fontFamily="@font/roboto"
+            android:textSize="16dp"/>
 
     </LinearLayout>
 
@@ -50,7 +44,7 @@
         android:layout_marginVertical="16dp"
         android:background="@drawable/btn_login"
         android:textColor="@color/white"
-        android:text="cancelar ingresso"
+        android:text="cancelar"
         android:textSize="16dp"/>
 
 

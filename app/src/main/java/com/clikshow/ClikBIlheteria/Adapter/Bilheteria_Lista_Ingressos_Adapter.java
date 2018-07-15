@@ -7,6 +7,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -16,6 +18,7 @@ import com.clikshow.ClikBIlheteria.Views.View_Lista_Ingressos_Bilheteria;
 import com.clikshow.ClikBIlheteria.Views.View_Revendedor;
 import com.clikshow.R;
 import com.clikshow.Service.Datas;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -40,6 +43,10 @@ public class Bilheteria_Lista_Ingressos_Adapter extends RecyclerView.Adapter<Bil
     public void onBindViewHolder(@NonNull final ItensIngressos holder, int position) {
         final Bilheteria_Model bilheteria_model = lista_ingressos_bilheteria.get(position);
 
+        Picasso.get()
+                .load(bilheteria_model.getEvent_thumb())
+                .resize(200,200)
+                .into(holder.imageview_image_ingressgo_bilheteria);
         holder.name_ingresso_bilheteria.setText(bilheteria_model.getName());
         holder.evento_ingresso_bilheteria.setText(bilheteria_model.getEvent_name());
         holder.validade_ingresso_bilheteria.setText("Válido até "+ Datas.data_bilheteria(bilheteria_model.getEnds()));
@@ -99,7 +106,8 @@ public class Bilheteria_Lista_Ingressos_Adapter extends RecyclerView.Adapter<Bil
 
     public class ItensIngressos extends RecyclerView.ViewHolder{
 
-        RelativeLayout item_bilheteria;
+        LinearLayout item_bilheteria;
+        ImageView imageview_image_ingressgo_bilheteria;
         TextView name_ingresso_bilheteria;
         TextView evento_ingresso_bilheteria;
         TextView validade_ingresso_bilheteria;
@@ -108,6 +116,7 @@ public class Bilheteria_Lista_Ingressos_Adapter extends RecyclerView.Adapter<Bil
             super(itemView);
 
             item_bilheteria = itemView.findViewById(R.id.item_ingresso_bilheteria);
+            imageview_image_ingressgo_bilheteria = itemView.findViewById(R.id.imageview_image_ingressgo_bilheteria);;
             name_ingresso_bilheteria = itemView.findViewById(R.id.name_ingresso_bilheteria);
             evento_ingresso_bilheteria = itemView.findViewById(R.id.evento_ingresso_bilheteria);
             validade_ingresso_bilheteria = itemView.findViewById(R.id.validade_ingresso_bilheteria);

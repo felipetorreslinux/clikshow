@@ -6,6 +6,7 @@ import android.app.Fragment;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -36,16 +37,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Cortesia_Fragment extends Fragment implements View.OnClickListener {
+
+    static int pass_id = 0;
     View rootView;
-
     LinearLayout search_profiles_cortesia;
-
     EditText cpf;
-    Button button_cortesia_ingresso_coordenador;
-
     Coordenador_Service coordenador_service;
-
-    int pass_id = 0;
 
     @Nullable
     @Override
@@ -53,8 +50,7 @@ public class Cortesia_Fragment extends Fragment implements View.OnClickListener 
         rootView = inflater.inflate(R.layout.fragment_cortesia_bilheteria, container, false);
 
         coordenador_service = new Coordenador_Service(getActivity());
-        pass_id = getActivity().getIntent().getExtras().getInt("pass_id");
-
+        pass_id = getActivity().getIntent().getExtras().getInt("id");
         search_profiles_cortesia = rootView.findViewById(R.id.search_profiles_cortesia);
         search_profiles_cortesia.setOnClickListener(this);
 
@@ -78,6 +74,14 @@ public class Cortesia_Fragment extends Fragment implements View.OnClickListener 
                 };
             }
         });
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                cpf.requestFocus();
+                Keyboard.open(getActivity(), cpf);
+            }
+        }, 100);
 
         return rootView;
     };

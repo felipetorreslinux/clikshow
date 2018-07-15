@@ -24,6 +24,7 @@ import com.clikshow.R;
 import com.clikshow.Service.Toast.ToastClass;
 import com.clikshow.Utils.Keyboard;
 import com.clikshow.Utils.Loading;
+import com.clikshow.Utils.Progress_Alert;
 import com.clikshow.Validation.CPF;
 
 import org.json.JSONArray;
@@ -108,8 +109,8 @@ public class Bilheteria_Service {
             });
     }
 
-    public static void listar_ingressos (final Activity activity, int id, final List<Bilheteria_Model> lista_ingressos, final RecyclerView recyclerView, final ViewStub loading_ingressos_bilheteria){
-        loading_ingressos_bilheteria.setVisibility(View.VISIBLE);
+    public static void listar_ingressos (final Activity activity, int id, final List<Bilheteria_Model> lista_ingressos, final RecyclerView recyclerView){
+        Progress_Alert.open(activity, null, "Listando ingressos");
         AndroidNetworking.get(APIServer.URL+"api/listpass/"+id)
         .addHeaders("Authorization", APIServer.token(activity))
         .setPriority(Priority.LOW)
@@ -144,98 +145,21 @@ public class Bilheteria_Service {
                                 Bilheteria_Lista_Ingressos_Adapter bilheteria_lista_ingressos_adapter = new Bilheteria_Lista_Ingressos_Adapter(activity, lista_ingressos, recyclerView);
                                 recyclerView.setAdapter(bilheteria_lista_ingressos_adapter);
                                 recyclerView.setVisibility(View.VISIBLE);
-                                loading_ingressos_bilheteria.destroyDrawingCache();
-                                loading_ingressos_bilheteria.setVisibility(View.GONE);
+                                Progress_Alert.close();
                             }
                             break;
                         default:
                             recyclerView.setVisibility(View.GONE);
-                            loading_ingressos_bilheteria.inflate();
+                            Progress_Alert.close();
                     }
-                }catch (JSONException e){}
+                }catch (JSONException e){}catch (NullPointerException e){}
             }
             @Override
             public void onError(ANError anError) {
+                Progress_Alert.close();
                 APIServer.error_server(activity, anError.getErrorCode());
             }
         });
     };
-
-    public static void force_checkin (final Activity activity, int pass_id, String cpf, int payment_type, int force){
-
-        AndroidNetworking.post(APIServer.URL+"api/buywithdealer")
-            .addHeaders("Authorization", APIServer.token(activity))
-            .addBodyParameter("pass_id", String.valueOf(pass_id))
-            .addBodyParameter("cpf", CPF.MaskCpf(cpf))
-            .addBodyParameter("payment_type", String.valueOf(payment_type))
-            .addBodyParameter("force", String.valueOf(force))
-            .build()
-            .getAsJSONObject(new JSONObjectRequestListener() {
-                @Override
-                public void onResponse(JSONObject response) {
-                    System.out.println(response);
-                    try{
-                        int code = response.getInt("code");
-                        switch (code){
-                            case 0:
-                                    activity.setResult(Activity.RESULT_OK, activity.getIntent());
-                                    activity.finish();
-                                break;
-                        }
-                    }catch (JSONException e){}
-                }
-
-                @Override
-                public void onError(ANError anError) {
-                    APIServer.error_server(activity, anError.getErrorCode());
-                }
-            });
-    }
-
-    public static void cancelar_ingresso (final Activity activity, int pass_id, String cpf){
-        final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setTitle(R.string.app_name);
-        builder.setCancelable(false);
-        AndroidNetworking.post(APIServer.URL+"api/cancelpass")
-        .addHeaders("Authorization", APIServer.token(activity))
-        .addBodyParameter("pass_id", String.valueOf(pass_id))
-        .addBodyParameter("cpf", CPF.MaskCpf(cpf))
-        .build()
-        .getAsJSONObject(new JSONObjectRequestListener() {
-            @Override
-            public void onResponse(JSONObject response) {
-                try{
-                    int code = response.getInt("code");
-                    switch (code){
-                        case 0:
-                            builder.setMessage("Cancelamento realizado com sucesso");
-                            builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    activity.finish();
-                                }
-                            });
-                            builder.create().show();
-                            break;
-                        case 60:
-                            builder.setMessage("Ingresso não existe ou já está cancelado");
-                            builder.setPositiveButton("voltar", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    activity.finish();
-                                }
-                            });
-                            builder.create().show();
-                            break;
-                    }
-                }catch (JSONException e){}
-            }
-
-            @Override
-            public void onError(ANError anError) {
-                APIServer.error_server(activity, anError.getErrorCode());
-            }
-        });
-    }
 
 }

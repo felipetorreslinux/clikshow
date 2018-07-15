@@ -128,7 +128,8 @@
         android:layout_height="wrap_content"
         android:paddingVertical="5dp"
         android:paddingHorizontal="16dp"
-        android:weightSum="2">
+        android:weightSum="2"
+        android:layout_marginBottom="16dp">
 
         <Button
             android:id="@+id/button_back_profile_cortesia"

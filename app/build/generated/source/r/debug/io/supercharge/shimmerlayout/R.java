@@ -17,7 +17,7 @@ public final class R {
         public static final int shimmer_reverse_animation = 0x7f04015c;
     }
     public static final class color {
-        public static final int shimmer_color = 0x7f060081;
+        public static final int shimmer_color = 0x7f060082;
     }
     public static final class string {
         public static final int app_name = 0x7f10001d;

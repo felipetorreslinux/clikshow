@@ -10,65 +10,43 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/white"
-        android:elevation="1dp"
         android:columnCount="3"
-        android:rowCount="1">
+        android:rowCount="1"
+        android:elevation="1dp">
 
         <FrameLayout
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_column="0"
             android:layout_row="0">
+
             <ImageView
-                android:id="@+id/menu_user_bilheteria"
+                android:id="@+id/imageview_back_list_ingressos"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_menu_grid"
-                android:padding="10dp"/>
+                android:padding="12dp"
+                android:src="@drawable/ic_back_black" />
         </FrameLayout>
 
 
-        <TextView
-            android:id="@+id/titulo_name_evento_bilheteria"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:singleLine="true"
-            android:layout_gravity="fill_horizontal|center"
+        <ImageView
             android:layout_column="1"
             android:layout_row="0"
-            android:textSize="18dp"
-            android:textAlignment="center"/>
+            android:layout_marginTop="2dp"
+            android:layout_gravity="fill_horizontal|center"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_logo_orange" />
 
 
         <FrameLayout
-            android:id="@+id/btn_exit_bilheteria"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_column="2"
             android:layout_row="0">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="fill_horizontal|center"
-                android:padding="13dp"
-                android:src="@drawable/ic_exit_app" />
         </FrameLayout>
     </GridLayout>
-
-    <ViewStub
-        android:id="@+id/view_sem_internet"
-        android:layout="@layout/fragment_sem_conexao"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <ViewStub
-        android:id="@+id/loading_ingressos_bilheteria"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout="@layout/loading_tabs"/>
 
     <android.support.v4.widget.NestedScrollView
         android:layout_marginTop="50dp"
@@ -85,11 +63,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="10dp"
-                android:paddingVertical="20dp"
+                android:paddingVertical="10dp"
                 android:textSize="18dp"
                 android:singleLine="true"
                 android:textColor="@color/graybold"
-                android:text="Escolha o tipo do ingresso"/>
+                android:text="Escolha o ingresso"/>
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_lista_ingressos_bilheteria"

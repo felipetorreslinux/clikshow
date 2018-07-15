@@ -47,6 +47,53 @@
         </FrameLayout>
     </GridLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageview_image_event_coordenador"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_name_ingresso_coordenador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textview_name_event_coordenador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/textview_validade_event_coordenador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:fontFamily="@font/roboto"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout_coordenador"
         android:layout_width="match_parent"
@@ -58,12 +105,14 @@
         <android.support.design.widget.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cancelamento"/>
+            android:text="Cortesia"/>
 
         <android.support.design.widget.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cortesia"/>
+            android:text="Cancelamento"/>
+
+
 
     </android.support.design.widget.TabLayout>
 
