@@ -78,7 +78,8 @@ public class Portaria_Service {
                                     user_info.getString("thumb"),
                                     user_info.getString("name"),
                                     pass_info.getString("pass_name"),
-                                    pass_info.getInt("my_pass_id"));
+                                    pass_info.getInt("my_pass_id"),
+                                    pass_info.getInt("status"));
 
                             break;
 
@@ -114,7 +115,7 @@ public class Portaria_Service {
         });
     }
 
-    public void modal_valida_portaria (String image, String name, String ingresso, int id){
+    public void modal_valida_portaria (String image, String name, String ingresso, int id, int status){
         view = activity.getLayoutInflater().inflate(R.layout.bottom_sweet_valida_portaria, null);
         bottomSheetDialog.setContentView(view);
         bottomSheetDialog.setCancelable(false);
@@ -123,6 +124,7 @@ public class Portaria_Service {
         ImageView imageview_profile_valida_portaria = view.findViewById(R.id.imageview_profile_valida_portaria);
         TextView textview_name_valida_portaria = view.findViewById(R.id.textview_name_valida_portaria);
         TextView textview_ingresso_valida_portaria = view.findViewById(R.id.textview_ingresso_valida_portaria);
+        TextView textview_status_valida_portaria = view.findViewById(R.id.textview_status_valida_portaria);
         Button button_valida_portaria = view.findViewById(R.id.button_valida_portaria);
 
         Picasso.get()
@@ -130,8 +132,19 @@ public class Portaria_Service {
                 .transform(new CropCircleTransformation())
                 .into(imageview_profile_valida_portaria);
 
-        textview_name_valida_portaria.setText(name);
-        textview_ingresso_valida_portaria.setText(ingresso);
+        String liberado = null;
+        switch (status){
+            case 1:
+                liberado = "Liberado";
+            break;
+
+            default:
+                liberado = "negado";
+        }
+        liberado.toUpperCase();
+        textview_name_valida_portaria.setText("Nome: "+name);
+        textview_ingresso_valida_portaria.setText("Ingresso: "+ingresso);
+        textview_status_valida_portaria.setText("Status: "+liberado);
         button_valida_portaria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

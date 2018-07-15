@@ -3125,6 +3125,38 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\values-he_values-he.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\8f65a63d0d2367b656b44fa11149a481\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,146,193,247,301,375,446,523,585",
+                        "endColumns": "90,46,53,53,73,70,76,61,68",
+                        "endOffsets": "141,188,242,296,370,441,518,580,649"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.2.0.aar\\b7c85dbc0d92fce286608fc9a3a7ff02\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "654,710,760,895",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "705,755,890,980"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\values-lo_values-lo.arsc.flat",
             "map": [
                 {
@@ -3210,38 +3242,6 @@
                         "startOffsets": "105,208,305,412,497,602,714,791,869,949,1056,1153,1251,1356,1459,1563,1720,4663",
                         "endColumns": "102,96,106,84,104,111,76,77,79,106,96,97,104,102,103,156,95,80",
                         "endOffsets": "203,300,407,492,597,709,786,864,944,1051,1148,1246,1351,1454,1558,1715,1811,4739"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\values-he_values-he.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\8f65a63d0d2367b656b44fa11149a481\\res\\values-he\\values-he.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,146,193,247,301,375,446,523,585",
-                        "endColumns": "90,46,53,53,73,70,76,61,68",
-                        "endOffsets": "141,188,242,296,370,441,518,580,649"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.2.0.aar\\b7c85dbc0d92fce286608fc9a3a7ff02\\res\\values-he\\values-he.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,111,161,296",
-                        "endColumns": "55,49,134,89",
-                        "endOffsets": "106,156,291,381"
-                    },
-                    "to": {
-                        "startLines": "11,12,13,14",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "654,710,760,895",
-                        "endColumns": "55,49,134,89",
-                        "endOffsets": "705,755,890,980"
                     }
                 }
             ]
