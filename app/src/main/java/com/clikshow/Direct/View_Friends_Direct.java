@@ -31,12 +31,15 @@ public class View_Friends_Direct extends Activity implements View.OnClickListene
 
     DirectFirebase directFirebase;
 
+    Service_Direct service_direct;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_friends_direct);
 
         directFirebase = new DirectFirebase(this);
+        service_direct = new Service_Direct(this);
 
         imageview_back_friends_direct = (ImageView) findViewById(R.id.imageview_back_friends_direct);
         imageview_back_friends_direct.setOnClickListener(this);
@@ -56,7 +59,7 @@ public class View_Friends_Direct extends Activity implements View.OnClickListene
     protected void onResume() {
         super.onResume();
         if(APIServer.conexao(this) == true){
-            Service_Direct.lista_amigos(this, list_friends, recyclerview_friends_direct, loading_friends_direct);
+            service_direct.lista_amigos(list_friends, recyclerview_friends_direct, loading_friends_direct);
         }
     }
 

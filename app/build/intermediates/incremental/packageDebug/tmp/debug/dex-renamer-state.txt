@@ -1,4 +1,4 @@
-#Sun Jul 15 03:36:51 BRT 2018
+#Sun Jul 15 14:35:22 BRT 2018
 base.0=C\:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

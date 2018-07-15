@@ -119,17 +119,7 @@ public class Feed_Fragment extends Fragment {
         super.onResume();
         Banco banco = new Banco(getActivity());
         banco.count_carrinho();
-        count_message_direct();
     };
-
-    public void count_message_direct(){
-        sharedPreferences = getActivity().getSharedPreferences("user_info", Context.MODE_PRIVATE);
-        if(APIServer.conexao(getActivity()) == true){
-            Service_Direct.coutn_user_message(getActivity(), sharedPreferences.getInt("id", 0), count_direct_feed);
-        }else{
-            count_direct_feed.setVisibility(View.GONE);
-        }
-    }
 
 
     @Override

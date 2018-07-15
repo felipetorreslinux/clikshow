@@ -9,6 +9,7 @@ import android.hardware.Camera;
 import android.media.Image;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.BottomSheetDialog;
@@ -34,6 +35,7 @@ import com.clikshow.Portaria.Service.Portaria_Service;
 import com.clikshow.R;
 import com.clikshow.Service.Datas;
 import com.clikshow.Service.Toast.ToastClass;
+import com.clikshow.Utils.Keyboard;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
 import com.google.zxing.FormatException;
@@ -70,7 +72,6 @@ public class View_Portaria extends Activity implements SurfaceHolder.Callback, V
     static int EVENT_ID = 0;
     static int PASS_ID = 0;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -102,11 +103,19 @@ public class View_Portaria extends Activity implements SurfaceHolder.Callback, V
                     String cpf = charSequence.toString().trim();
                     portaria_service.checar_ingresso(PASS_ID, cpf, EVENT_ID);
                     cpf_valida_porteiro.setText(null);
+                    surfaceView.setVisibility(View.GONE);
                 }
             }
         });
         imageview_back_porteiro = (ImageView) findViewById(R.id.imageview_back_porteiro);
         imageview_back_porteiro.setOnClickListener(this);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Keyboard.open(View_Portaria.this, cpf_valida_porteiro);
+            }
+        }, 100);
 
     };
 
@@ -126,11 +135,8 @@ public class View_Portaria extends Activity implements SurfaceHolder.Callback, V
                 break;
 
             case R.id.image_view_open_camera_porteiro:
-                try{
-                    surfaceView.setVisibility(View.VISIBLE);
-                }catch (NullPointerException e){
-                  ToastClass.curto(this, "Câmera do aparelho com defeito");
-                };
+                Keyboard.close(this, getWindow().getDecorView());
+                surfaceView.setVisibility(View.VISIBLE);
                 break;
 
             case R.id.surfaceview_camera_porteiro:

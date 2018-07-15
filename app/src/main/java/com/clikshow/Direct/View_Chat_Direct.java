@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.R;
 import com.squareup.picasso.Picasso;
@@ -36,6 +38,7 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
     ImageView imageview_envia_direct;
 
     DirectFirebase directFirebase;
+    Service_Direct service_direct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -43,13 +46,9 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         setContentView(R.layout.view_conversa_direct);
 
         directFirebase = new DirectFirebase(this);
+        service_direct = new Service_Direct(this);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
-
-        directFirebase.chat_room(this,
-                String.valueOf(sharedPreferences.getInt("id", 0)),
-                String.valueOf(getIntent().getExtras().getInt("id_amigo")));
-
 
         image_amigo = getIntent().getExtras().getString("image_amigo");
         imageview_amigo_direct = (ImageView) findViewById(R.id.imageview_amigo_direct);
@@ -133,7 +132,11 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         if(edittexct_message_direct.getText().toString().isEmpty()){
             edittexct_message_direct.setHint("Escreva algo antes de enviar...");
         }else{
-            directFirebase.sendMessage(getIntent().getExtras().getInt("id_amigo"), edittexct_message_direct.getText().toString().trim());
+            int sender = sharedPreferences.getInt("id", 0);
+            int reciver = getIntent().getExtras().getInt("id_amigo");
+            String message = edittexct_message_direct.getText().toString().trim();
+            String type = "text";
+            service_direct.send_message(sender, reciver, message, type);
             edittexct_message_direct.setText(null);
         }
     };

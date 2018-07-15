@@ -7,15 +7,6 @@
     android:background="@color/gray_background"
     android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/imageview_profile_valida_portaria"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:layout_gravity="center"
-        android:layout_marginVertical="16dp"/>
-
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -27,6 +18,15 @@
             android:paddingVertical="10dp"
             android:paddingHorizontal="5dp"
             android:layout_marginHorizontal="16dp">
+
+            <ImageView
+                android:id="@+id/imageview_profile_valida_portaria"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginVertical="16dp"/>
 
             <TextView
                 android:id="@+id/textview_name_valida_portaria"
@@ -55,15 +55,37 @@
 
     </android.support.v7.widget.CardView>
 
-    <Button
-        android:id="@+id/button_valida_portaria"
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="validar acesso"
-        android:background="@color/colorAccent"
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        android:fontFamily="@font/roboto"
-        android:layout_marginTop="16dp"/>
+        android:weightSum="2">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_cancela_portaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cancelar"
+            android:background="@color/gray_hint"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_valida_portaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="validar acesso"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>

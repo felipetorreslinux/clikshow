@@ -86,6 +86,10 @@ public class ServicosProfileAdapter extends RecyclerView.Adapter<ServicosProfile
                         Permissoes.accept(activity);
                         Intent open_portaria = new Intent(activity, View_Portaria.class);
                         open_portaria.putExtra("event_id", servicosProfileModel.getEvent_id());
+                        open_portaria.putExtra("pass_name", servicosProfileModel.getName());
+                        open_portaria.putExtra("thumb_event", servicosProfileModel.getBanner());
+                        open_portaria.putExtra("event_name", servicosProfileModel.getDescription());
+                        open_portaria.putExtra("ends", servicosProfileModel.getEnds());
                         open_portaria.putExtra("pass_id", servicosProfileModel.getId());
                         open_portaria.putExtra("type_service", 7);
                         activity.startActivity(open_portaria);

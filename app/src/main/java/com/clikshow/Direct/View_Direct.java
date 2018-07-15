@@ -32,15 +32,19 @@ public class View_Direct extends Activity implements View.OnClickListener {
     FloatingActionButton floatbutton_friends_direct;
 
     List<Rooms_Model> list_rooms = new ArrayList<>();
-    RecyclerView recylclerview_direct_conversas;
+    public static RecyclerView recylclerview_direct_conversas;
 
     SharedPreferences sharedPreferences;
     DirectFirebase directFirebase;
+    Service_Direct service_direct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_direct);
+
+        service_direct = new Service_Direct(this);
+        sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
 
         imageview_back_direct = (ImageView) findViewById(R.id.imageview_back_direct);
         imageview_back_direct.setOnClickListener(this);
@@ -52,14 +56,19 @@ public class View_Direct extends Activity implements View.OnClickListener {
         recylclerview_direct_conversas.setHasFixedSize(true);
         recylclerview_direct_conversas.setNestedScrollingEnabled(false);
         recylclerview_direct_conversas.setLayoutManager(new LinearLayoutManager(this));
-
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-//        directFirebase = new DirectFirebase(this);
-//        directFirebase.list_chat_direct(this, list_rooms, recylclerview_direct_conversas);
+        listRooms();
+    }
+
+    private void listRooms(){
+        int id = sharedPreferences.getInt("id", 0);
+        if(id != 0){
+            service_direct.get_rooms(id);
+        }
     }
 
     @Override

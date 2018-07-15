@@ -40,52 +40,6 @@ public class DirectFirebase {
         this.sharedPreferences = context.getSharedPreferences("user_info", Context.MODE_PRIVATE);
     }
 
-    public void sendMessage (int receiver, String editText){
-        if(sharedPreferences != null){
-            int id = sharedPreferences.getInt("id", 0);
-            if(id != 0){
-                long time = new Date().getTime();
-                firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("rooms").child(String.valueOf(id)).child(String.valueOf(receiver)).child(String.valueOf(time));
-                Map<String, Object> send = new HashMap<>();
-                send.put("sender", id);
-                send.put("receiver", receiver);
-                send.put("message", editText);
-                send.put("create_at", time);
-                firebaseDatabase.setValue(send);
-
-                firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("rooms").child(String.valueOf(receiver)).child(String.valueOf(id)).child(String.valueOf(time));
-                Map<String, Object> receive = new HashMap<>();
-                receive.put("sender", id);
-                receive.put("receiver", receiver);
-                receive.put("message", editText);
-                receive.put("create_at", time);
-                firebaseDatabase.setValue(receive);
-            }
-        }
-    }
-
-    public void list_chat_direct (final Activity activity, final List<Rooms_Model> lista_rooms, final RecyclerView recyclerView){
-        int id = sharedPreferences.getInt("id", 0);
-        lista_rooms.clear();
-        firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("rooms").child(String.valueOf(id));
-        firebaseDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if(dataSnapshot != null){
-                    for(DataSnapshot snapshot : dataSnapshot.getChildren()){
-                        infoUsers(activity, snapshot.getKey(),lista_rooms, recyclerView);
-                    }
-
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                APIServer.error_server(activity, databaseError.getCode());
-            }
-        });
-    }
-
     public void infoUsers (final Activity activity, String user, final List<Rooms_Model> lista_rooms, final RecyclerView recyclerView){
         firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("users").child(user);
         firebaseDatabase.addValueEventListener(new ValueEventListener() {
@@ -112,31 +66,5 @@ public class DirectFirebase {
 
             }
         });
-    }
-
-    public void chat_room (final Activity activity, final String sender, final String receiver){
-        firebaseDatabase = FirebaseDatabase.getInstance().getReference().getRoot().child("direct").child("rooms");
-        firebaseDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                ArrayList<String> arrayList = new ArrayList<>();
-                for(DataSnapshot snapshot : dataSnapshot.child(receiver).child(sender).getChildren()){
-                    Map<String, String> map = (Map) snapshot.getValue();
-                    String id = map.get("sender");
-                    if(id.equals(sender)){
-                        System.out.println(map.get("message"));
-                    }else{
-                        System.out.println(map.get("message"));
-                    }
-                }
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
     }
 }

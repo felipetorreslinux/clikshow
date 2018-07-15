@@ -89,7 +89,6 @@
                 android:textSize="11dp"
                 android:fontFamily="@font/roboto"/>
 
-
         </LinearLayout>
 
     </LinearLayout>
