@@ -79,7 +79,7 @@
                 android:id="@+id/textview_name_event_coordenador"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="12dp"
                 android:fontFamily="@font/roboto"/>
 
             <TextView

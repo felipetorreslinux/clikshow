@@ -15,6 +15,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.MenuItem;
+import android.view.SurfaceView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,10 +27,11 @@ import com.squareup.picasso.Picasso;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
-public class View_Portaria extends Activity implements View.OnClickListener, NavigationView.OnNavigationItemSelectedListener{
+public class View_Portaria extends Activity implements View.OnClickListener{
 
-    ImageView btn_menu_portaria;
-    ImageView btn_search_portaria;
+    ImageView imageview_back_porteiro;
+    ImageView image_view_open_camera_porteiro;
+    SurfaceView surfaceview_camera_porteiro;
 
     SharedPreferences sharedPreferences;
     DrawerLayout drawerlayout_portaria;
@@ -42,49 +44,26 @@ public class View_Portaria extends Activity implements View.OnClickListener, Nav
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
 
-        drawerlayout_portaria = (DrawerLayout) findViewById(R.id.drawerlayout_portaria);
-        drawerlayout_portaria.closeDrawer(Gravity.START);
+        image_view_open_camera_porteiro = (ImageView) findViewById(R.id.image_view_open_camera_porteiro);
+        image_view_open_camera_porteiro.setOnClickListener(this);
 
-        nav_drawer_portaria = (NavigationView) findViewById(R.id.nav_drawer_portaria);
-        nav_drawer_portaria.setNavigationItemSelectedListener(this);
-        itensMenuDrawerPortaria();
+        surfaceview_camera_porteiro = (SurfaceView) findViewById(R.id.surfaceview_camera_porteiro);
 
-        btn_menu_portaria = (ImageView) findViewById(R.id.btn_menu_portaria);
-        btn_menu_portaria.setOnClickListener(this);
-
-        btn_search_portaria = (ImageView) findViewById(R.id.btn_search_portaria);
-        btn_search_portaria.setOnClickListener(this);
+        imageview_back_porteiro = (ImageView) findViewById(R.id.imageview_back_porteiro);
+        imageview_back_porteiro.setOnClickListener(this);
 
     };
 
     @Override
     protected void onResume() {
         super.onResume();
-        getFragmentManager().beginTransaction().replace(R.id.container_portaria, new Inicio_Portaria_Fragment()).commit();
     };
-
-
-    private void itensMenuDrawerPortaria(){
-        View header = nav_drawer_portaria.getHeaderView(0);
-        ImageView imageview_profile_portaria = header.findViewById(R.id.imageview_profile_portaria);
-        TextView textview_name_prolife_portaria = header.findViewById(R.id.textview_name_prolife_portaria);
-        TextView textview_email_prolife_portaria = header.findViewById(R.id.textview_email_prolife_portaria);
-
-        textview_name_prolife_portaria.setText(sharedPreferences.getString("name", null));
-        textview_email_prolife_portaria.setText(sharedPreferences.getString("email", null));
-
-        Picasso.get()
-                .load(sharedPreferences.getString("profile_pic", null))
-                .resize(100, 100)
-                .transform(new CropCircleTransformation())
-                .into(imageview_profile_portaria);
-    }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btn_menu_portaria:
-                drawerlayout_portaria.openDrawer(Gravity.LEFT);
+            case R.id.imageview_back_porteiro:
+                onBackPressed();
                 break;
 
             case R.id.btn_search_portaria:
@@ -95,23 +74,7 @@ public class View_Portaria extends Activity implements View.OnClickListener, Nav
 
     @Override
     public void onBackPressed() {
-        if(drawerlayout_portaria.isDrawerOpen(Gravity.LEFT)){
-            drawerlayout_portaria.closeDrawer(Gravity.START);
-        }else{
-            encerrarPortaria();
-        }
-    }
-
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-        switch (id){
-            case R.id.encerrar_portaria:
-                encerrarPortaria();
-                break;
-        }
-        drawerlayout_portaria.closeDrawer(Gravity.START);
-        return true;
+        encerrarPortaria();
     }
 
     private void encerrarPortaria(){

@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout
-    android:id="@+id/drawerlayout_portaria"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="NamespaceTypo"
-    tools:context=".Portaria.View_Portaria">
+    android:background="@color/gray_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <RelativeLayout
+        android:id="@+id/actionbar_portaria"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/fundo_app"
-        android:elevation="1dp">
-
-        <RelativeLayout
-            android:id="@+id/actionbar_portaria"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/white">
+        android:layout_height="50dp"
+        android:elevation="2dp"
+        android:background="@color/white">
 
             <ImageView
-                android:id="@+id/btn_menu_portaria"
+                android:id="@+id/imageview_back_porteiro"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:padding="13dp"
-                android:src="@drawable/ic_menu_black"
-                android:tint="@color/chumbo"
+                android:src="@drawable/ic_back_black"
                 android:layout_alignParentLeft="true"/>
 
             <ImageView
@@ -39,6 +30,7 @@
                 android:src="@drawable/ic_logo_orange" />
 
             <ImageView
+                android:visibility="gone"
                 android:id="@+id/btn_search_portaria"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -49,53 +41,59 @@
 
         </RelativeLayout>
 
-        <FrameLayout
-            android:layout_below="@id/actionbar_portaria"
-            android:id="@+id/container_portaria"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-    </RelativeLayout>
-
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_drawer_portaria"
-        app:headerLayout="@layout/header_drawer_portaria"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        app:itemIconTint="@color/chumbo"
-        app:itemTextColor="@color/chumbo"
-        app:menu="@menu/menu_portaria"
-        android:layout_gravity="start">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:weightSum="1">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:clickable="true"
+            android:layout_weight="0.9"
             android:orientation="horizontal"
-            android:weightSum="2"
-            android:paddingVertical="5dp"
-            android:paddingHorizontal="10dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_white"
+            android:layout_gravity="fill_horizontal|center"
+            android:padding="10dp">
 
-            <TextView
-                android:layout_weight="1"
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="left"
-                android:textSize="11dp"
-                android:text="Portaria ClikShow" />
+                android:src="@drawable/ic_card_cpf"/>
 
-            <TextView
-                android:layout_weight="1"
+            <EditText
+                android:id="@+id/edittext_cpf_cancelamento_bilheteria_coordenador"
+                android:layout_gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="right"
-                android:textSize="11dp"
-                android:text="Versão 1.0.4" />
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColor="@android:color/black"
+                android:hint="Informe o CPF"
+                android:fontFamily="@font/roboto"
+                android:textSize="16dp"/>
+
         </LinearLayout>
 
-    </android.support.design.widget.NavigationView>
+        <ImageView
+            android:id="@+id/image_view_open_camera_porteiro"
+            android:layout_weight="0.1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_qrcode_img"/>
 
-</android.support.v4.widget.DrawerLayout>
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/surfaceview_camera_porteiro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+
+</LinearLayout>
 
