@@ -14,9 +14,15 @@ import android.widget.TextView;
 import com.clikshow.Direct.Models.Rooms_Model;
 import com.clikshow.Direct.View_Chat_Direct;
 import com.clikshow.R;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+import java.util.Map;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
@@ -24,6 +30,7 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
 
     Activity activity;
     List<Rooms_Model> list_rooms;
+    DatabaseReference databaseReference;
 
     public Adapter_Rooms_Direct(final Activity activity, List<Rooms_Model> list_rooms){
         this.activity = activity;
@@ -38,7 +45,7 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
     }
 
     @Override
-    public void onBindViewHolder(@NonNull Adapter_Rooms_Direct.RoomsHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final Adapter_Rooms_Direct.RoomsHolder holder, int position) {
         final Rooms_Model rooms_model = list_rooms.get(position);
 
         holder.item_lista_rooms.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +60,7 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
             }
         });
 
-        if(!rooms_model.getProfile_pic().equals("null")){
+        if(!rooms_model.getProfile_pic().isEmpty()){
             Picasso.get()
                 .load(rooms_model.getProfile_pic())
                 .resize(100,100)
@@ -68,8 +75,6 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
         }
 
         holder.textview_name_rooms.setText(rooms_model.getName());
-        holder.textview_message_rooms.setText(rooms_model.getMessage());
-
     }
 
     @Override
@@ -77,6 +82,11 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
         return list_rooms != null ? list_rooms.size() : 0;
     }
 
+
+    public void addItem(Rooms_Model rooms_model, int position){
+        list_rooms.add(rooms_model);
+        notifyItemRangeInserted(position, list_rooms.size());
+    }
 
 
     public class RoomsHolder extends RecyclerView.ViewHolder{

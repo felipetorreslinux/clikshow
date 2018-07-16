@@ -12,6 +12,8 @@ import android.widget.LinearLayout;
 
 import com.androidnetworking.AndroidNetworking;
 import com.clikshow.API.APIServer;
+import com.clikshow.Direct.Models.Usuarios_Online_Model;
+import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.FireBase.FireApp;
 import com.clikshow.Login.View_Login;
 import com.clikshow.Profile.View_Editar_Usuario;
@@ -21,7 +23,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.messaging.FirebaseMessaging;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -31,9 +35,9 @@ public class Splash extends Activity implements View.OnClickListener {
 
     private LinearLayout button_open_login;
     private LinearLayout button_open_novo_usuario;
+    public static int STATE_VIEW_CHAT;
     SharedPreferences sharedPreferences;
 
-    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +61,8 @@ public class Splash extends Activity implements View.OnClickListener {
         button_open_novo_usuario.setOnClickListener(this);
 
         verificarLogados();
+
+        STATE_VIEW_CHAT = 0;
     }
 
     public void verificarLogados(){

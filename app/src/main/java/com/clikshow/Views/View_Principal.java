@@ -9,24 +9,19 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.clikshow.API.APIServer;
+import com.clikshow.Direct.Models.Usuarios_Online_Model;
 import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.FireBase.BancoFire;
-import com.clikshow.FireBase.DirectFirebase;
-import com.clikshow.FireBase.NotificationFireBase;
 import com.clikshow.Fragmentos.Favorites_Fragment;
 import com.clikshow.Fragmentos.Feed_Fragment;
 import com.clikshow.Fragmentos.Profile_Fragment;
 import com.clikshow.Fragmentos.Meus_Ingressos_Fragment;
 import com.clikshow.R;
 import com.clikshow.SQLite.Banco;
-import com.google.firebase.messaging.FirebaseMessaging;
 import com.squareup.picasso.Picasso;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.List;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
@@ -42,17 +37,15 @@ public class View_Principal extends Activity implements View.OnClickListener {
     private ImageView btn_open_cliksocial;
 
     public static int codeBuy = 100;
-
-    DirectFirebase directFirebase;
-
     static boolean openIngresso;
+
+    Service_Direct service_direct;
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_principal);
-
-        directFirebase = new DirectFirebase(this);
 
         openIngresso = false;
 
@@ -80,6 +73,11 @@ public class View_Principal extends Activity implements View.OnClickListener {
         img_tab_ticket.setImageResource(R.drawable.ic_bilhete);
         getFragmentManager().beginTransaction().replace(R.id.container_principal,
                 new Feed_Fragment()).commit();
+
+        sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
+        service_direct = new Service_Direct(this);
+
+
     };
 
     public void imageProfilePic(){
@@ -106,7 +104,6 @@ public class View_Principal extends Activity implements View.OnClickListener {
     public void onResume(){
         super.onResume();
         imageProfilePic();
-        BancoFire.add_user(this);
         try{
             openIngresso = getIntent().getExtras().getBoolean("open_ingressos");
             if(openIngresso == true){
@@ -119,7 +116,7 @@ public class View_Principal extends Activity implements View.OnClickListener {
                 openIngresso = false;
             }
         }catch (NullPointerException e){}
-
+        service_direct.profile_add_online(sharedPreferences.getInt("id", 0));
     };
 
     @Override
@@ -248,6 +245,11 @@ public class View_Principal extends Activity implements View.OnClickListener {
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        service_direct.profile_remove_online(sharedPreferences.getInt("id", 0));
+    }
 
     @Override
     public void onBackPressed(){
@@ -259,7 +261,7 @@ public class View_Principal extends Activity implements View.OnClickListener {
             getFragmentManager().beginTransaction().replace(R.id.container_principal,
                     new Feed_Fragment()).commit();
         }else{
-            BancoFire.offline_user(this);
+            service_direct.profile_remove_online(sharedPreferences.getInt("id", 0));
             finish();
         };
     };

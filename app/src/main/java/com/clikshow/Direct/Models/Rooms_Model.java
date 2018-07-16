@@ -1,25 +1,23 @@
 package com.clikshow.Direct.Models;
 
 public class Rooms_Model {
-    int id;
+    String id;
     String name;
     String username;
-    String message;
     String profile_pic;
 
-    public Rooms_Model(int id, String name, String username, String message, String profile_pic) {
+    public Rooms_Model(String id, String name, String username, String profile_pic) {
         this.id = id;
         this.name = name;
         this.username = username;
-        this.message = message;
         this.profile_pic = profile_pic;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -37,14 +35,6 @@ public class Rooms_Model {
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
     }
 
     public String getProfile_pic() {

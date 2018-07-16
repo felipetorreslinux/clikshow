@@ -3,20 +3,23 @@ package com.clikshow.Direct;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.BottomSheetDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.clikshow.Direct.Models.Conversa_Model;
 import com.clikshow.Direct.Service.Service_Direct;
-import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.R;
+import com.clikshow.Splash;
 import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
@@ -31,13 +34,14 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
 
     SharedPreferences sharedPreferences;
 
+    List<Conversa_Model> list_chat_room = new ArrayList<>();
     RecyclerView recyclerview_conversa_direct;
 
+    LinearLayoutManager mLinearLayoutManager;
     EditText edittexct_message_direct;
     ImageView imageview_record_direct;
     ImageView imageview_envia_direct;
 
-    DirectFirebase directFirebase;
     Service_Direct service_direct;
 
     @Override
@@ -45,7 +49,8 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_conversa_direct);
 
-        directFirebase = new DirectFirebase(this);
+        Splash.STATE_VIEW_CHAT = 1;
+
         service_direct = new Service_Direct(this);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
@@ -56,7 +61,8 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         textview_username_direct = (TextView) findViewById(R.id.textview_username_direct);
 
         recyclerview_conversa_direct = (RecyclerView) findViewById(R.id.recyclerview_conversa_direct);
-        recyclerview_conversa_direct.setLayoutManager(new LinearLayoutManager(this));
+        mLinearLayoutManager = new LinearLayoutManager(this);
+        recyclerview_conversa_direct.setLayoutManager(mLinearLayoutManager);
         recyclerview_conversa_direct.setNestedScrollingEnabled(false);
         recyclerview_conversa_direct.setHasFixedSize(true);
 
@@ -73,12 +79,16 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
 
         imageview_envia_direct = (ImageView) findViewById(R.id.imageview_envia_direct);
         imageview_envia_direct.setOnClickListener(this);
+
+        service_direct.chat(getIntent().getExtras().getString("id_amigo"), list_chat_room, recyclerview_conversa_direct);
+
     };
 
     @Override
     public void onResume(){
         super.onResume();
         amigoDirectDados();
+        Splash.STATE_VIEW_CHAT = 1;
     }
 
     @Override
@@ -100,7 +110,20 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
 
     @Override
     public void onBackPressed(){
+        Splash.STATE_VIEW_CHAT = 0;
         finish();
+    };
+
+    @Override
+    protected void onPause() {
+        Splash.STATE_VIEW_CHAT = 0;
+        super.onPause();
+    }
+
+    @Override
+    protected void onDestroy() {
+        Splash.STATE_VIEW_CHAT = 0;
+        super.onDestroy();
     }
 
     private void amigoDirectDados(){
@@ -132,12 +155,13 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         if(edittexct_message_direct.getText().toString().isEmpty()){
             edittexct_message_direct.setHint("Escreva algo antes de enviar...");
         }else{
-            int sender = sharedPreferences.getInt("id", 0);
-            int reciver = getIntent().getExtras().getInt("id_amigo");
+            String receiver = getIntent().getExtras().getString("id_amigo");
             String message = edittexct_message_direct.getText().toString().trim();
             String type = "text";
-            service_direct.send_message(sender, reciver, message, type);
+            service_direct.send_message(receiver, message, type);
             edittexct_message_direct.setText(null);
+            recyclerview_conversa_direct.scrollToPosition(recyclerview_conversa_direct.getAdapter().getItemCount() - 1);
         }
     };
+
 }

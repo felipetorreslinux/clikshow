@@ -1,7 +1,6 @@
 package com.clikshow.Direct;
 
 import android.app.Activity;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,7 +12,6 @@ import android.widget.ImageView;
 import com.clikshow.API.APIServer;
 import com.clikshow.Direct.Models.Amigos_Model;
 import com.clikshow.Direct.Service.Service_Direct;
-import com.clikshow.FireBase.DirectFirebase;
 import com.clikshow.R;
 
 import java.util.ArrayList;
@@ -29,8 +27,6 @@ public class View_Friends_Direct extends Activity implements View.OnClickListene
     ImageView imageview_back_friends_direct;
     ImageView imageview_search_friends_direct;
 
-    DirectFirebase directFirebase;
-
     Service_Direct service_direct;
 
     @Override
@@ -38,7 +34,6 @@ public class View_Friends_Direct extends Activity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_friends_direct);
 
-        directFirebase = new DirectFirebase(this);
         service_direct = new Service_Direct(this);
 
         imageview_back_friends_direct = (ImageView) findViewById(R.id.imageview_back_friends_direct);

@@ -22,25 +22,25 @@ public final class R {
         public static final int ci_width = 0x7f040068;
     }
     public static final class drawable {
-        public static final int white_radius = 0x7f08013e;
+        public static final int white_radius = 0x7f080141;
     }
     public static final class id {
         public static final int bottom = 0x7f0a0046;
-        public static final int center = 0x7f0a00b4;
-        public static final int center_horizontal = 0x7f0a00b7;
-        public static final int center_vertical = 0x7f0a00b9;
-        public static final int clip_horizontal = 0x7f0a00c1;
-        public static final int clip_vertical = 0x7f0a00c2;
-        public static final int end = 0x7f0a010d;
-        public static final int fill = 0x7f0a0116;
-        public static final int fill_horizontal = 0x7f0a0117;
-        public static final int fill_vertical = 0x7f0a0118;
-        public static final int horizontal = 0x7f0a0126;
-        public static final int left = 0x7f0a017d;
-        public static final int right = 0x7f0a01f7;
-        public static final int start = 0x7f0a0220;
-        public static final int top = 0x7f0a0267;
-        public static final int vertical = 0x7f0a028a;
+        public static final int center = 0x7f0a00b6;
+        public static final int center_horizontal = 0x7f0a00b9;
+        public static final int center_vertical = 0x7f0a00bb;
+        public static final int clip_horizontal = 0x7f0a00c3;
+        public static final int clip_vertical = 0x7f0a00c4;
+        public static final int end = 0x7f0a010f;
+        public static final int fill = 0x7f0a0118;
+        public static final int fill_horizontal = 0x7f0a0119;
+        public static final int fill_vertical = 0x7f0a011a;
+        public static final int horizontal = 0x7f0a0128;
+        public static final int left = 0x7f0a0180;
+        public static final int right = 0x7f0a01fb;
+        public static final int start = 0x7f0a0224;
+        public static final int top = 0x7f0a0270;
+        public static final int vertical = 0x7f0a0293;
     }
     public static final class styleable {
         public static final int[] CircleIndicator = { 0x7f040060, 0x7f040061, 0x7f040062, 0x7f040063, 0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068 };
