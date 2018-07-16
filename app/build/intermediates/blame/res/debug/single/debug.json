@@ -3420,6 +3420,10 @@
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\8f65a63d0d2367b656b44fa11149a481\\res\\drawable-xhdpi-v4\\crop_image_menu_rotate_left.png"
     },
     {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\raw_confirm.json.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\raw\\confirm.json"
+    },
+    {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\FelipeTorres\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\81e566ac89aa1dfdb8f969d173f2ca3f\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -3574,6 +3578,10 @@
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visa_cartao.png.flat",
         "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\drawable\\ic_visa_cartao.png"
+    },
+    {
+        "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_send_all_message_direct.xml.flat",
+        "source": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\src\\main\\res\\layout\\view_send_all_message_direct.xml"
     },
     {
         "merged": "C:\\Users\\FelipeTorres\\Desktop\\ClikShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_close_white.png.flat",

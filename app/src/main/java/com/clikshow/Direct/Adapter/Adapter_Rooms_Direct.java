@@ -1,7 +1,9 @@
 package com.clikshow.Direct.Adapter;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -30,11 +32,12 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
 
     Activity activity;
     List<Rooms_Model> list_rooms;
-    DatabaseReference databaseReference;
+    SharedPreferences sharedPreferences;
 
-    public Adapter_Rooms_Direct(final Activity activity, List<Rooms_Model> list_rooms){
+    public Adapter_Rooms_Direct(final Activity activity, final List<Rooms_Model> list_rooms){
         this.activity = activity;
         this.list_rooms = list_rooms;
+        sharedPreferences = activity.getSharedPreferences("user_info", Context.MODE_PRIVATE);
     }
 
     @NonNull
@@ -53,16 +56,16 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
             public void onClick(View v) {
                 Intent intent = new Intent(activity, View_Chat_Direct.class);
                 intent.putExtra("id_amigo", rooms_model.getId());
-                intent.putExtra("image_amigo", rooms_model.getProfile_pic());
+                intent.putExtra("image_amigo", rooms_model.getThumb());
                 intent.putExtra("name_amigo", rooms_model.getName());
                 intent.putExtra("username_amigo", rooms_model.getUsername());
                 activity.startActivity(intent);
             }
         });
 
-        if(!rooms_model.getProfile_pic().isEmpty()){
+        if(!rooms_model.getThumb().isEmpty()){
             Picasso.get()
-                .load(rooms_model.getProfile_pic())
+                .load(rooms_model.getThumb())
                 .resize(100,100)
                 .transform(new CropCircleTransformation())
                 .into(holder.imageview_profile_rooms);
@@ -75,19 +78,14 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
         }
 
         holder.textview_name_rooms.setText(rooms_model.getName());
+        holder.textview_message_rooms.setText(rooms_model.getLast_message());
+
     }
 
     @Override
     public int getItemCount() {
         return list_rooms != null ? list_rooms.size() : 0;
     }
-
-
-    public void addItem(Rooms_Model rooms_model, int position){
-        list_rooms.add(rooms_model);
-        notifyItemRangeInserted(position, list_rooms.size());
-    }
-
 
     public class RoomsHolder extends RecyclerView.ViewHolder{
         LinearLayout item_lista_rooms;

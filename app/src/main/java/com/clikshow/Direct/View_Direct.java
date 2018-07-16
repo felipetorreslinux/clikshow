@@ -3,11 +3,16 @@ package com.clikshow.Direct;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.design.widget.BottomSheetDialog;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -16,6 +21,8 @@ import com.clikshow.Direct.Models.Rooms_Model;
 import com.clikshow.Direct.Models.Usuarios_Online_Model;
 import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.R;
+import com.clikshow.Utils.Keyboard;
+import com.clikshow.Utils.Progress_Alert;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,11 +31,9 @@ public class View_Direct extends Activity implements View.OnClickListener {
 
     ImageView imageview_back_direct;
     FloatingActionButton floatbutton_friends_direct;
+    Button button_send_all_direct;
 
-    List<Usuarios_Online_Model> lista_usuarios_online = new ArrayList<>();
     RecyclerView recyclerView_usuarios_online;
-
-    List<Rooms_Model> lista_salas_conversas = new ArrayList<>();
     RecyclerView recylclerview_direct_conversas;
 
     Service_Direct service_direct;
@@ -46,6 +51,7 @@ public class View_Direct extends Activity implements View.OnClickListener {
         floatbutton_friends_direct = (FloatingActionButton) findViewById(R.id.floatbutton_friends_direct);
         floatbutton_friends_direct.setOnClickListener(this);
 
+
         recyclerView_usuarios_online = (RecyclerView) findViewById(R.id.recyclerView_usuarios_online);
         recyclerView_usuarios_online.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerView_usuarios_online.setNestedScrollingEnabled(false);
@@ -56,15 +62,15 @@ public class View_Direct extends Activity implements View.OnClickListener {
         recylclerview_direct_conversas.setNestedScrollingEnabled(false);
         recylclerview_direct_conversas.setLayoutManager(new LinearLayoutManager(this));
 
-        service_direct.lista_usuarios_online(lista_usuarios_online, recyclerView_usuarios_online);
-
+        button_send_all_direct = (Button) findViewById(R.id.button_send_all_direct);
+        button_send_all_direct.setOnClickListener(this);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        lista_salas_conversas.clear();
-        service_direct.lista_salas_conversas(lista_salas_conversas, recylclerview_direct_conversas);
+        service_direct.lista_usuarios_online(recyclerView_usuarios_online);
+        service_direct.lista_salas_conversas(recylclerview_direct_conversas);
     }
 
     @Override
@@ -76,6 +82,10 @@ public class View_Direct extends Activity implements View.OnClickListener {
 
             case R.id.floatbutton_friends_direct:
                 startActivity(new Intent(View_Direct.this, View_Friends_Direct.class));
+                break;
+
+            case R.id.button_send_all_direct:
+                startActivity(new Intent(View_Direct.this, View_Send_All_Message_Direct.class));
                 break;
         }
     }

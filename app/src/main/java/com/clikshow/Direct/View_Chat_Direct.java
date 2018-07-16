@@ -39,7 +39,6 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
 
     LinearLayoutManager mLinearLayoutManager;
     EditText edittexct_message_direct;
-    ImageView imageview_record_direct;
     ImageView imageview_envia_direct;
 
     Service_Direct service_direct;
@@ -56,6 +55,7 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
 
         image_amigo = getIntent().getExtras().getString("image_amigo");
+
         imageview_amigo_direct = (ImageView) findViewById(R.id.imageview_amigo_direct);
         textview_name_direct = (TextView) findViewById(R.id.textview_name_direct);
         textview_username_direct = (TextView) findViewById(R.id.textview_username_direct);
@@ -73,9 +73,6 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
         imageview_back_conversa_direct.setOnClickListener(this);
 
         edittexct_message_direct = (EditText) findViewById(R.id.edittexct_message_direct);
-
-        imageview_record_direct = (ImageView) findViewById(R.id.imageview_record_direct);
-        imageview_record_direct.setOnClickListener(this);
 
         imageview_envia_direct = (ImageView) findViewById(R.id.imageview_envia_direct);
         imageview_envia_direct.setOnClickListener(this);
@@ -158,7 +155,11 @@ public class View_Chat_Direct extends Activity implements View.OnClickListener {
             String receiver = getIntent().getExtras().getString("id_amigo");
             String message = edittexct_message_direct.getText().toString().trim();
             String type = "text";
-            service_direct.send_message(receiver, message, type);
+            service_direct.send_message(receiver, message, type,
+                    getIntent().getExtras().getString("id_amigo"),
+                    getIntent().getExtras().getString("name_amigo"),
+                    getIntent().getExtras().getString("username_amigo"),
+                    image_amigo);
             edittexct_message_direct.setText(null);
             recyclerview_conversa_direct.scrollToPosition(recyclerview_conversa_direct.getAdapter().getItemCount() - 1);
         }

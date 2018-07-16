@@ -101,46 +101,33 @@
         android:layout_height="match_parent"
         android:layout_above="@id/bottom_message_direct"/>
 
-    <GridLayout
+    <RelativeLayout
             android:id="@+id/bottom_message_direct"
             android:layout_alignParentBottom="true"
-            android:columnCount="3"
-            android:rowCount="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white">
 
             <EditText
                 android:id="@+id/edittexct_message_direct"
-                android:layout_column="0"
-                android:layout_row="0"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="fill_horizontal|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
                 android:padding="10dp"
                 android:hint="Escreva aqui..."
                 android:background="@android:color/transparent"/>
 
-            <ImageView
-                android:visibility="gone"
-                android:id="@+id/imageview_record_direct"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:padding="12dp"
-                android:layout_column="1"
-                android:layout_row="0"
-                android:src="@drawable/ic_mic_gray"/>
-
 
             <ImageView
+                android:layout_alignParentRight="true"
                 android:id="@+id/imageview_envia_direct"
+                android:layout_centerVertical="true"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:padding="12dp"
-                android:layout_column="2"
-                android:layout_row="0"
                 android:src="@drawable/ic_send"/>
 
-        </GridLayout>
+        </RelativeLayout>
 
 </RelativeLayout>

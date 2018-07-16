@@ -18,6 +18,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:hardwareAccelerated="true"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
 
@@ -158,6 +159,10 @@
         <activity android:name=".Direct.View_Chat_Direct"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity android:name=".Direct.View_Send_All_Message_Direct"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 
 
 

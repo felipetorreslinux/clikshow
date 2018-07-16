@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_message_direct"
+        android:layout_alignParentStart="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="16dp"
+            android:background="@color/colorAccent"
+            android:text="Enviar para todos"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/black"
+            android:text="Digite abaixo a mensagem que desejas enviar"/>
+
+        <LinearLayout
+            android:id="@+id/loading_send_message"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/image_loading_send_message"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:lottie_rawRes="@raw/envia_sms"
+                android:layout_marginHorizontal="10dp"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                app:tint="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/text_loading_send_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="Enviando mensagens"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_message_direct"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/message_send_all_direct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:padding="10dp"
+            android:hint="Escreva aqui..."
+            android:background="@android:color/transparent"/>
+
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/image_send_all_direct"
+            android:layout_centerVertical="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_send"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

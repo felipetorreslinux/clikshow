@@ -75,6 +75,7 @@
                     android:tint="@color/chumbo"/>
 
                 <TextView
+                    android:visibility="gone"
                     android:id="@+id/count_direct_feed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -126,7 +127,6 @@
         </RelativeLayout>
 
     </LinearLayout>
-
 
     <LinearLayout
         android:orientation="vertical"

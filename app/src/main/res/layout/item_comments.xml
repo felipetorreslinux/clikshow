@@ -97,6 +97,7 @@
         </LinearLayout>
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/textview_open_response_comments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
