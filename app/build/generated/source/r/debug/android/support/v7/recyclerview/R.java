@@ -116,9 +116,9 @@ public final class R {
         public static final int right_icon = 0x7f0a0200;
         public static final int right_side = 0x7f0a0201;
         public static final int start = 0x7f0a0228;
-        public static final int tag_transition_group = 0x7f0a0232;
-        public static final int text = 0x7f0a0236;
-        public static final int text2 = 0x7f0a0237;
+        public static final int tag_transition_group = 0x7f0a0233;
+        public static final int text = 0x7f0a0237;
+        public static final int text2 = 0x7f0a0238;
         public static final int time = 0x7f0a0264;
         public static final int title = 0x7f0a026a;
         public static final int top = 0x7f0a0276;

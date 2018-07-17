@@ -22,6 +22,7 @@ import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.clikshow.API.APIServer;
 import com.clikshow.Comments.View_Comments;
+import com.clikshow.Direct.View_Chat_Direct;
 import com.clikshow.Direct.View_Direct;
 import com.clikshow.R;
 import com.clikshow.Service.Toast.ToastClass;
@@ -71,6 +72,7 @@ public class NotificationFireBase extends FirebaseMessagingService  {
 
     private void notification_message(RemoteMessage remoteMessage){
         switch (remoteMessage.getData().get("type")){
+
             case "likes":
             Intent intent_likes = new Intent(this, View_Comments.class);
             intent_likes.putExtra("event_id", Integer.parseInt(remoteMessage.getData().get("event_id")));
@@ -94,6 +96,32 @@ public class NotificationFireBase extends FirebaseMessagingService  {
             }
             notificationManager_likes.notify(Integer.parseInt(remoteMessage.getData().get("event_id")), notificationBuilder_likes.build());
             break;
+
+
+            case "direct":
+                if(View_Chat_Direct.active == false){
+                    Intent intent = new Intent(this, View_Direct.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                    String string = getString(R.string.default_notification_channel_id);
+                    Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+                    NotificationCompat.Builder builder = new NotificationCompat.Builder(this, string)
+                            .setSmallIcon(R.drawable.ic_logo_splash)
+                            .setContentTitle(remoteMessage.getNotification().getTitle())
+                            .setContentText(remoteMessage.getNotification().getBody())
+                            .setAutoCancel(true)
+                            .setSound(uri)
+                            .setContentIntent(pendingIntent);
+                    NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        NotificationChannel channel = new NotificationChannel(string,
+                                "clikshow_app",
+                                NotificationManager.IMPORTANCE_LOW);
+                        notificationManager.createNotificationChannel(channel);
+                    }
+                    notificationManager.notify(Integer.parseInt(remoteMessage.getData().get("id")), builder.build());
+                }
+                break;
         }
     };
 

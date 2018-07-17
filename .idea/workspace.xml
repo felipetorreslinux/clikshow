@@ -37,99 +37,115 @@
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/bumptech/glide/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/bumptech/glide/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/clikshow/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/clikshow/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/esafirm/imagepicker/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/esafirm/imagepicker/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/maps/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/maps/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/zxing/client/android/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/zxing/client/android/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/santalu/aspectratioimageview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/santalu/aspectratioimageview/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theartofdev/edmodo/cropper/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/theartofdev/edmodo/cropper/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/jp/wasabeef/recyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/jp/wasabeef/recyclerview/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/airbnb/lottie/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/androidnetworking/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bumptech/glide/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Service/Service_Direct$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Service/Service_Direct$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Service/Service_Direct$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Service/Service_Direct$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Service/Service_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/Service/Service_Direct.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Direct.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$xml.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/zxing/client/android/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Chat_Direct.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Direct/View_Chat_Direct.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/FireBase/NotificationFireBase.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/View_Portaria.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Portaria/View_Portaria.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Cadastro_Novo_Usuario.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Cadastro_Novo_Usuario.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Pagamento_Profile.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Profile/View_Pagamento_Profile.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_SMS_Code.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SMS/View_SMS_Code.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SQLite/Banco$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/SQLite/Banco$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Splash.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Splash.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Detalhe_Evento.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ingresso.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Ingresso.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Lista_Amigos_ClikSocial.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Lista_Amigos_ClikSocial.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Search.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/clikshow/Views/View_Search.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/esafirm/imagepicker/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/santalu/aspectratioimageview/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jp/wasabeef/recyclerview/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/aYPJrYnNwCPZ66gT3FIGSqSC5Qs=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/aYPJrYnNwCPZ66gT3FIGSqSC5Qs=" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_dialog_menu_conversa_direct.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_dialog_menu_conversa_direct.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_direct.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_direct.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_conversa_direct.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_conversa_direct.xml.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/compat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreui/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/coreutils/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/design/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/fragment/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/mediacompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/transition/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v4/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/android/support/v7/recyclerview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/airbnb/lottie/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/androidnetworking/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/bumptech/glide/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Comments/Adapter/Adapter_Comments$CommentHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct$RoomsHolder.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Service/Service_Direct$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Service/Service_Direct$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Service/Service_Direct$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Service/Service_Direct$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Service/Service_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/Service/Service_Direct.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Direct.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$styleable.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$xml.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$xml.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/zxing/client/android/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Chat_Direct.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Direct/View_Chat_Direct.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase$2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/FireBase/NotificationFireBase.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Fragmentos/Adapter/Ajuda_Adapter$AjudaHolder.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/View_Portaria.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Portaria/View_Portaria.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Cadastro_Novo_Usuario.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Cadastro_Novo_Usuario.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Pagamento_Profile.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Profile/View_Pagamento_Profile.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_SMS_Code.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SMS/View_SMS_Code.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SQLite/Banco$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/SQLite/Banco$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Splash.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Splash.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Detalhe_Evento.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ingresso.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Ingresso.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Lista_Amigos_ClikSocial.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Lista_Amigos_ClikSocial.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Search.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/clikshow/Views/View_Search.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/esafirm/imagepicker/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/maps/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/android/gms/maps/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/google/firebase/firebase_common/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/santalu/aspectratioimageview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/com/theartofdev/edmodo/cropper/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/82/jp/wasabeef/recyclerview/R$id.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Usuarios_Online_Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Usuarios_Online_Adapter.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Send_All_Message_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Send_All_Message_Direct.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_menu_conversa_direct.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_menu_conversa_direct.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -162,47 +178,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Service_Direct.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="View_Chat_Direct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+              <folding>
+                <element signature="e#5305#5306#0" expanded="true" />
+                <element signature="e#5329#5330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Splash.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Principal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Views/View_Principal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3672">
+              <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_conversa_direct.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="66" column="44" lean-forward="false" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+              <folding>
+                <element signature="e#3827#4927#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service_Direct.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="107" column="71" lean-forward="false" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
+            <state relative-caret-position="428">
+              <caret line="335" column="39" lean-forward="false" selection-start-line="335" selection-start-column="39" selection-end-line="335" selection-end-column="39" />
               <folding>
                 <element signature="method#profile_add_online#0;class#Service_Direct#0" expanded="false" />
                 <element signature="method#profile_remove_online#0;class#Service_Direct#0" expanded="false" />
                 <element signature="method#lista_usuarios_online#0;class#Service_Direct#0" expanded="false" />
                 <element signature="method#lista_salas_conversas#0;class#Service_Direct#0" expanded="false" />
                 <element signature="method#lista_amigos#0;class#Service_Direct#0" expanded="false" />
-                <element signature="method#send_message#0;class#Service_Direct#0" expanded="false" />
                 <element signature="method#chat#0;class#Service_Direct#0" expanded="false" />
                 <element signature="method#send_all_direct#0;class#Service_Direct#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Direct.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_direct.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-              <folding>
-                <element signature="e#282#1149#0" expanded="false" />
-                <element signature="e#1524#3070#0" expanded="false" />
-                <element signature="e#4376#4787#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2255,8 +2291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Bilheteria_Service.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Fragments/Cancelamento_Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/ClikBIlheteria/Services/Coordenador_Service.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_lista_ingressos_bilheteria.xml" />
@@ -2277,13 +2311,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Conversa_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/bubble_receiver_chat.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/bubble_sender_chat.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Conversa_Room_Adapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_conversa_room.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/DirectFirebase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Friends_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/BancoFire.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/bubble_usuarios_online.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_usuarios_online.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Views/View_Principal.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Amigos_Model.java" />
@@ -2291,25 +2323,29 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_comments.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_friends_direct.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom_sweet_send_all_direct.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_send_all_message_direct.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Usuarios_Online_Model.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Rooms_Model.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_lista_rooms_direct.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Send_All_Message_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Usuarios_Online_Adapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_direct.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_menu_conversa_direct.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Rooms_Model.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Conversa_Room_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Service/Datas.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_lista_rooms_direct.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1340" />
@@ -2363,16 +2399,14 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Direct" type="462c0819:PsiDirectoryNode" />
-              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="FireBase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="clikshow" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Direct" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClikShow" type="1abcf292:AndroidViewProjectNode" />
@@ -2405,7 +2439,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="42003785f461727b" />
+    <property name="device.picker.selection" value="3300976f4aa22397" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2578,8 +2612,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2657,25 +2690,18 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java</url>
+          <line>232</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sweet_valida_portaria.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <element signature="e#313#2133#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_portaria.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2777,14 +2803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/BancoFire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -2804,14 +2822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="28" lean-forward="false" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_usuarios_online.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2819,14 +2829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Views/View_Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2851,14 +2853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Conversa_Room_Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -2984,31 +2978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="94" column="17" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="94" selection-end-column="17" />
-          <folding>
-            <element signature="e#330#3518#0" expanded="false" />
-            <element signature="e#3833#4933#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_conversa_room.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_loading_valida_checkin.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3066,62 +3035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Rooms_Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_lista_rooms_direct.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="158" column="48" lean-forward="false" selection-start-line="158" selection-start-column="48" selection-end-line="158" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Usuarios_Online_Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -3172,28 +3085,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_conversa_room.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Conversa_Room_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="67" column="34" lean-forward="false" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Models/Rooms_Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#588#589#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Service/Datas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="116" column="63" lean-forward="false" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
+          <folding>
+            <element signature="method#getTimeAgo#0;class#Datas#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_lista_rooms_direct.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_conversa_direct.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="66" column="44" lean-forward="false" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="e#3827#4927#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Adapter/Adapter_Rooms_Direct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="86" column="81" lean-forward="false" selection-start-line="86" selection-start-column="81" selection-end-line="86" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="159" column="68" lean-forward="false" selection-start-line="159" selection-start-column="68" selection-end-line="159" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Views/View_Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Chat_Direct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="e#5305#5306#0" expanded="true" />
+            <element signature="e#5329#5330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/FireBase/NotificationFireBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4914#4965#0" expanded="false" />
+            <element signature="method#send_push_like_comments#0;class#NotificationFireBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/Service/Service_Direct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="107" column="71" lean-forward="false" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
+        <state relative-caret-position="428">
+          <caret line="335" column="39" lean-forward="false" selection-start-line="335" selection-start-column="39" selection-end-line="335" selection-end-column="39" />
           <folding>
             <element signature="method#profile_add_online#0;class#Service_Direct#0" expanded="false" />
             <element signature="method#profile_remove_online#0;class#Service_Direct#0" expanded="false" />
             <element signature="method#lista_usuarios_online#0;class#Service_Direct#0" expanded="false" />
             <element signature="method#lista_salas_conversas#0;class#Service_Direct#0" expanded="false" />
             <element signature="method#lista_amigos#0;class#Service_Direct#0" expanded="false" />
-            <element signature="method#send_message#0;class#Service_Direct#0" expanded="false" />
             <element signature="method#chat#0;class#Service_Direct#0" expanded="false" />
             <element signature="method#send_all_direct#0;class#Service_Direct#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/clikshow/Direct/View_Direct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

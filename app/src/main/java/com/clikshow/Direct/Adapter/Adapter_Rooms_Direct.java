@@ -31,6 +31,8 @@ import java.util.Map;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
+import static com.clikshow.Direct.View_Chat_Direct.status_chat_direct;
+
 public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Direct.RoomsHolder>{
 
     Activity activity;
@@ -55,37 +57,35 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
     public void onBindViewHolder(@NonNull final Adapter_Rooms_Direct.RoomsHolder holder, int position) {
         final Rooms_Model rooms_model = list_rooms.get(position);
 
+            holder.item_lista_rooms.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(activity, View_Chat_Direct.class);
+                    intent.putExtra("id_amigo", rooms_model.getId());
+                    intent.putExtra("image_amigo", rooms_model.getThumb());
+                    intent.putExtra("name_amigo", rooms_model.getName());
+                    intent.putExtra("username_amigo", rooms_model.getUsername());
+                    activity.startActivity(intent);
+                }
+            });
 
-
-        holder.item_lista_rooms.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(activity, View_Chat_Direct.class);
-                intent.putExtra("id_amigo", rooms_model.getId());
-                intent.putExtra("image_amigo", rooms_model.getThumb());
-                intent.putExtra("name_amigo", rooms_model.getName());
-                intent.putExtra("username_amigo", rooms_model.getUsername());
-                activity.startActivity(intent);
+            if(!rooms_model.getThumb().isEmpty()){
+                Picasso.get()
+                        .load(rooms_model.getThumb())
+                        .resize(100,100)
+                        .transform(new CropCircleTransformation())
+                        .into(holder.imageview_profile_rooms);
+            }else{
+                Picasso.get()
+                        .load(R.drawable.ic_profile)
+                        .resize(100,100)
+                        .transform(new CropCircleTransformation())
+                        .into(holder.imageview_profile_rooms);
             }
-        });
 
-        if(!rooms_model.getThumb().isEmpty()){
-            Picasso.get()
-                .load(rooms_model.getThumb())
-                .resize(100,100)
-                .transform(new CropCircleTransformation())
-                .into(holder.imageview_profile_rooms);
-        }else{
-            Picasso.get()
-                .load(R.drawable.ic_profile)
-                .resize(100,100)
-                .transform(new CropCircleTransformation())
-                .into(holder.imageview_profile_rooms);
-        }
-
-        holder.textview_name_rooms.setText(rooms_model.getName());
-        holder.textview_message_rooms.setText(rooms_model.getLast_message());
-        holder.time_profile_rooms.setText(Datas.timeDirect(Long.parseLong(rooms_model.getTimestamp())));
+            holder.textview_name_rooms.setText(rooms_model.getName());
+            holder.textview_message_rooms.setText(rooms_model.getLast_message());
+            holder.time_profile_rooms.setText(Datas.timeDirect(Long.parseLong(rooms_model.getTimestamp())));
 
     }
 

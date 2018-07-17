@@ -25,6 +25,7 @@ import com.clikshow.Direct.Models.Usuarios_Online_Model;
 import com.clikshow.Direct.View_Direct;
 import com.clikshow.Service.Toast.ToastClass;
 import com.clikshow.Utils.Progress_Alert;
+import com.google.firebase.FirebaseError;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -43,6 +44,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static com.clikshow.FireBase.NotificationFireBase.sendNotifi;
 
 public class Service_Direct {
 
@@ -225,6 +228,10 @@ public class Service_Direct {
         receive.put("create_at", time);
         receive.put("type", type);
         databaseReference.setValue(receive);
+
+
+        send_notifications(receiver, String.valueOf(sharedPreferences.getString("name", "")), message );
+
     }
 
     public void chat (String receiver, final List<Conversa_Model> lista_conversa, final RecyclerView recyclerView){
@@ -313,6 +320,35 @@ public class Service_Direct {
                 ToastClass.curto(activity, databaseError.getMessage());
             }
         });
+    }
+
+    public void send_notifications (final String id, final String title, final String message){
+        databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("users").child(id);
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                Map<String, String> map = (Map) dataSnapshot.getValue();
+                try{
+                    JSONObject notifi = new JSONObject();
+                    JSONObject dados = new JSONObject();
+                    JSONObject data = new JSONObject();
+                    data.put("type", "direct");
+                    data.put("id", id);
+                    dados.put("title", title);
+                    dados.put("body", message);
+                    notifi.put("to", map.get("token_firebase"));
+                    notifi.put("notification", dados);
+                    notifi.put("data", data);
+                    sendNotifi(notifi);
+                }catch (JSONException e){}
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
     }
 
 }

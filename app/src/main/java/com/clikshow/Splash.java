@@ -35,7 +35,6 @@ public class Splash extends Activity implements View.OnClickListener {
 
     private LinearLayout button_open_login;
     private LinearLayout button_open_novo_usuario;
-    public static int STATE_VIEW_CHAT;
     SharedPreferences sharedPreferences;
 
 
@@ -61,8 +60,6 @@ public class Splash extends Activity implements View.OnClickListener {
         button_open_novo_usuario.setOnClickListener(this);
 
         verificarLogados();
-
-        STATE_VIEW_CHAT = 0;
     }
 
     public void verificarLogados(){
