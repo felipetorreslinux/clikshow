@@ -120,8 +120,8 @@ public final class R {
         public static final int text = 0x7f0a0236;
         public static final int text2 = 0x7f0a0237;
         public static final int time = 0x7f0a0264;
-        public static final int title = 0x7f0a0269;
-        public static final int top = 0x7f0a0275;
+        public static final int title = 0x7f0a026a;
+        public static final int top = 0x7f0a0276;
     }
     public static final class integer {
         public static final int status_bar_notification_info_maxnum = 0x7f0b000a;
@@ -138,14 +138,14 @@ public final class R {
         public static final int status_bar_notification_info_overflow = 0x7f10008e;
     }
     public static final class style {
-        public static final int TextAppearance_Compat_Notification = 0x7f1100f3;
-        public static final int TextAppearance_Compat_Notification_Info = 0x7f1100f4;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f1100f6;
-        public static final int TextAppearance_Compat_Notification_Time = 0x7f1100f9;
-        public static final int TextAppearance_Compat_Notification_Title = 0x7f1100fb;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f110171;
-        public static final int Widget_Compat_NotificationActionText = 0x7f110172;
-        public static final int Widget_Support_CoordinatorLayout = 0x7f11017e;
+        public static final int TextAppearance_Compat_Notification = 0x7f1100f4;
+        public static final int TextAppearance_Compat_Notification_Info = 0x7f1100f5;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f1100f7;
+        public static final int TextAppearance_Compat_Notification_Time = 0x7f1100fa;
+        public static final int TextAppearance_Compat_Notification_Title = 0x7f1100fc;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f110172;
+        public static final int Widget_Compat_NotificationActionText = 0x7f110173;
+        public static final int Widget_Support_CoordinatorLayout = 0x7f11017f;
     }
     public static final class styleable {
         public static final int[] CoordinatorLayout = { 0x7f0400f8, 0x7f04016c };

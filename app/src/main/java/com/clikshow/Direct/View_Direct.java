@@ -31,7 +31,6 @@ public class View_Direct extends Activity implements View.OnClickListener {
 
     ImageView imageview_back_direct;
     FloatingActionButton floatbutton_friends_direct;
-    Button button_send_all_direct;
 
     RecyclerView recyclerView_usuarios_online;
     RecyclerView recylclerview_direct_conversas;
@@ -51,7 +50,6 @@ public class View_Direct extends Activity implements View.OnClickListener {
         floatbutton_friends_direct = (FloatingActionButton) findViewById(R.id.floatbutton_friends_direct);
         floatbutton_friends_direct.setOnClickListener(this);
 
-
         recyclerView_usuarios_online = (RecyclerView) findViewById(R.id.recyclerView_usuarios_online);
         recyclerView_usuarios_online.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerView_usuarios_online.setNestedScrollingEnabled(false);
@@ -62,8 +60,6 @@ public class View_Direct extends Activity implements View.OnClickListener {
         recylclerview_direct_conversas.setNestedScrollingEnabled(false);
         recylclerview_direct_conversas.setLayoutManager(new LinearLayoutManager(this));
 
-        button_send_all_direct = (Button) findViewById(R.id.button_send_all_direct);
-        button_send_all_direct.setOnClickListener(this);
     }
 
     @Override
@@ -82,10 +78,6 @@ public class View_Direct extends Activity implements View.OnClickListener {
 
             case R.id.floatbutton_friends_direct:
                 startActivity(new Intent(View_Direct.this, View_Friends_Direct.class));
-                break;
-
-            case R.id.button_send_all_direct:
-                startActivity(new Intent(View_Direct.this, View_Send_All_Message_Direct.class));
                 break;
         }
     }

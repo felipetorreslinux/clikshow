@@ -16,4 +16,8 @@
 
     <style name="EditPhotoProfile" parent="android:Theme.DeviceDefault.Light.NoActionBar.Fullscreen"/>
 
+    <style name="SendALlDirect" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
 </resources>

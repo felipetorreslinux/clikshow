@@ -39,8 +39,8 @@ public final class R {
         public static final int left = 0x7f0a0182;
         public static final int right = 0x7f0a01ff;
         public static final int start = 0x7f0a0228;
-        public static final int top = 0x7f0a0275;
-        public static final int vertical = 0x7f0a0298;
+        public static final int top = 0x7f0a0276;
+        public static final int vertical = 0x7f0a0299;
     }
     public static final class styleable {
         public static final int[] CircleIndicator = { 0x7f040060, 0x7f040061, 0x7f040062, 0x7f040063, 0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068 };

@@ -65,6 +65,7 @@ public class Service_Direct {
         map.put("username", sharedPreferences.getString("username", null));
         map.put("thumb", sharedPreferences.getString("profile_pic", ""));
         map.put("online", String.valueOf(true));
+        map.put("timestamp", String.valueOf(new Date().getTime()));
         databaseReference.updateChildren(map);
     }
 
@@ -77,7 +78,7 @@ public class Service_Direct {
 
     public void lista_usuarios_online(final RecyclerView recyclerView){
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("users");
-        databaseReference.addValueEventListener(new ValueEventListener() {
+        databaseReference.orderByChild("timestamp").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 List<Usuarios_Online_Model> lista_usuarios_online = new ArrayList<>();
@@ -106,7 +107,7 @@ public class Service_Direct {
 
     public void lista_salas_conversas (final RecyclerView recyclerView){
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("rooms").child(String.valueOf(sharedPreferences.getInt("id", 0)));
-        databaseReference.addValueEventListener(new ValueEventListener() {
+        databaseReference.orderByChild("timestamp").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 List<Rooms_Model> lista_salas_conversas = new ArrayList<>();
@@ -192,6 +193,7 @@ public class Service_Direct {
         me.put("name", String.valueOf(sharedPreferences.getString("name", "")));
         me.put("username", sharedPreferences.getString("profile_pic", ""));
         me.put("last_message", message);
+        me.put("timestamp", String.valueOf(time));
         databaseReference.updateChildren(me);
 
         databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("rooms").child(String.valueOf(sharedPreferences.getInt("id", 0))).child(receiver);
@@ -201,6 +203,7 @@ public class Service_Direct {
         friend.put("name", friend_name);
         friend.put("username", friend_username);
         friend.put("last_message", message);
+        friend.put("timestamp", String.valueOf(time));
         databaseReference.updateChildren(friend);
 
         databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("messages").child(String.valueOf(sharedPreferences.getInt("id", 0))).child(receiver).push();
@@ -259,6 +262,7 @@ public class Service_Direct {
                 if(dataSnapshot.exists()){
                     for (DataSnapshot snapshot : dataSnapshot.getChildren()){
 
+                        long time = new Date().getTime();
                         databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("rooms").child(snapshot.child("id").getValue().toString()).child(String.valueOf(sharedPreferences.getInt("id", 0)));
                         Map<String, Object> me = new HashMap<>();
                         me.put("id", String.valueOf(sharedPreferences.getInt("id", 0)));
@@ -266,6 +270,7 @@ public class Service_Direct {
                         me.put("name", String.valueOf(sharedPreferences.getString("name", "")));
                         me.put("username", sharedPreferences.getString("profile_pic", ""));
                         me.put("last_message", message);
+                        me.put("timestamp", String.valueOf(time));
                         databaseReference.updateChildren(me);
 
                         databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("rooms").child(String.valueOf(sharedPreferences.getInt("id", 0))).child(snapshot.child("id").getValue().toString());
@@ -275,6 +280,7 @@ public class Service_Direct {
                         friend.put("name", snapshot.child("name").getValue().toString());
                         friend.put("username", snapshot.child("username").getValue().toString());
                         friend.put("last_message", message);
+                        friend.put("timestamp", String.valueOf(time));
                         databaseReference.updateChildren(friend);
 
                         databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("messages").child(snapshot.child("id").getValue().toString()).child(String.valueOf(sharedPreferences.getInt("id", 0))).push();

@@ -11,11 +11,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.clikshow.Direct.Models.Rooms_Model;
 import com.clikshow.Direct.View_Chat_Direct;
 import com.clikshow.R;
+import com.clikshow.Service.Datas;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -23,6 +25,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -38,6 +41,7 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
         this.activity = activity;
         this.list_rooms = list_rooms;
         sharedPreferences = activity.getSharedPreferences("user_info", Context.MODE_PRIVATE);
+        Collections.reverse(list_rooms);
     }
 
     @NonNull
@@ -50,6 +54,8 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
     @Override
     public void onBindViewHolder(@NonNull final Adapter_Rooms_Direct.RoomsHolder holder, int position) {
         final Rooms_Model rooms_model = list_rooms.get(position);
+
+
 
         holder.item_lista_rooms.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +85,7 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
 
         holder.textview_name_rooms.setText(rooms_model.getName());
         holder.textview_message_rooms.setText(rooms_model.getLast_message());
+        holder.time_profile_rooms.setText(Datas.timeDirect(Long.parseLong(rooms_model.getTimestamp())));
 
     }
 
@@ -88,16 +95,19 @@ public class Adapter_Rooms_Direct extends RecyclerView.Adapter<Adapter_Rooms_Dir
     }
 
     public class RoomsHolder extends RecyclerView.ViewHolder{
-        LinearLayout item_lista_rooms;
+        RelativeLayout item_lista_rooms;
         ImageView imageview_profile_rooms;
         TextView textview_name_rooms;
         TextView textview_message_rooms;
+        TextView time_profile_rooms;
+
         public RoomsHolder(View itemView) {
             super(itemView);
             item_lista_rooms = itemView.findViewById(R.id.item_lista_rooms);
             imageview_profile_rooms = itemView.findViewById(R.id.imageview_profile_rooms);
             textview_message_rooms = itemView.findViewById(R.id.textview_message_rooms);
             textview_name_rooms = itemView.findViewById(R.id.textview_name_rooms);
+            time_profile_rooms = itemView.findViewById(R.id.time_profile_rooms);
         }
     }
 }

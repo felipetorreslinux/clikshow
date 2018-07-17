@@ -11,34 +11,7 @@
         android:padding="16dp"
         android:textSize="16dp"
         android:textColor="@android:color/black"
-        android:text="Silenciar notificações"
-        android:clickable="true" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="16dp"
-        android:textColor="@android:color/black"
         android:text="Limpar conversa"
         android:clickable="true" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="16dp"
-        android:textColor="@android:color/black"
-        android:text="Bloquear"
-        android:clickable="true"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="16dp"
-        android:textColor="@android:color/black"
-        android:text="Denunciar"
-        android:clickable="true"/>
 
 </LinearLayout>

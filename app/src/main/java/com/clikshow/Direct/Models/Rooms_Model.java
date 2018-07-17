@@ -6,6 +6,7 @@ public class Rooms_Model {
     String name;
     String thumb;
     String username;
+    String timestamp;
 
     public Rooms_Model(){}
 
@@ -27,5 +28,9 @@ public class Rooms_Model {
 
     public String getUsername() {
         return username;
+    }
+
+    public String getTimestamp() {
+        return timestamp;
     }
 }

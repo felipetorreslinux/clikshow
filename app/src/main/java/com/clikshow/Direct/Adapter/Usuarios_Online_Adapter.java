@@ -15,6 +15,8 @@ import com.clikshow.Direct.View_Chat_Direct;
 import com.clikshow.R;
 import com.squareup.picasso.Picasso;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
@@ -27,6 +29,7 @@ public class Usuarios_Online_Adapter extends RecyclerView.Adapter<Usuarios_Onlin
     public Usuarios_Online_Adapter(Activity activity, final List<Usuarios_Online_Model> lista_usuarios){
         this.activity = activity;
         this.lista_usuarios = lista_usuarios;
+        Collections.reverse(lista_usuarios);
     }
 
     @NonNull

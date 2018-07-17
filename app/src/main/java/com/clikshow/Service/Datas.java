@@ -90,14 +90,14 @@ public class Datas {
 
         long now = currentDate().getTime();
         if (time > now || time <= 0) {
-            return "in the future";
+            return "agora";
         }
 
         final long diff = now - time;
         if (diff < MINUTE_MILLIS) {
             return "agora";
         } else if (diff < 2 * MINUTE_MILLIS) {
-            return "ha um minuto ";
+            return "ha um minuto";
         } else if (diff < 50 * MINUTE_MILLIS) {
             return "ha "+diff / MINUTE_MILLIS + " minutos atrás";
         } else if (diff < 90 * MINUTE_MILLIS) {
@@ -108,6 +108,36 @@ public class Datas {
             return "ontem";
         } else {
             return "ha "+diff / DAY_MILLIS + " dias atrás";
+        }
+    }
+
+
+    public static String timeDirect(long time) {
+        if (time < 1000000000000L) {
+            // if timestamp given in seconds, convert to millis
+            time *= 1000;
+        }
+
+        long now = currentDate().getTime();
+        if (time > now || time <= 0) {
+            return "agora";
+        }
+
+        final long diff = now - time;
+        if (diff < MINUTE_MILLIS) {
+            return "agora";
+        } else if (diff < 2 * MINUTE_MILLIS) {
+            return "a minuto";
+        } else if (diff < 50 * MINUTE_MILLIS) {
+            return "a "+diff / MINUTE_MILLIS + " minutos";
+        } else if (diff < 90 * MINUTE_MILLIS) {
+            return "a uma hora";
+        } else if (diff < 24 * HOUR_MILLIS) {
+            return "a "+diff / HOUR_MILLIS + " horas";
+        } else if (diff < 48 * HOUR_MILLIS) {
+            return "ontem";
+        } else {
+            return "a "+diff / DAY_MILLIS + " dias";
         }
     }
 }
