@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -27,14 +29,18 @@ import com.clikshow.API.APIServer;
 import com.clikshow.Carrinho.View_Carrinho;
 import com.clikshow.Direct.Service.Service_Direct;
 import com.clikshow.Direct.View_Direct;
+import com.clikshow.FireBase.NotificationFireBase;
 import com.clikshow.Fragmentos.Models.Search_Model;
 import com.clikshow.R;
 import com.clikshow.SQLite.Banco;
 import com.clikshow.Service.Service_Eventos;
 import com.clikshow.Views.View_Search;
 
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Feed_Fragment extends Fragment {
 
@@ -43,7 +49,7 @@ public class Feed_Fragment extends Fragment {
 
     public static ImageView btn_open_cart;
     public static TextView count_carrinho_feed;
-    TextView count_direct_feed;
+    public static TextView count_direct_feed;
 
     RelativeLayout buscar_eventos_feed;
     FrameLayout container_tabs_feed;
@@ -53,11 +59,14 @@ public class Feed_Fragment extends Fragment {
     RecyclerView mRecyclerView;
     SharedPreferences sharedPreferences;
 
+
     @Nullable
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
 
         rootView = inflater.inflate(R.layout.fragment_feed, container, false);
+
+        sharedPreferences = getActivity().getSharedPreferences("user_info", Context.MODE_PRIVATE);
 
         container_tabs_feed = (FrameLayout) rootView.findViewById(R.id.container_tabs_feed);
         count_carrinho_feed = (TextView) rootView.findViewById(R.id.count_carrinho_feed);
@@ -98,6 +107,10 @@ public class Feed_Fragment extends Fragment {
             });
 
             getFragmentManager().beginTransaction().replace(R.id.container_tabs_feed, new Feed_Lista_Fragment()).commit();
+
+            count_notitications();
+
+
         return  rootView;
     };
 
@@ -119,6 +132,7 @@ public class Feed_Fragment extends Fragment {
         super.onResume();
         Banco banco = new Banco(getActivity());
         banco.count_carrinho();
+        count_notitications();
     };
 
 
@@ -128,4 +142,22 @@ public class Feed_Fragment extends Fragment {
         Banco banco = new Banco(getActivity());
         banco.count_carrinho();
     };
+
+    public void count_notitications(){
+        final Handler handler = new Handler(Looper.getMainLooper());
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                if(NotificationFireBase.count == 0){
+                    count_direct_feed.setVisibility(View.GONE);
+                }else{
+                    count_direct_feed.setVisibility(View.VISIBLE);
+                    count_direct_feed.setText(String.valueOf(NotificationFireBase.count));
+                }
+                handler.postDelayed(this, 1000);
+            }
+        };
+        handler.postDelayed(runnable, 1000);
+
+    }
 };

@@ -230,7 +230,13 @@ public class Service_Direct {
         databaseReference.setValue(receive);
 
 
-        send_notifications(receiver, String.valueOf(sharedPreferences.getString("name", "")), message );
+        send_notifications(
+                friend_id,
+                String.valueOf(sharedPreferences.getString("name", "")),
+                message,
+                friend_name,
+                friend_username,
+                friend_thumb);
 
     }
 
@@ -322,7 +328,7 @@ public class Service_Direct {
         });
     }
 
-    public void send_notifications (final String id, final String title, final String message){
+    public void send_notifications (final String id, final String title, final String message, final String name, final String username, final String thumb){
         databaseReference = FirebaseDatabase.getInstance().getReference().getRoot().child("users").child(id);
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -333,7 +339,10 @@ public class Service_Direct {
                     JSONObject dados = new JSONObject();
                     JSONObject data = new JSONObject();
                     data.put("type", "direct");
-                    data.put("id", id);
+                    data.put("id_amigo", id);
+                    data.put("name_amigo", name);
+                    dados.put("username_amigo", username);
+                    dados.put("image_amigo", thumb);
                     dados.put("title", title);
                     dados.put("body", message);
                     notifi.put("to", map.get("token_firebase"));

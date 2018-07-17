@@ -66,18 +66,4 @@ public class View_Servicos_Profile extends Activity implements View.OnClickListe
         finish();
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        super.onActivityResult(requestCode, resultCode, data);
-        switch (requestCode){
-            case 1000:
-                if(resultCode == RESULT_OK){
-
-                }
-                if(resultCode == RESULT_CANCELED){
-
-                }
-                break;
-        }
-    }
 }

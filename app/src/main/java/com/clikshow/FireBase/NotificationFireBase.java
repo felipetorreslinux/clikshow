@@ -1,5 +1,6 @@
 package com.clikshow.FireBase;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.NotificationChannel;
@@ -41,7 +42,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.Map;
 
+
 public class NotificationFireBase extends FirebaseMessagingService  {
+
+    public static int count = 0;
 
     private static String onTokenRefresh() {
         String token_firebase = null;
@@ -70,6 +74,7 @@ public class NotificationFireBase extends FirebaseMessagingService  {
         }
     }
 
+    @SuppressLint("ResourceType")
     private void notification_message(RemoteMessage remoteMessage){
         switch (remoteMessage.getData().get("type")){
 
@@ -99,8 +104,13 @@ public class NotificationFireBase extends FirebaseMessagingService  {
 
 
             case "direct":
+                count = count + 1;
                 if(View_Chat_Direct.active == false){
                     Intent intent = new Intent(this, View_Direct.class);
+//                    intent.putExtra("id_amigo", remoteMessage.getData().get("id_amigo").toString());
+//                    intent.putExtra("name_amigo", remoteMessage.getData().get("name_amigo").toString());
+//                    intent.putExtra("username_amigo", remoteMessage.getData().get("username_amigo"));
+//                    intent.putExtra("image_amigo", remoteMessage.getData().get("image_amigo").toString());
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
                     String string = getString(R.string.default_notification_channel_id);
@@ -114,12 +124,10 @@ public class NotificationFireBase extends FirebaseMessagingService  {
                             .setContentIntent(pendingIntent);
                     NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        NotificationChannel channel = new NotificationChannel(string,
-                                "clikshow_app",
-                                NotificationManager.IMPORTANCE_LOW);
+                        NotificationChannel channel = new NotificationChannel(string, "clikshow_app", NotificationManager.IMPORTANCE_LOW);
                         notificationManager.createNotificationChannel(channel);
                     }
-                    notificationManager.notify(Integer.parseInt(remoteMessage.getData().get("id")), builder.build());
+                    notificationManager.notify(1001, builder.build());
                 }
                 break;
         }

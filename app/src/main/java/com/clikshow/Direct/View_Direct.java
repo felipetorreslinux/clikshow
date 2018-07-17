@@ -20,6 +20,7 @@ import com.clikshow.Direct.Adapter.Usuarios_Online_Adapter;
 import com.clikshow.Direct.Models.Rooms_Model;
 import com.clikshow.Direct.Models.Usuarios_Online_Model;
 import com.clikshow.Direct.Service.Service_Direct;
+import com.clikshow.FireBase.NotificationFireBase;
 import com.clikshow.R;
 import com.clikshow.Utils.Keyboard;
 import com.clikshow.Utils.Progress_Alert;
@@ -43,6 +44,8 @@ public class View_Direct extends Activity implements View.OnClickListener {
         setContentView(R.layout.view_direct);
 
         service_direct = new Service_Direct(this);
+
+        NotificationFireBase.count = 0;
 
         imageview_back_direct = (ImageView) findViewById(R.id.imageview_back_direct);
         imageview_back_direct.setOnClickListener(this);
